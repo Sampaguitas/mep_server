@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Item = require('../../models/item');
-const fault = require('../../utilities/errors');
+const Item = require('../../models/Item');
+const fault = require('../../utilities/Errors');
 
 router.post('/', (req, res) => {
     Item.findOne({
@@ -89,3 +89,5 @@ router.post('/', (req, res) => {
 
     });
 });
+
+module.exports = router;

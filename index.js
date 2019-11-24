@@ -39,10 +39,12 @@ const db = require('./config/keys').mongoURI;
 
 //Connect to MongoDB
 mongoose
-.connect(db,{useNewUrlParser:true})
+.connect(db,{
+    useUnifiedTopology: true,
+    useNewUrlParser:true
+})
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
-
 // Protected Routes
 //item
 // const itemUpsert = require('./routes/item/upsert');
