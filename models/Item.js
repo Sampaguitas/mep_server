@@ -37,11 +37,11 @@ const ItemSchema = new Schema({
         type: String,
         required: true        
     },
-    sup_name: {
+    supName: {
         type: String,
         required: true           
     },
-    lead_time: {
+    leadTime: {
         type: Number,
         required: true        
     },
@@ -49,11 +49,11 @@ const ItemSchema = new Schema({
         type: String,
         required: true          
     },
-    del_point: {
+    delPoint: {
         type: String,
         required: true            
     },
-    sup_ref: {
+    supRef: {
         type: String,
         required: true          
     },

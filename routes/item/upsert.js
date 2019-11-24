@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Item = require('../../models/Item');
 const fault = require('../../utilities/Errors');
+const moment = require('moment');
 
 router.post('/', (req, res) => {
     Item.findOne({
@@ -10,10 +11,10 @@ router.post('/', (req, res) => {
                 opcoRef: req.body.opcoRef 
             }, 
             {
-                sup_name: req.body.sup_name
+                supName: req.body.supName
             },
             {
-                sup_ref: req.body.sup_ref 
+                supRef: req.body.supRef 
             },
             {
                 line: req.body.line
@@ -21,9 +22,10 @@ router.post('/', (req, res) => {
         ] 
     })
     .then(item => {
+        console.log('toto:', item._id);
         if (item) {
             //if Item exists: update
-            Item.findByIdAndUpdate(item.id, { 
+            Item.findByIdAndUpdate(item._id, { 
                 $set: {
                     opco: req.body.opco,
                     opcoRef: req.body.opcoRef,
@@ -33,27 +35,26 @@ router.post('/', (req, res) => {
                     desc: req.body.desc,
                     price: req.body.price,
                     currency: req.body.currency,
-                    sup_name: req.body.sup_name,
-                    lead_time: req.body.lead_time,
+                    supName: req.body.supName,
+                    leadTime: req.body.leadTime,
                     incoterm: req.body.incoterm,
-                    del_point: req.body.del_point,
-                    sup_ref: req.body.sup_ref,
-                    date: req.body.date,
+                    delPoint: req.body.delPoint,
+                    supRef: req.body.supRef,
+                    date: moment(req.body.date, 'DD/MM/YYYY'),
                     validity: req.body.validity
-                }, function(err, doc) {
-                    if (!doc) {
-                        return res.status(400).json({
-                            message: fault(1001).message
-                            //"1001": "Could not update Item",
-                        });
-                    }
-                    else {
-                        return res.status(200).json({
-                            message: fault(1002).message
-                            //"1002": "Item successfully updated",
-                        });
-                    }
                 }
+            }, function(err, doc) {
+                    if (err) {
+                        return res.status(400).json({
+                            message: "Item could not be updated"
+                            //"0105": "Item could not be updated",
+                        });
+                    } else if (doc) {
+                        return res.status(200).json({
+                            message: "Item successfully updated"
+                            //"0104": "Item successfully updated",
+                        });
+                    }
             });
         } else {
             //if Item does not exist: create
@@ -66,24 +67,24 @@ router.post('/', (req, res) => {
                 desc: req.body.desc,
                 price: req.body.price,
                 currency: req.body.currency,
-                sup_name: req.body.sup_name,
-                lead_time: req.body.lead_time,
+                supName: req.body.supName,
+                leadTime: req.body.leadTime,
                 incoterm: req.body.incoterm,
-                del_point: req.body.del_point,
-                sup_ref: req.body.sup_ref,
-                date: req.body.date,
+                delPoint: req.body.delPoint,
+                supRef: req.body.supRef,
+                date: moment(req.body.date, 'DD/MM/YYYY'),
                 validity: req.body.validity
             });
 
             newItem
             .save()
             .then( () => res.status(200).json({
-                message: fault(11111).message
-                //"11111": "Item successfully created"
+                message: "Item successfully created"
+                //"0102": "Item successfully created",
             }))
-            .catch( () => res.status(400).json({
-                message: fault(1000).message
-                //"1000": "Item could not be created"
+            .catch( (error) => res.status(400).json({
+                message: "Item could not be created"
+                //"0103": "Item could not be created",
             }));
         }
 
