@@ -11,18 +11,6 @@ const fs = require('fs');
 
 const app = express();
 
-// var whitelist = ['https://www.vanleeuwenpdb.com', 'http://www.vanleeuwenpdb.com', 'http://localhost:8080', 'http://localhost:5555']
-// var corsOptions = {
-//     origin: function (origin, callback) {
-//         if (whitelist.indexOf(origin) !== -1) {
-//         callback(null, true)
-//         } else {
-//         callback(new Error('Not allowed by CORS'))
-//         }
-//     }
-// }
-// app.use(cors(corsOptions));
-
 app.use(cors());
 
 //bodyParser middleware
@@ -30,9 +18,9 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 //Passport config file
-app.use(passport.initialize());
-require('./models/index');
-require('./config/passport')(passport);
+// app.use(passport.initialize());
+// require('./models/index');
+// require('./config/passport')(passport);
 
 //DB config
 const db = require('./config/keys').mongoURI;
@@ -45,10 +33,6 @@ mongoose
 })
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
-// Protected Routes
-//item
-// const itemUpsert = require('./routes/item/upsert');
-// app.put('/item/upsert', passport.authenticate('jwt', { session: false }), itemupsert);
 
 // Listen on port
 const port = process.env.PORT || 5000;
