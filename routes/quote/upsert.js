@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {returnType, upsertOne, upsertMany} = require('../../middleware/mdb')
+const {returnType, upsertOne, upsertMany} = require('../../middleware/upsert')
 
 router.post('/', (req, res) => {
     switch (returnType(req.body)){

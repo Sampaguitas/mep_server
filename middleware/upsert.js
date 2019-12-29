@@ -1,4 +1,4 @@
-const Item = require('../models/Item');
+const Quote = require('../models/Quote');
 const _ = require('lodash');
 const moment = require('moment');
 
@@ -21,7 +21,7 @@ function returnType(something) {
 function upsertOne(obj) {
     return new Promise(
         function (resolve, reject) {
-            Item.findOne({
+            Quote.findOne({
                 $and: [ 
                     {
                         opcoRef: obj.opcoRef 
@@ -37,10 +37,10 @@ function upsertOne(obj) {
                     }
                 ] 
             })
-            .then(item => {
-                if (item) {
-                    //if Item exists: update
-                    Item.findByIdAndUpdate(item._id, { 
+            .then(quote => {
+                if (quote) {
+                    //if Quote exists: update
+                    Quote.findByIdAndUpdate(quote._id, { 
                         $set: {
                             opco: obj.opco,
                             opcoRef: obj.opcoRef,
@@ -60,14 +60,14 @@ function upsertOne(obj) {
                         }
                     }, function(err, doc) {
                             if (err) {
-                                reject("Item could not be updated")
+                                reject("Quote could not be updated")
                             } else if (doc) {
-                                resolve("Item successfully updated")
+                                resolve("Quote successfully updated")
                             }
                     });
                 } else {
-                    //if Item does not exist: create
-                    const newItem = new Item({
+                    //if Quote does not exist: create
+                    const newQuote = new Quote({
                         opco: obj.opco,
                         opcoRef: obj.opcoRef,
                         line: obj.line,
@@ -85,10 +85,10 @@ function upsertOne(obj) {
                         validity: obj.validity
                     });
         
-                    newItem
+                    newQuote
                     .save()
-                    .then( () => resolve("Item successfully created"))
-                    .catch( () => reject("Item could not be created"));
+                    .then( () => resolve("Quote successfully created"))
+                    .catch( () => reject("Quote could not be created"));
                 }
             });
         }

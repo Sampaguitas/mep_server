@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const ItemSchema = new Schema({
+const QuoteSchema = new Schema({
     // _id: {
     //     type: mongoose.SchemaTypes.ObjectId,
     // },    
@@ -67,4 +67,4 @@ const ItemSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('items', ItemSchema);
+module.exports = mongoose.model('quotes', QuoteSchema);
