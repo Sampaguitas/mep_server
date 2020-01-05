@@ -1,12 +1,14 @@
 'use strict'
 require('./ends');
 require('./grades');
-require('./ods');
+require('./sizes');
 require('./types');
+require('./walls');
 
 module.exports = {
     ends,
     grades,
-    ods,
-    types
+    sizes,
+    types,
+    walls
 };

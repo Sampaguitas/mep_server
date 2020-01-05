@@ -1,4 +1,4 @@
-const ods = [
+const sizes = [
     {
         'nps': '1/8"',
         'dn': 'DN 6',

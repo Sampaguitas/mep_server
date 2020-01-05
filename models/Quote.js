@@ -17,17 +17,139 @@ const QuoteSchema = new Schema({
         type: Number,
         required: true
     },
-    lunar: {
-        type: String,
-        required: true
-    },
     qty: {
         type: Number,
         required: true
     },
     desc: {
-        type: String,
-        required: true
+        sizeOne: {
+            nps: {
+                type: String,
+            },
+            dn: {
+                type: String,
+            },
+            mm: {
+                type: Number,
+            },
+            in: {
+                type: Number,
+            },
+            lunar: {
+                type: String,
+            }
+        },
+        sizeTwo: {
+            nps: {
+                type: String,
+            },
+            dn: {
+                type: String,
+            },
+            mm: {
+                type: Number,
+            },
+            in: {
+                type: Number,
+            },
+            lunar: {
+                type: String,
+            }
+        },
+        sizeThree: {
+            nps: {
+                type: String,
+            },
+            dn: {
+                type: String,
+            },
+            mm: {
+                type: Number,
+            },
+            in: {
+                type: Number,
+            },
+            lunar: {
+                type: String,
+            } 
+        },
+        wallOne: {
+            mm: {
+                type: Number,
+            },
+            in: {
+                type: Number,
+            },
+            idt: {
+                type: String,
+            },
+            sch: {
+                type: String,
+            },
+            schS: {
+                type: String,
+            },
+            lunar: {
+                type: String,
+            } 
+        },
+        wallTwo: {
+            mm: {
+                type: Number,
+            },
+            in: {
+                type: Number,
+            },
+            idt: {
+                type: String,
+            },
+            sch: {
+                type: String,
+            },
+            schS: {
+                type: String,
+            },
+            lunar: {
+                type: String,
+            }
+        },
+        type: {
+            name: {
+                type: String,
+            },
+            tags: [
+                String
+            ],
+            pffType: {
+                type: String,
+            },
+            lunar: {
+                type: String,
+            }
+        },
+        grade: {
+            name: {
+                type: String,
+            },
+            tags: [
+                String
+            ],
+            steelType: {
+                type: String,
+            },
+            lunar: {
+                type: String,
+            }
+        },
+        end: {
+            name: {
+                type: String,
+            },
+            lunar: {
+                type: String
+            }
+        }
+
     },
     price: {
         type: Number,
