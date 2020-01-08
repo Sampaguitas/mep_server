@@ -3519,5 +3519,15 @@ const types = [
         'isComplete': true,
         'isMultiple': false
     },
+    {
+        'lunar': '04F',
+        'name': 'RING GASKET',
+        'tags': ['RING GASKET'],
+        'pffType': 'RING GASKETS',
+        'specs': ['ASME B16.20'],
+        'isComplete': true,
+        'isMultiple': false
+    },
+
 ]
 
