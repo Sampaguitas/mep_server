@@ -1,4 +1,4 @@
-const walls = [
+module.exports = [
     {
         'mm': 1.24,
         'in': 0.049,

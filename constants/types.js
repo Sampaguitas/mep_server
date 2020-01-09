@@ -1,4 +1,4 @@
-const types = [
+module.exports = [
     {
         'lunar': 'FFF', //to be created
         'name': 'PIPE',

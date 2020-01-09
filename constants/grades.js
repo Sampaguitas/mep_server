@@ -1,4 +1,4 @@
-const grades = [
+module.exports = [
     {
         'lunar': '00804F',
         'name': 'A234 WPB',

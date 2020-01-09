@@ -1,4 +1,4 @@
-const ends = [
+module.exports = [
     {
         'lunar': '13',
         'name': 'FF',

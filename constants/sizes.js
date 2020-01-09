@@ -1,10 +1,11 @@
-const sizes = [
+module.exports = [
     {
         'nps': '1/8"',
         'dn': 'DN 6',
         'mm': 10.3,
         'in': 0.405,
         'lunar': '082',
+        'tags': ['1/8"', 'DN 6', '10.3 mm', '0.405 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -24,6 +25,7 @@ const sizes = [
         'mm': 13.7,
         'in': 0.54,
         'lunar': '09A',
+        'tags': ['1/4"', 'DN 8', '13.7 mm', '0.54 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -43,6 +45,7 @@ const sizes = [
         'mm': 17.1,
         'in': 0.675,
         'lunar': '0C0',
+        'tags': ['3/8"', 'DN 10', '17.1 mm', '0.675 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -62,6 +65,7 @@ const sizes = [
         'mm': 21.3,
         'in': 0.84,
         'lunar': '0E4',
+        'tags': ['1/2"', 'DN 15', '21.3 mm', '0.84 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -81,6 +85,7 @@ const sizes = [
         'mm': 26.7,
         'in': 1.05,
         'lunar': '10F',
+        'tags': ['3/4"', 'DN 20', '26.7 mm', '1.05 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -100,6 +105,7 @@ const sizes = [
         'mm': 33.4,
         'in': 1.315,
         'lunar': '139',
+        'tags': ['1"', 'DN 25', '33.4 mm', '1.315 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -119,6 +125,7 @@ const sizes = [
         'mm': 42.2,
         'in': 1.66,
         'lunar': '163',
+        'tags': ['1 1/4"', 'DN 32', '42.2 mm', '1.66 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -138,6 +145,7 @@ const sizes = [
         'mm': 48.3,
         'in': 1.9,
         'lunar': '176',
+        'tags': ['1 1/2"', 'DN 40', '48.3 mm', '1.9 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -157,6 +165,7 @@ const sizes = [
         'mm': 60.3,
         'in': 2.375,
         'lunar': '18E',
+        'tags': ['2"', 'DN 50', '60.3 mm', '2.375 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -176,6 +185,7 @@ const sizes = [
         'mm': 73,
         'in': 2.875,
         'lunar': '1A1',
+        'tags': ['2 1/2"', 'DN 65', '73 mm', '2.875 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -195,6 +205,7 @@ const sizes = [
         'mm': 88.9,
         'in': 3.5,
         'lunar': '1B8',
+        'tags': ['3"', 'DN 80', '88.9 mm', '3.5 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -214,6 +225,7 @@ const sizes = [
         'mm': 101.6,
         'in': 4,
         'lunar': '1C8',
+        'tags': ['3 1/2"', 'DN 90', '101.6 mm', '4 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -233,6 +245,7 @@ const sizes = [
         'mm': 114.3,
         'in': 4.5,
         'lunar': '1D4',
+        'tags': ['4"', 'DN 100', '114.3 mm', '4.5 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -252,6 +265,7 @@ const sizes = [
         'mm': 141.3,
         'in': 5.563,
         'lunar': '1F0',
+        'tags': ['5"', 'DN 125', '141.3 mm', '5.563 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -271,6 +285,7 @@ const sizes = [
         'mm': 168.3,
         'in': 6.625,
         'lunar': '204',
+        'tags': ['6"', 'DN 150', '168.3 mm', '6.625 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -290,6 +305,7 @@ const sizes = [
         'mm': 219.1,
         'in': 8.625,
         'lunar': '222',
+        'tags': ['8"', 'DN 200', '219.1 mm', '8.625 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -309,6 +325,7 @@ const sizes = [
         'mm': 273,
         'in': 10.75,
         'lunar': '23E',
+        'tags': ['10"', 'DN 250', '273 mm', '10.75 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -328,6 +345,7 @@ const sizes = [
         'mm': 323.9,
         'in': 12.75,
         'lunar': '24A',
+        'tags': ['12"', 'DN 300', '323.9 mm', '12.75 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -347,6 +365,7 @@ const sizes = [
         'mm': 355.6,
         'in': 14,
         'lunar': '250',
+        'tags': ['14"', 'DN 350', '355.6 mm', '14 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -366,6 +385,7 @@ const sizes = [
         'mm': 406.4,
         'in': 16,
         'lunar': '257',
+        'tags': ['16"', 'DN 400', '406.4 mm', '16 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -385,6 +405,7 @@ const sizes = [
         'mm': 457,
         'in': 18,
         'lunar': '25C',
+        'tags': ['18"', 'DN 450', '457 mm', '18 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -404,6 +425,7 @@ const sizes = [
         'mm': 508,
         'in': 20,
         'lunar': '261',
+        'tags': ['20"', 'DN 500', '508 mm', '20 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -423,6 +445,7 @@ const sizes = [
         'mm': 559,
         'in': 22,
         'lunar': '265',
+        'tags': ['22"', 'DN 550', '559 mm', '22 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -442,6 +465,7 @@ const sizes = [
         'mm': 610,
         'in': 24,
         'lunar': '268',
+        'tags': ['24"', 'DN 600', '610 mm', '24 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -461,6 +485,7 @@ const sizes = [
         'mm': 660,
         'in': 26,
         'lunar': '26B',
+        'tags': ['26"', 'DN 650', '660 mm', '26 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -480,6 +505,7 @@ const sizes = [
         'mm': 711,
         'in': 28,
         'lunar': '26E',
+        'tags': ['28"', 'DN 700', '711 mm', '28 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -499,6 +525,7 @@ const sizes = [
         'mm': 762,
         'in': 30,
         'lunar': '26F',
+        'tags': ['30"', 'DN 750', '762 mm', '30 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -518,6 +545,7 @@ const sizes = [
         'mm': 813,
         'in': 32,
         'lunar': '271',
+        'tags': ['32"', 'DN 800', '813 mm', '32 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -537,6 +565,7 @@ const sizes = [
         'mm': 864,
         'in': 34,
         'lunar': '55B',
+        'tags': ['34"', 'DN 850', '864 mm', '34 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -556,6 +585,7 @@ const sizes = [
         'mm': 914,
         'in': 36,
         'lunar': '275',
+        'tags': ['36"', 'DN 900', '914 mm', '36 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -575,6 +605,7 @@ const sizes = [
         'mm': 965,
         'in': 38,
         'lunar': '557',
+        'tags': ['38"', 'DN 950', '965 mm', '38 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -594,6 +625,7 @@ const sizes = [
         'mm': 1016,
         'in': 40,
         'lunar': '278',
+        'tags': ['40"', 'DN 1000', '1016 mm', '40 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -613,6 +645,7 @@ const sizes = [
         'mm': 1067,
         'in': 42,
         'lunar': '279',
+        'tags': ['42"', 'DN 1050', '1067 mm', '42 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -632,6 +665,7 @@ const sizes = [
         'mm': 1118,
         'in': 44,
         'lunar': '27B',
+        'tags': ['44"', 'DN 1100', '1118 mm', '44 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -651,6 +685,7 @@ const sizes = [
         'mm': 1168,
         'in': 46,
         'lunar': '560',
+        'tags': ['46"', 'DN 1150', '1168 mm', '46 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -670,6 +705,7 @@ const sizes = [
         'mm': 1219,
         'in': 48,
         'lunar': '27E',
+        'tags': ['48"', 'DN 1200', '1219 mm', '48 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -689,6 +725,7 @@ const sizes = [
         'mm': 1321,
         'in': 52,
         'lunar': '55A',
+        'tags': ['52"', 'DN 1300', '1321 mm', '52 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -708,6 +745,7 @@ const sizes = [
         'mm': 1422,
         'in': 56,
         'lunar': '2E9',
+        'tags': ['56"', 'DN 1400', '1422 mm', '56 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -727,6 +765,7 @@ const sizes = [
         'mm': 1524,
         'in': 60,
         'lunar': '282',
+        'tags': ['60"', 'DN 1500', '1524 mm', '60 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -746,6 +785,7 @@ const sizes = [
         'mm': 1626,
         'in': 64,
         'lunar': '558',
+        'tags': ['64"', 'DN 1600', '1626 mm', '64 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -765,6 +805,7 @@ const sizes = [
         'mm': 1727,
         'in': 68,
         'lunar': '55C',
+        'tags': ['68"', 'DN 1700', '1727 mm', '68 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -784,6 +825,7 @@ const sizes = [
         'mm': 1829,
         'in': 72,
         'lunar': '565',
+        'tags': ['72"', 'DN 1800', '1829 mm', '72 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -803,6 +845,7 @@ const sizes = [
         'mm': 1930,
         'in': 76,
         'lunar': '566',
+        'tags': ['76"', 'DN 1900', '1930 mm', '76 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -822,6 +865,7 @@ const sizes = [
         'mm': 2032,
         'in': 80,
         'lunar': '4CC',
+        'tags': ['80"', 'DN 2000', '2032 mm', '80 in'],
         'pffTypes:': [
             'PIPES', 
             'PIPE_NIPPLES', 
@@ -841,6 +885,7 @@ const sizes = [
         'mm': 9.5,
         'in': 0.375,
         'lunar': '079',
+        'tags': ['3/8"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -849,6 +894,7 @@ const sizes = [
         'mm': 11.1,
         'in': 0.438,
         'lunar': '086',
+        'tags': ['7/16"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -857,6 +903,7 @@ const sizes = [
         'mm': 12.7,
         'in': 0.5,
         'lunar': '08F',
+        'tags': ['1/2"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -865,6 +912,7 @@ const sizes = [
         'mm': 14.3,
         'in': 0.563,
         'lunar': '0A1',
+        'tags': ['9/16"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -873,6 +921,7 @@ const sizes = [
         'mm': 15.9,
         'in': 0.625,
         'lunar': '0B7',
+        'tags': ['5/8"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -881,6 +930,7 @@ const sizes = [
         'mm': 19.1,
         'in': 0.75,
         'lunar': '0D2',
+        'tags': ['3/4"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -889,6 +939,7 @@ const sizes = [
         'mm': 22.2,
         'in': 0.875,
         'lunar': '0EF',
+        'tags': ['7/8"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -897,6 +948,7 @@ const sizes = [
         'mm': 25.4,
         'in': 1,
         'lunar': '109',
+        'tags': ['1"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -905,6 +957,7 @@ const sizes = [
         'mm': 28.6,
         'in': 1.125,
         'lunar': '11F',
+        'tags': ['1 1/8"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -913,6 +966,7 @@ const sizes = [
         'mm': 31.8,
         'in': 1.25,
         'lunar': '131',
+        'tags': ['1 1/4"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -921,6 +975,7 @@ const sizes = [
         'mm': 34.9,
         'in': 1.375,
         'lunar': '140',
+        'tags': ['1 3/8"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -929,6 +984,7 @@ const sizes = [
         'mm': 38.1,
         'in': 1.5,
         'lunar': '152',
+        'tags': ['1 1/2"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -937,6 +993,7 @@ const sizes = [
         'mm': 44.5,
         'in': 1.75,
         'lunar': '16A',
+        'tags': ['1 3/4"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -945,6 +1002,7 @@ const sizes = [
         'mm': 47.6,
         'in': 1.875,
         'lunar': '174',
+        'tags': ['1 7/8"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -953,6 +1011,7 @@ const sizes = [
         'mm': 50.8,
         'in': 2,
         'lunar': '17A',
+        'tags': ['2"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -961,6 +1020,7 @@ const sizes = [
         'mm': 57.2,
         'in': 2.25,
         'lunar': '189',
+        'tags': ['2 1/4"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -969,6 +1029,16 @@ const sizes = [
         'mm': 63.5,
         'in': 2.5,
         'lunar': '195',
+        'tags': ['2 1/2"'],
+        'pffTypes': ['FASTENERS']
+    },
+    {
+        'nps': '3"',
+        'dn': '3"',
+        'mm': 76.2,
+        'in': 3,
+        'lunar': '1A6',
+        'tags': ['3"'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -977,6 +1047,7 @@ const sizes = [
         'mm': 10,
         'in': 0.394,
         'lunar': '080',
+        'tags': ['M10'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -985,6 +1056,7 @@ const sizes = [
         'mm': 12,
         'in': 0.472,
         'lunar': '08B',
+        'tags': ['M12'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -993,6 +1065,7 @@ const sizes = [
         'mm': 14,
         'in': 0.551,
         'lunar': '09D',
+        'tags': ['M14'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1001,6 +1074,7 @@ const sizes = [
         'mm': 16,
         'in': 0.63,
         'lunar': '0B8',
+        'tags': ['M16'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1009,6 +1083,7 @@ const sizes = [
         'mm': 18,
         'in': 0.709,
         'lunar': '0CA',
+        'tags': ['M18'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1017,6 +1092,7 @@ const sizes = [
         'mm': 20,
         'in': 0.787,
         'lunar': '0D9',
+        'tags': ['M20'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1025,6 +1101,7 @@ const sizes = [
         'mm': 22,
         'in': 0.866,
         'lunar': '0EE',
+        'tags': ['M22'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1033,6 +1110,7 @@ const sizes = [
         'mm': 24,
         'in': 0.945,
         'lunar': '0FF',
+        'tags': ['M24'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1041,6 +1119,7 @@ const sizes = [
         'mm': 27,
         'in': 1.063,
         'lunar': '112',
+        'tags': ['M27'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1049,6 +1128,7 @@ const sizes = [
         'mm': 30,
         'in': 1.181,
         'lunar': '125',
+        'tags': ['M30'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1057,6 +1137,7 @@ const sizes = [
         'mm': 33,
         'in': 1.299,
         'lunar': '135',
+        'tags': ['M33'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1065,6 +1146,7 @@ const sizes = [
         'mm': 36,
         'in': 1.417,
         'lunar': '149',
+        'tags': ['M36'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1073,6 +1155,7 @@ const sizes = [
         'mm': 39,
         'in': 1.535,
         'lunar': '156',
+        'tags': ['M39'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1081,6 +1164,7 @@ const sizes = [
         'mm': 42,
         'in': 1.654,
         'lunar': '161',
+        'tags': ['M42'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1089,6 +1173,7 @@ const sizes = [
         'mm': 45,
         'in': 1.772,
         'lunar': '16B',
+        'tags': ['M45'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1097,6 +1182,7 @@ const sizes = [
         'mm': 48,
         'in': 1.89,
         'lunar': '175',
+        'tags': ['M48'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1105,6 +1191,7 @@ const sizes = [
         'mm': 52,
         'in': 2.047,
         'lunar': '17E',
+        'tags': ['M52'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1113,6 +1200,7 @@ const sizes = [
         'mm': 56,
         'in': 2.205,
         'lunar': '185',
+        'tags': ['M56'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1121,6 +1209,7 @@ const sizes = [
         'mm': 60,
         'in': 2.362,
         'lunar': '18D',
+        'tags': ['M60'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1129,6 +1218,7 @@ const sizes = [
         'mm': 64,
         'in': 2.52,
         'lunar': '46E',
+        'tags': ['M64'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1137,6 +1227,7 @@ const sizes = [
         'mm': 68,
         'in': 2.677,
         'lunar': '2B9',
+        'tags': ['M68'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1145,6 +1236,7 @@ const sizes = [
         'mm': 72,
         'in': 2.834,
         'lunar': '29E',
+        'tags': ['M72'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1153,6 +1245,7 @@ const sizes = [
         'mm': 76,
         'in': 2.992,
         'lunar': '1A4',
+        'tags': ['M76'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1161,6 +1254,7 @@ const sizes = [
         'mm': 80,
         'in': 3.15,
         'lunar': '1AA',
+        'tags': ['M80'],
         'pffTypes': ['FASTENERS']
     },
     {
@@ -1168,7 +1262,8 @@ const sizes = [
         'dn':'R-11',
         'mm':'',
         'in':'',
-        'Lunar':'FFF', // Size to be created
+        'Lunar':'FFF', // Size to be created,
+        'tags': ['R-11'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1177,6 +1272,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-12'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1185,6 +1281,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-13'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1193,6 +1290,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-14'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1201,6 +1299,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-15'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1209,6 +1308,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-16'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1217,6 +1317,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-17'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1225,6 +1326,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-18'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1233,6 +1335,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-19'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1241,6 +1344,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-20'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1249,6 +1353,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-21'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1257,6 +1362,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-22'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1265,6 +1371,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-23'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1273,6 +1380,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-24'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1281,6 +1389,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-25'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1289,6 +1398,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-26'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1297,6 +1407,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-27'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1305,6 +1416,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-28'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1313,6 +1425,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-29'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1321,6 +1434,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-30'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1329,6 +1443,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-31'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1337,6 +1452,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-32'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1345,6 +1461,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-33'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1353,6 +1470,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-34'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1361,6 +1479,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-35'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1369,6 +1488,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-36'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1377,6 +1497,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-37'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1385,6 +1506,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-38'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1393,6 +1515,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-39'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1401,6 +1524,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-40'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1409,6 +1533,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-41'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1417,6 +1542,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-42'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1425,6 +1551,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-43'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1433,6 +1560,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-44'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1441,6 +1569,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-45'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1449,6 +1578,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-46'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1457,6 +1587,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-47'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1465,6 +1596,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-48'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1473,6 +1605,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-49'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1481,6 +1614,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-50'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1489,6 +1623,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-51'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1497,6 +1632,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-52'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1505,6 +1641,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-53'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1513,6 +1650,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-54'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1521,6 +1659,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-55'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1529,6 +1668,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-56'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1537,6 +1677,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-57'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1545,6 +1686,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-58'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1553,6 +1695,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-59'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1561,6 +1704,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-60'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1569,6 +1713,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-61'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1577,6 +1722,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-62'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1585,6 +1731,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-63'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1593,6 +1740,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-64'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1601,6 +1749,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-65'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1609,6 +1758,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-66'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1617,6 +1767,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-67'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1625,6 +1776,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-68'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1633,6 +1785,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-69'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1641,6 +1794,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-70'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1649,6 +1803,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-71'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1657,6 +1812,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-72'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1665,6 +1821,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-73'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1673,6 +1830,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-74'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1681,6 +1839,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-75'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1689,6 +1848,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-76'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1697,6 +1857,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-77'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1705,6 +1866,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-78'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1713,6 +1875,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-79'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1721,6 +1884,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-80'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1729,6 +1893,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-81'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1737,6 +1902,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-82'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1745,6 +1911,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-84'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1753,6 +1920,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-85'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1761,6 +1929,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-86'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1769,6 +1938,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-87'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1777,6 +1947,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-88'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1785,6 +1956,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-89'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1793,6 +1965,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-90'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1801,6 +1974,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-91'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1809,6 +1983,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-92'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1817,6 +1992,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-93'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1825,6 +2001,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-94'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1833,6 +2010,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-95'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1841,6 +2019,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-96'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1849,6 +2028,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-97'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1857,6 +2037,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-98'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1865,6 +2046,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-99'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1873,6 +2055,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-100'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1881,6 +2064,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-101'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1889,6 +2073,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-102'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1897,6 +2082,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-103'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1905,6 +2091,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-104'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1913,6 +2100,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['R-105'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1921,6 +2109,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-20'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1929,6 +2118,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-23'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1937,6 +2127,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-24'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1945,6 +2136,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-25'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1953,6 +2145,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-26'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1961,6 +2154,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-27'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1969,6 +2163,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-31'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1977,6 +2172,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-35'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1985,6 +2181,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-37'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -1993,6 +2190,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-39'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2001,6 +2199,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-41'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2009,6 +2208,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-44'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2017,6 +2217,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-45'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2025,6 +2226,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-46'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2033,6 +2235,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-47'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2041,6 +2244,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-49'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2049,6 +2253,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-50'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2057,6 +2262,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-53'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2065,6 +2271,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-54'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2073,6 +2280,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-57'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2081,6 +2289,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-63'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2089,6 +2298,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-65'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2097,6 +2307,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-66'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2105,6 +2316,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-69'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2113,6 +2325,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-70'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2121,6 +2334,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-73'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2129,6 +2343,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-74'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2137,6 +2352,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-82'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2145,6 +2361,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-84'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2153,6 +2370,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-85'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2161,6 +2379,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-86'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2169,6 +2388,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-87'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2177,6 +2397,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-88'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2185,6 +2406,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-89'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2193,6 +2415,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-90'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2201,6 +2424,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-91'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2209,6 +2433,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-99'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2217,6 +2442,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-201'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2225,6 +2451,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-205'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2233,6 +2460,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-210'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2241,6 +2469,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['RX-215'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2249,6 +2478,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-150'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2257,6 +2487,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-151'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2265,6 +2496,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-152'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2273,6 +2505,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-153'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2281,6 +2514,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-154'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2289,6 +2523,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-155'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2297,6 +2532,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-156'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2305,6 +2541,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-157'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2313,6 +2550,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-158'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2321,6 +2559,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-159'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2329,6 +2568,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-160'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2337,6 +2577,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-161'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2345,6 +2586,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-162'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2353,6 +2595,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-163'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2361,6 +2604,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-164'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2369,6 +2613,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-165'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2377,6 +2622,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-166'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2385,6 +2631,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-167'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2393,6 +2640,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-168'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2401,6 +2649,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-169'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2409,6 +2658,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-170'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2417,6 +2667,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-171'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2425,6 +2676,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-172'],
         'pffTypes': ['RING_GASKETS']
     },
     {
@@ -2433,6 +2685,7 @@ const sizes = [
         'mm':'',
         'in':'',
         'Lunar':'FFF', // Size to be created
+        'tags': ['BX-303'],
         'pffTypes': ['RING_GASKETS']
     }
 ]

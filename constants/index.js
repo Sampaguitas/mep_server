@@ -1,14 +1,5 @@
-'use strict'
-require('./ends');
-require('./grades');
-require('./sizes');
-require('./types');
-require('./walls');
+let ends = require('./ends');
 
 module.exports = {
-    ends,
-    grades,
-    sizes,
-    types,
-    walls
-};
+    ends
+}

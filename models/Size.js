@@ -7,6 +7,7 @@ const SizeSchema = new Schema({
     dn: String,
     mm: Number,
     in: Number,
+    pffTypes: [String]
 });
 
 //size: mongoose.SchemaTypes.ObjectId
