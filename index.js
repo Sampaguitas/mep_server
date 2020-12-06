@@ -6,7 +6,6 @@ const _ = require('lodash');
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const cors = require('cors');
-//const bcrypt = require('bcryptjs');
 const fs = require('fs');
 
 const app = express();
@@ -18,19 +17,16 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 //Passport config file
-// app.use(passport.initialize());
-// require('./models/index');
-// require('./config/passport')(passport);
+app.use(passport.initialize());
+require('./models/index');
+require('./config/passport')(passport);
 
 //DB config
 const db = require('./config/keys').mongoURI;
 
 //Connect to MongoDB
 mongoose
-.connect(db,{
-    useUnifiedTopology: true,
-    useNewUrlParser:true
-})
+.connect(db,{useNewUrlParser:true, useUnifiedTopology: true})
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
 
@@ -38,17 +34,15 @@ mongoose
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server running on ${port}`));
 
-// Compile all routers   
-var routeFolders = [],     
-routePaths = "./routes"   
-glob.sync('**/*', { cwd: routePaths }).forEach(route => {     
-    var _isFolder = !_.endsWith(route, '.js')     
-    route = '/' + route.replace(/\.[^/.]+$/, '')     
-    if (!_.endsWith(route, 'index')) {       
-        var _router = require(routePaths + route)       
-        app.use(route, _router)       
-        if (_isFolder) routeFolders.push(route)     }   })   
-        routeFolders.forEach(route => {     var _pathDeindex = routePaths + route + '/deindex.js'     
-        if (fs.existsSync(_pathDeindex))       
-        app.use(route, require(_pathDeindex))   
-    })
+//user
+app.use('/user/changePwd', passport.authenticate('jwt', { session: false }), require('./routes/user/changePwd'));
+app.use('/user/create', passport.authenticate('jwt', { session: false }), require('./routes/user/create'));
+app.use('/user/delete', passport.authenticate('jwt', { session: false }), require('./routes/user/delete'));
+app.use('/user/findAll', passport.authenticate('jwt', { session: false }), require('./routes/user/findAll'));
+app.use('/user/findOne', passport.authenticate('jwt', { session: false }), require('./routes/user/findOne'));
+app.use('/user/login', require('./routes/user/login'));
+app.use('/user/requestPwd', require('./routes/user/requestPwd'));
+app.use('/user/resetPwd', require('./routes/user/resetPwd'));
+app.use('/user/setAdmin', passport.authenticate('jwt', { session: false }), require('./routes/user/setAdmin'));
+app.use('/user/update', passport.authenticate('jwt', { session: false }), require('./routes/user/update'));
+app.use('/user/updatePwd', passport.authenticate('jwt', { session: false }), require('./routes/user/updatePwd'));
