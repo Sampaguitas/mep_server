@@ -1,5 +1,3 @@
-let lookupType = require('./lookupType');
-
 module.exports = function generateType(sizeOne, item){
     switch(item) {
         case 'THR FL 400':
@@ -12,9 +10,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'SOF 400':
         case 'SOF 600':
             if (sizeOne < 114.3) { //below 4'
@@ -25,9 +22,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'LAPJ 400':
         case 'LAPJ 600':
             if (sizeOne < 114.3) { //below 4'
@@ -38,9 +34,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'BLF 400':
         case 'BLF 600':
             if (sizeOne < 114.3) { //below 4'
@@ -51,9 +46,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'WNF 400':
         case 'WNF 600':
             if (sizeOne < 114.3) { //below 4'
@@ -64,9 +58,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         //ASME B16.2017 (CL900 / CL1500)
         case 'THR FL 900':
         case 'THR FL 1500':
@@ -78,9 +71,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'SOF 900':
         case 'SOF 1500':
             if (sizeOne < 88.9) { //below 3'
@@ -91,9 +83,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'LAPJ 900':
         case 'LAPJ 1500':
             if (sizeOne < 88.9) { //below 3'
@@ -104,9 +95,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'BLF 900':
         case 'BLF 1500':
             if (sizeOne < 88.9) { //below 3'
@@ -117,9 +107,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'WNF 900':
         case 'WNF 1500':
             if (sizeOne < 88.9) { //below 3'
@@ -130,9 +119,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'FORGED_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         //----------------------EN 1092-1----------------------// 
         ////EN 1092-1 (Type 01 flanges: Plate flange for welding)
         case 'FWF (1) PN 2.5':
@@ -145,9 +133,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'FWF (1) PN 10':
         case 'FWF (1) PN 16':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -165,9 +152,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'FWF (1) PN 25':
         case 'FWF (1) PN 40':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -185,9 +171,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'FWF (1) PN 63':
         case 'FWF (1) PN 100':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -198,9 +183,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         //EN 1092-1 (Type 02 flanges: Loose plate flange with weld-on plate collar or for lapped pipe end)
         case 'LPF (2) PN 2.5':
         case 'LPF (2) PN 6':
@@ -212,9 +196,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'LPF (2) PN 10':
         case 'LPF (2) PN 16':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -232,9 +215,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'LPF (2) PN 25':
         case 'LPF (2) PN 40':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -252,9 +234,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         //EN 1092-1 (Type 04 flanges: Loose plate flange with weld-neck collar)
         case 'LPF (4) PN 10':
         case 'LPF (4) PN 16':
@@ -273,9 +254,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'LPF (4) PN 25':
         case 'LPF (4) PN 40':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -293,9 +273,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'LPF (4) PN 63':
         case 'LPF (4) PN 100':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -306,9 +285,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         //EN 1092-1 (Type 5 flanges: Blind flange)
         case 'BLF (5) PN 2.5':
         case 'BLF (5) PN 6':
@@ -320,9 +298,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'BLF (5) PN 10':
         case 'BLF (5) PN 16':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -340,9 +317,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'BLF (5) PN 25':
         case 'BLF (5) PN 40':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -360,9 +336,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'BLF (5) PN 63':
         case 'BLF (5) PN 100':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -373,9 +348,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'BLF (5) PN 250':
         case 'BLF (5) PN 320':
             if (sizeOne <= 17.1){ //sizeOne <= DN10
@@ -386,9 +360,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         //EN 1092-1 (Type 11 flanges: Weld-neck flange)
         case 'WNF (11) PN 2.5':
         case 'WNF (11) PN 6':
@@ -400,9 +373,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'WNF (11) PN 10':
         case 'WNF (11) PN 16':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -420,9 +392,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'WNF (11) PN 25':
         case 'WNF (11) PN 40':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -440,9 +411,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'WNF (11) PN 63':
         case 'WNF (11) PN 100':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -453,9 +423,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'WNF (11) PN 250':
         case 'WNF (11) PN 320':
             if (sizeOne <= 17.1){ //sizeOne <= DN10
@@ -466,9 +435,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         //EN 1092-1 (Type 12 flanges: Hubbed slip-on flange for welding)
         case 'SOF (12) PN 10':
         case 'SOF (12) PN 16':
@@ -487,9 +455,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'SOF (12) PN 25':
         case 'SOF (12) PN 40':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -507,9 +474,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'SOF (12) PN 63':
         case 'SOF (12) PN 100':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -520,9 +486,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         //EN 1092-1 (Type 13 flanges: Hubbed threaded flange)
         case 'THR FL (13) PN 10':
         case 'THR FL (13) PN 16':
@@ -541,9 +506,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'THR FL (13) PN 25':
         case 'THR FL (13) PN 40':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -561,9 +525,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break;
         case 'THR FL (13) PN 63':
         case 'THR FL (13) PN 100':
             if (sizeOne <= 48.3){ //sizeOne <= DN40
@@ -574,12 +537,8 @@ module.exports = function generateType(sizeOne, item){
                     'pffType': 'EN_FLANGES'
                 };
             } else {
-                return lookupType(item);
+                return require('./lookupType')(item);
             }
-            break
-        default: return lookupType(item);
+        default: return require('./lookupType')(item);
     }
 }
-
-
-

@@ -1,6 +1,6 @@
-module.exports = [
+[
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF",
         "name": "PIPE",
         "tags": ["PIPE"],
         "pffType": "PIPES",
@@ -27,7 +27,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "PIPE EFW",
         "tags": ["PIPE", "PIPE WLD", "PIPE EFW"],
         "pffType": "PIPES",
@@ -45,7 +45,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "PIPE SAW",
         "tags": ["PIPE", "PIPE WLD", "PIPE SAW"],
         "pffType": "PIPES",
@@ -72,7 +72,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "CRED",
         "tags": ["CRED"],
         "pffType": "PIPE_FITTINGS",
@@ -108,7 +108,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELB LR 180",
         "tags": ["ELB LR 180"],
         "pffType": "PIPE_FITTINGS",
@@ -135,7 +135,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELB SR 180",
         "tags": ["ELB SR 180"],
         "pffType": "PIPE_FITTINGS",
@@ -144,7 +144,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELB SR 180 SMLS",
         "tags": ["ELB SR 180", "ELB SR 180 SMLS"],
         "pffType": "PIPE_FITTINGS",
@@ -162,7 +162,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELB LR 45",
         "tags": ["ELB LR 45"],
         "pffType": "PIPE_FITTINGS",
@@ -189,7 +189,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELB LR 90",
         "tags": ["ELB LR 90"],
         "pffType": "PIPE_FITTINGS",
@@ -216,7 +216,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELB SR 90",
         "tags": ["ELB SR 90"],
         "pffType": "PIPE_FITTINGS",
@@ -243,7 +243,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ERED",
         "tags": ["ERED"],
         "pffType": "PIPE_FITTINGS",
@@ -288,7 +288,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "STUB END SP",
         "tags": ["STUB END", "STUB END SP"],
         "pffType": "PIPE_FITTINGS",
@@ -327,25 +327,7 @@ module.exports = [
         "lunar": "024",
         "name": "ESWNI",
         "tags": ["ESWNI"],
-        "pffType": "SWAGE_NIPPLES",
-        "specs": ["MSS SP-95"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "FFF", //to be created
-        "name": "ESWNI 3000",
-        "tags": ["ESWNI 3000"],
-        "pffType": "SWAGE_NIPPLES",
-        "specs": ["MSS SP-95"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "FFF", //to be created
-        "name": "ESWNI 6000",
-        "tags": ["ESWNI 6000"],
-        "pffType": "SWAGE_NIPPLES",
+        "pffType": "PIPE_FITTINGS",
         "specs": ["MSS SP-95"],
         "isComplete": true,
         "isMultiple": false
@@ -354,26 +336,8 @@ module.exports = [
         "lunar": "013",
         "name": "CSWNI",
         "tags": ["CSWNI"],
-        "pffType": "SWAGE_NIPPLES",
-        "specs": ["MSS SP-95"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "476",
-        "name": "CSWNI 3000",
-        "tags": ["CSWNI"],
-        "pffType": "SWAGE_NIPPLES",
-        "specs": ["MSS SP-95"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "477",
-        "name": "CSWNI 6000",
-        "tags": ["CSWNI"],
-        "pffType": "SWAGE_NIPPLES",
-        "specs": ["MSS SP-95"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["ASME B16.9"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -513,7 +477,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "CROSS 9000",
         "tags": ["CROSS 9000"],
         "pffType": "FORGED_FITTINGS",
@@ -603,7 +567,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "HCPL 9000",
         "tags": ["HCPL 9000"],
         "pffType": "FORGED_FITTINGS",
@@ -792,7 +756,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELBOL",
         "tags": ["ELBOL"],
         "pffType": "FORGED_OLETS",
@@ -891,7 +855,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "NIPOFL 2500",
         "tags": ["NIPOFL 2500"],
         "pffType": "FORGED_OLETS",
@@ -900,7 +864,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LATROFL 150",
         "tags": ["LATROFL 150"],
         "pffType": "FORGED_OLETS",
@@ -909,7 +873,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LATROFL 300",
         "tags": ["LATROFL 300"],
         "pffType": "FORGED_OLETS",
@@ -918,7 +882,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LATROFL 600",
         "tags": ["LATROFL 600"],
         "pffType": "FORGED_OLETS",
@@ -927,7 +891,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LATROFL 900",
         "tags": ["LATROFL 900"],
         "pffType": "FORGED_OLETS",
@@ -936,7 +900,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LATROFL 1500",
         "tags": ["LATROFL 1500"],
         "pffType": "FORGED_OLETS",
@@ -945,7 +909,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LATROFL 2500",
         "tags": ["LATROFL 2500"],
         "pffType": "FORGED_OLETS",
@@ -954,7 +918,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELBOWFL 150",
         "tags": ["ELBOWFL 150"],
         "pffType": "FORGED_OLETS",
@@ -963,7 +927,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELBOWFL 300",
         "tags": ["ELBOWFL 300"],
         "pffType": "FORGED_OLETS",
@@ -972,7 +936,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELBOWFL 600",
         "tags": ["ELBOWFL 600"],
         "pffType": "FORGED_OLETS",
@@ -981,7 +945,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELBOWFL 900",
         "tags": ["ELBOWFL 900"],
         "pffType": "FORGED_OLETS",
@@ -990,7 +954,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELBOWFL 1500",
         "tags": ["ELBOWFL 1500"],
         "pffType": "FORGED_OLETS",
@@ -999,7 +963,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "ELBOWFL 2500",
         "tags": ["ELBOWFL 2500"],
         "pffType": "FORGED_OLETS",
@@ -1395,7 +1359,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "THR FL 400",
         "tags": ["THR FL 400"],
         "pffType": "FORGED_FLANGES",
@@ -1404,7 +1368,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "THR FL 400/600",
         "tags": ["THR FL 400", "THR FL 600"],
         "pffType": "FORGED_FLANGES",
@@ -1422,7 +1386,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "THR FL 900",
         "tags": ["THR FL 900"],
         "pffType": "FORGED_FLANGES",
@@ -1440,7 +1404,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "0B2", //to be created
+        "lunar": "0B2", 
         "name": "THR FL 1500",
         "tags": ["THR FL 1500"],
         "pffType": "FORGED_FLANGES",
@@ -1449,7 +1413,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0B9", //to be created
+        "lunar": "0B9", 
         "name": "THR FL 2500",
         "tags": ["THR FL 2500"],
         "pffType": "FORGED_FLANGES",
@@ -1485,7 +1449,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SOF 400/600",
         "tags": ["SOF 400", "SOF 600"],
         "pffType": "FORGED_FLANGES",
@@ -1512,7 +1476,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SOF 900/1500",
         "tags": ["SOF 900", "SOF 1500"],
         "pffType": "FORGED_FLANGES",
@@ -1593,7 +1557,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LAPJ 400/600",
         "tags": ["LAPJ 400", "LAPJ 600"],
         "pffType": "FORGED_FLANGES",
@@ -1611,7 +1575,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LAPJ 900",
         "tags": ["LAPJ 900"],
         "pffType": "FORGED_FLANGES",
@@ -1620,7 +1584,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LAPJ 900/1500",
         "tags": ["LAPJ 900", "LAPJ 1500"],
         "pffType": "FORGED_FLANGES",
@@ -1638,7 +1602,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LAPJ 2500",
         "tags": ["LAPJ 2500"],
         "pffType": "FORGED_FLANGES",
@@ -1674,7 +1638,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 400/600",
         "tags": ["BLF 400", "BLF 600"],
         "pffType": "FORGED_FLANGES",
@@ -1755,7 +1719,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 400/600",
         "tags": ["WNF 400", "WNF 600"],
         "pffType": "FORGED_FLANGES",
@@ -1827,7 +1791,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LWNF 400",
         "tags": ["LWNF 400"],
         "pffType": "FORGED_FLANGES",
@@ -1836,7 +1800,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LWNF 400/600",
         "tags": ["LWNF 400", "LWNF 600"],
         "pffType": "FORGED_FLANGES",
@@ -1863,7 +1827,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LWNF 900/1500",
         "tags": ["LWNF 900", "LWNF 1500"],
         "pffType": "FORGED_FLANGES",
@@ -1891,7 +1855,7 @@ module.exports = [
 
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 3000",
         "tags": ["BLF 3000"],
         "pffType": "FORGED_FLANGES",
@@ -1963,7 +1927,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "OWNF 400/600",
         "tags": ["OWNF 400", "OWNF 600"],
         "pffType": "FORGED_FLANGES",
@@ -1990,7 +1954,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "145",  //to be created
+        "lunar": "145",  
         "name": "OWNF 900/1500",
         "tags": ["OWNF 900", "OWNF 1500"],
         "pffType": "FORGED_FLANGES",
@@ -2017,7 +1981,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "OTHR FL 300",
         "tags": ["OTHR FL 300"],
         "pffType": "FORGED_FLANGES",
@@ -2026,7 +1990,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "OSOF 300",
         "tags": ["OSOF 300"],
         "pffType": "FORGED_FLANGES",
@@ -2035,7 +1999,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 150 SR A",
         "tags": ["WNF 150 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2044,7 +2008,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 300 SR A",
         "tags": ["WNF 300 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2053,7 +2017,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 400 SR A",
         "tags": ["WNF 400 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2062,7 +2026,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 600 SR A",
         "tags": ["WNF 600 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2071,7 +2035,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 900 SR A",
         "tags": ["WNF 900 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2080,7 +2044,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 150 SR A",
         "tags": ["BLF 150 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2089,7 +2053,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 300 SR A",
         "tags": ["BLF 300 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2098,7 +2062,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 400 SR A",
         "tags": ["BLF 400 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2107,7 +2071,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 600 SR A",
         "tags": ["BLF 600 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2116,7 +2080,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 900 SR A",
         "tags": ["BLF 600 SR A"],
         "pffType": "FORGED_FLANGES",
@@ -2125,7 +2089,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 75 SR B",
         "tags": ["WNF 75 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2134,7 +2098,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 150 SR B",
         "tags": ["WNF 150 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2143,7 +2107,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 300 SR B",
         "tags": ["WNF 300 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2152,7 +2116,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 400 SR B",
         "tags": ["WNF 400 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2161,7 +2125,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 600 SR B",
         "tags": ["WNF 600 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2170,7 +2134,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF 900 SR B",
         "tags": ["WNF 900 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2179,7 +2143,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 75 SR B",
         "tags": ["BLF 75 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2188,7 +2152,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 150 SR B",
         "tags": ["BLF 150 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2197,7 +2161,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 300 SR B",
         "tags": ["BLF 300 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2206,7 +2170,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 400 SR B",
         "tags": ["BLF 400 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2215,7 +2179,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 600 SR B",
         "tags": ["BLF 600 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2224,7 +2188,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF 900 SR B",
         "tags": ["BLF 900 SR B"],
         "pffType": "FORGED_FLANGES",
@@ -2233,7 +2197,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "FWF (1) PN 2.5",
         "tags": ["FWF (1) PN 2.5"],
         "pffType": "EN_FLANGES",
@@ -2242,7 +2206,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "FWF (1) PN 2.5/6",
         "tags": ["FWF (1) PN 2.5", "FWF (1) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2251,7 +2215,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "FWF (1) PN 6",
         "tags": ["FWF (1) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2350,7 +2314,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LPF (2) PN 2.5",
         "tags": ["LPF (2) PN 2.5"],
         "pffType": "EN_FLANGES",
@@ -2359,7 +2323,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LPF (2) PN 2.5/6",
         "tags": ["LPF (2) PN 2.5", "LPF (2) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2368,7 +2332,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LPF (2) PN 6",
         "tags": ["LPF (2) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2440,7 +2404,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LPF (4) PN 6",
         "tags": ["LPF (4) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2512,7 +2476,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LPF (4) PN 63",
         "tags": ["LPF (4) PN 63"],
         "pffType": "EN_FLANGES",
@@ -2521,7 +2485,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LPF (4) PN 63/100",
         "tags": ["LPF (4) PN 63", "LPF (4) PN 100"],
         "pffType": "EN_FLANGES",
@@ -2530,7 +2494,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "LPF (4) PN 100",
         "tags": ["LPF (4) PN 100"],
         "pffType": "EN_FLANGES",
@@ -2539,7 +2503,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF (5) PN 2.5",
         "tags": ["BLF (5) PN 2.5"],
         "pffType": "EN_FLANGES",
@@ -2548,7 +2512,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF (5) PN 2.5/6",
         "tags": ["BLF (5) PN 2.5", "BLF (5) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2557,7 +2521,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF (5) PN 6",
         "tags": ["BLF (5) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2656,7 +2620,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF (5) PN 160",
         "tags": ["BLF (5) PN 160"],
         "pffType": "EN_FLANGES",
@@ -2665,7 +2629,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF (5) PN 250",
         "tags": ["BLF (5) PN 250"],
         "pffType": "EN_FLANGES",
@@ -2674,7 +2638,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF (5) PN 250/320",
         "tags": ["BLF (5) PN 250", "BLF (5) PN 320"],
         "pffType": "EN_FLANGES",
@@ -2683,7 +2647,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF (5) PN 320",
         "tags": ["BLF (5) PN 320"],
         "pffType": "EN_FLANGES",
@@ -2692,7 +2656,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "BLF (5) PN 400",
         "tags": ["BLF (5) PN 400"],
         "pffType": "EN_FLANGES",
@@ -2701,7 +2665,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF (11) PN 2.5",
         "tags": ["WNF (11) PN 2.5"],
         "pffType": "EN_FLANGES",
@@ -2710,7 +2674,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF (11) PN 2.5/6",
         "tags": ["WNF (11) PN 2.5", "WNF (11) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2719,7 +2683,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "WNF (11) PN 6",
         "tags": ["WNF (11) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2863,7 +2827,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SOF (12) PN 6",
         "tags": ["SOF (12) PN 6"],
         "pffType": "EN_FLANGES",
@@ -2950,7 +2914,7 @@ module.exports = [
         "pffType": "EN_FLANGES",
         "specs": ["EN 1092-1"],
         "isComplete": true,
-        "isMultiple": false
+        "isMultiple": true
     },
     {
         "lunar": "69C",
@@ -2962,7 +2926,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "THR FL (13) PN 6",
         "tags": ["THR FL (13) PN 6"],
         "pffType": "EN_FLANGES",
@@ -3097,7 +3061,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SBF 900/1500",
         "tags": ["SBF 900", "SBF 1500"],
         "pffType": "LINE_BLANKS",
@@ -3133,7 +3097,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SPADE 300",
         "tags": ["SPADE 300"],
         "pffType": "LINE_BLANKS",
@@ -3142,7 +3106,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SPADE 300/600",
         "tags": ["SPADE 300", "SPADE 600"],
         "pffType": "LINE_BLANKS",
@@ -3169,7 +3133,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SPADE 900/1500",
         "tags": ["SPADE 900", "SPADE 1500"],
         "pffType": "LINE_BLANKS",
@@ -3187,7 +3151,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SPADE 2500",
         "tags": ["SPADE 2500"],
         "pffType": "LINE_BLANKS",
@@ -3214,7 +3178,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SPACER 300/600",
         "tags": ["SPACER 300", "SPACER 600"],
         "pffType": "LINE_BLANKS",
@@ -3241,7 +3205,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SPACER 900/1500",
         "tags": ["SPACER 900", "SPACER 1500"],
         "pffType": "LINE_BLANKS",
@@ -3304,7 +3268,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SPADE & SPACER 900/1500",
         "tags": ["SPADE & SPACER 900", "SPADE & SPACER 1500"],
         "pffType": "LINE_BLANKS",
@@ -3313,7 +3277,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF", 
         "name": "SPADE & SPACER 1500",
         "tags": ["SPADE & SPACER 1500"],
         "pffType": "LINE_BLANKS",
@@ -3583,7 +3547,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF",
         "name": "SWG 400 B16.5",
         "tags": ["SWG 400 B16.5"],
         "pffType": "SW_GASKETS",
@@ -3601,7 +3565,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF", //to be created
+        "lunar": "FFF",
         "name": "SWG 900 B16.5",
         "tags": ["SWG 900 B16.5"],
         "pffType": "SW_GASKETS",
@@ -3716,6 +3680,6 @@ module.exports = [
         "specs": ["ASME B16.20"],
         "isComplete": true,
         "isMultiple": false
-    },
+    }
 ]
 

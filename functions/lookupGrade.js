@@ -1,25 +1,18 @@
-let grades = require('../constants/grades');
-
 module.exports = function lookupGrade(grade) {
-    const found = grades.find(element => element.name === grade);
-    // const temp = grade[item];
+    const found = require('../constants/grades').find(element => element.name === grade);
     if (found === undefined) {
         return {
             'lunar': 'FFF', 
-            'name': item,
-            'tags': [item],
-            // 'steelType': 'OTHER',
-            // 'pffTypes': ['OTHER']
+            'name': grade,
+            'tags': grade ? [grade] : [],
+            'steelType': 'OTHER',
         };
     } else {
         return {
             'lunar': found.lunar,
-            'name': found.name,
+            'name': grade,
             'tags': found.tags,
-            // 'steelType': temp.steelType,
-            // 'pffTypes': temp.pffTypes,
+            'steelType': found.steelType,
         };
     }
 }
-
-// console.log(JSON.stringify(lookupGrade('A105')));

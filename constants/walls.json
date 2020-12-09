@@ -1,4 +1,4 @@
-module.exports = [
+[
     {
         "mm": 1.73,
         "in": 0.068,

@@ -1,27 +1,18 @@
-let sizes = require('../constants/sizes');
-
 module.exports = function lookupSize(size) {
-    const found = sizes.find(element => element.tags.indexOf(size) > -1);
+    const found = require("../constants/sizes").find(element => element.tags.indexOf(size) > -1);
     if (found === undefined) {
         return {
-            'lunar': 'FFF', 
-            'nps': item,
-            'dn': item,
-            'mm': '',
-            'in': '',
-            'pffTypes': []
+            "lunar": "FFF", 
+            "name": size,
+            "tags": size ? [size] : [],
+            "mm": ""
         };
     } else {
         return {
-            'lunar': found.lunar, 
-            'nps': found.nps,
-            'dn': found.dn,
-            'mm': found.mm,
-            'in': found.in,
-            'tags': found.tags,
-            'pffTypes': found.pffTypes
+            "lunar": found.lunar,
+            "name": size,
+            "tags": found.tags,
+            "mm": found.mm
         };
     }
 }
-
-// console.log(JSON.stringify(lookupSize('2"')));

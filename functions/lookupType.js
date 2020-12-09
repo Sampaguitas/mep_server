@@ -1,22 +1,18 @@
-let types = require('../constants/types');
-
 module.exports = function lookupType(type) {
-    const temp = types.find(element => element.name === type);;
-    if (temp === undefined) {
+    const found = require('../constants/types').find(element => element.name === type);;
+    if (found === undefined) {
         return {
-            'lunar': 'FFF', 
+            'lunar': 'FFF',
             'name': type,
-            'tags': [type],
+            'tags': type ? [type] : [],
             'pffType': 'OTHER'
         };
     } else {
         return {
-            'lunar': temp.lunar,
-            'name': temp.name,
-            'tags': temp.tags,
-            'pffType': temp.pffType,
+            'lunar': found.lunar,
+            'name': found.name,
+            'tags': found.tags,
+            'pffType': found.pffType,
         };
     }
 }
-
-// console.log(JSON.stringify(lookupType('PIPE SMLS')));

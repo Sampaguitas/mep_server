@@ -1,4 +1,4 @@
-module.exports = [
+[
     {
         "lunar": "00804F",
         "name": "A234 WPB",
@@ -108,7 +108,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "008FFF", //to be created
+        "lunar": "008FFF", 
         "name": "A234 WP9 CL1",
         "tags": ["A234 WP9", "A234 WP9 CL1"],
         "steelType": "LOW_ALLOY",
@@ -117,7 +117,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "008FFF", //to be created
+        "lunar": "008FFF", 
         "name": "A234 WP9 CL3",
         "tags": ["A234 WP9", "A234 WP9 CL3"],
         "steelType": "LOW_ALLOY",
@@ -153,7 +153,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "008FFF", //to be created
+        "lunar": "008FFF", 
         "name": "A234 WP11 CL3",
         "tags": ["A234 WP11", "A234 WP11 CL3"],
         "steelType": "LOW_ALLOY",
@@ -180,7 +180,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "008FFF", //to be created 
+        "lunar": "008FFF", 
         "name": "A234 WP12 CL2",
         "tags": ["A234 WP12", "A234 WP12 CL2"],
         "steelType": "LOW_ALLOY",
@@ -324,7 +324,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D6FFF", //to be created
+        "lunar": "0D6FFF", 
         "name": "A403 WP321/321H",
         "tags": ["A403 WP321", "A403 WP321H"],
         "steelType": "AUSTENITIC",
@@ -549,7 +549,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "229FFF", //to be created
+        "lunar": "229FFF", 
         "name": "A350 LF3 CL1",
         "tags": ["A350 LF3", "A350 LF3 CL1"],
         "steelType": "LOW_TEMP",
@@ -558,7 +558,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "229FFF", //to be created
+        "lunar": "229FFF", 
         "name": "A350 LF3 CL2",
         "tags": ["A350 LF3", "A350 LF3 CL2"],
         "steelType": "LOW_TEMP",
@@ -594,7 +594,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "229FFF", //to be created
+        "lunar": "229FFF", 
         "name": "A350 LF6 CL3",
         "tags": ["A350 LF6", "A350 LF6 CL3"],
         "steelType": "LOW_TEMP",
@@ -603,7 +603,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "229FFF", //to be created
+        "lunar": "229FFF", 
         "name": "A350 LF9",
         "tags": ["A350 LF9"],
         "steelType": "LOW_TEMP",
@@ -639,7 +639,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D3FFF", //to be created
+        "lunar": "0D3FFF", 
         "name": "A182 F92",
         "tags": ["A182 F92"],
         "steelType": "LOW_ALLOY",
@@ -656,7 +656,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D312E", //to be created
+        "lunar": "0D312E", 
         "name": "A182 F11 CL1",
         "tags": ["A182 F11", "A182 F11 CL1"],
         "steelType": "LOW_ALLOY",
@@ -692,7 +692,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D3FFF", //to be created
+        "lunar": "0D3FFF", 
         "name": "A182 F12 CL1",
         "tags": ["A182 F12", "A182 F12 CL1"],
         "steelType": "LOW_ALLOY",
@@ -701,7 +701,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D3FFF", //to be created
+        "lunar": "0D3FFF", 
         "name": "A182 F12 CL2",
         "tags": ["A182 F12", "A182 F12 CL2"],
         "steelType": "LOW_ALLOY",
@@ -710,7 +710,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D3FFF", //to be created
+        "lunar": "0D3FFF", 
         "name": "A182 F21",
         "tags": ["A182 F21"],
         "steelType": "LOW_ALLOY",
@@ -728,7 +728,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D3FFF", //to be created
+        "lunar": "0D3FFF", 
         "name": "A182 F22 CL1",
         "tags": ["A182 F22", "A182 F22 CL1"],
         "steelType": "LOW_ALLOY",
@@ -737,7 +737,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D3FFF", //to be created
+        "lunar": "0D3FFF", 
         "name": "A182 F22 CL2",
         "tags": ["A182 F22", "A182 F22 CL2"],
         "steelType": "LOW_ALLOY",
@@ -855,7 +855,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D3FFF", //to be created
+        "lunar": "0D3FFF", 
         "name": "A182 F321/321H",
         "tags": ["A182 F321", "A182 F321H"],
         "steelType": "AUSTENITIC",
@@ -1080,7 +1080,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "0E719F", //to be created
+        "lunar": "0E719F", 
         "name": "A106 B/API5L BNS PSL2",
         "tags": ["A106 B", "API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BN PSL2", "API5L BNS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1098,7 +1098,7 @@ module.exports = [
         "isMultiple": true
     },
     {
-        "lunar": "0E782E", //to be created
+        "lunar": "0E782E", 
         "name": "A106 B/API5L X42NS PSL2",
         "tags": ["A106 B", "API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42N PSL2", "API5L X42NS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1224,7 +1224,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "142FFF", //to be created
+        "lunar": "142FFF", 
         "name": "A672 C70",
         "tags": ["A672 C70"],
         "steelType": "CARBON_STEEL",
@@ -1233,7 +1233,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1421B9", //to be created
+        "lunar": "1421B9", 
         "name": "A672 C70 CL11",
         "tags": ["A672 C70", "A672 C70 CL11"],
         "steelType": "CARBON_STEEL",
@@ -1305,7 +1305,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L BR PSL2",
         "tags": ["API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BR PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1314,7 +1314,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L BN PSL2",
         "tags": ["API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BN PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1323,7 +1323,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L BNS PSL2",
         "tags": ["API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BN PSL2", "API5L BNS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1332,7 +1332,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L BQ PSL2",
         "tags": ["API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BQ PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1341,7 +1341,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L BQS PSL2",
         "tags": ["API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BQ PSL2", "API5L BQS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1350,7 +1350,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L BM PSL2",
         "tags": ["API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BM PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1359,7 +1359,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L BMS PSL2",
         "tags": ["API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BM PSL2", "API5L BMS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1395,7 +1395,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X42R PSL2",
         "tags": ["API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42R PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1404,7 +1404,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X42N PSL2",
         "tags": ["API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42N PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1413,7 +1413,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X42NS PSL2",
         "tags": ["API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42N PSL2", "API5L X42NS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1422,7 +1422,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X42Q PSL2",
         "tags": ["API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42Q PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1431,7 +1431,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X42QS PSL2",
         "tags": ["API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42Q PSL2", "API5L X42QS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1440,7 +1440,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X42M PSL2",
         "tags": ["API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42M PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1449,7 +1449,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X42MS PSL2",
         "tags": ["API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42M PSL2", "API5L X42MS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1485,7 +1485,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF",  //to be created
+        "lunar": "00EFFF",  
         "name": "API5L X60N PSL2",
         "tags": ["API5L X60", "API5L X60 PSL1", "API5L X60 PSL2", "API5L X60N PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1494,7 +1494,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF",  //to be created
+        "lunar": "00EFFF",  
         "name": "API5L X60NS PSL2",
         "tags": ["API5L X60", "API5L X60 PSL1", "API5L X60 PSL2", "API5L X60N PSL2", "API5L X60NS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1503,7 +1503,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF",  //to be created
+        "lunar": "00EFFF",  
         "name": "API5L X60Q PSL2",
         "tags": ["API5L X60", "API5L X60 PSL1", "API5L X60 PSL2", "API5L X60Q PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1512,7 +1512,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF",  //to be created
+        "lunar": "00EFFF",  
         "name": "API5L X60QS PSL2",
         "tags": ["API5L X60", "API5L X60 PSL1", "API5L X60 PSL2", "API5L X60Q PSL2", "API5L X60QS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1521,7 +1521,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF",  //to be created
+        "lunar": "00EFFF",  
         "name": "API5L X60M PSL2",
         "tags": ["API5L X60", "API5L X60 PSL1", "API5L X60 PSL2", "API5L X60M PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1530,7 +1530,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF",  //to be created
+        "lunar": "00EFFF",  
         "name": "API5L X60MS PSL2",
         "tags": ["API5L X60", "API5L X60 PSL1", "API5L X60 PSL2", "API5L X60M PSL2", "API5L X60MS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1548,7 +1548,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF",  //to be created
+        "lunar": "00EFFF",  
         "name": "API5L X65 PSL1",
         "tags": ["API5L X65", "API5L X65 PSL1"],
         "steelType": "CARBON_STEEL",
@@ -1566,7 +1566,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X65Q PSL2",
         "tags": ["API5L X65", "API5L X65 PSL1", "API5L X65 PSL2", "API5L X65Q PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1575,7 +1575,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X65QS PSL2",
         "tags": ["API5L X65", "API5L X65 PSL1", "API5L X65 PSL2", "API5L X65Q PSL2", "API5L X65QS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1584,7 +1584,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X65M PSL2",
         "tags": ["API5L X65", "API5L X65 PSL1", "API5L X65 PSL2", "API5L X65M PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1593,7 +1593,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X65MS PSL2",
         "tags": ["API5L X65", "API5L X65 PSL1", "API5L X65 PSL2", "API5L X65M PSL2", "API5L X65MS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1611,7 +1611,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X70 PSL1",
         "tags": ["API5L X70", "API5L X70 PSL1"],
         "steelType": "CARBON_STEEL",
@@ -1620,7 +1620,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X70 PSL2",
         "tags": ["API5L X70", "API5L X70 PSL1", "API5L X70 PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1629,7 +1629,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X70Q PSL2",
         "tags": ["API5L X70", "API5L X70 PSL1", "API5L X70 PSL2", "API5L X70Q PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1638,7 +1638,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X70QS PSL2",
         "tags": ["API5L X70", "API5L X70 PSL1", "API5L X70 PSL2", "API5L X70Q PSL2", "API5L X70QS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1647,7 +1647,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X70M PSL2",
         "tags": ["API5L X70", "API5L X70 PSL1", "API5L X70 PSL2", "API5L X70M PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1656,7 +1656,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X70MS PSL2",
         "tags": ["API5L X70", "API5L X70 PSL1", "API5L X70 PSL2", "API5L X70M PSL2", "API5L X70MS PSL2"],
         "steelType": "CARBON_STEEL",
@@ -1701,7 +1701,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "141FFF", //to be created
+        "lunar": "141FFF", 
         "name": "A671 CC60",
         "tags": ["A671 CC60"],
         "steelType": "LOW_TEMP",
@@ -1872,7 +1872,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X52NS PSL2",
         "tags": ["API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52N PSL2", "API5L X52NS PSL2"],
         "steelType": "LOW_TEMP",
@@ -1881,7 +1881,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X52Q PSL2",
         "tags": ["API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52Q PSL2"],
         "steelType": "LOW_TEMP",
@@ -1890,7 +1890,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X52QS PSL2",
         "tags": ["API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52Q PSL2", "API5L X52QS PSL2"],
         "steelType": "LOW_TEMP",
@@ -1899,7 +1899,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X52M PSL2",
         "tags": ["API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52M PSL2"],
         "steelType": "LOW_TEMP",
@@ -1908,7 +1908,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "00EFFF", //to be created
+        "lunar": "00EFFF", 
         "name": "API5L X52MS PSL2",
         "tags": ["API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52M PSL2", "API5L X52MS PSL2"],
         "steelType": "LOW_TEMP",
@@ -1962,7 +1962,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "10EFFF", //to be created
+        "lunar": "10EFFF", 
         "name": "A335 P91/1",
         "tags": ["A335 P91", "A335 P91/1"],
         "steelType": "LOW_ALLOY",
@@ -1971,7 +1971,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "10EFFF", //to be created
+        "lunar": "10EFFF", 
         "name": "A335 P91/2",
         "tags": ["A335 P91", "A335 P91/2"],
         "steelType": "LOW_ALLOY",
@@ -1989,7 +1989,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0A777F", //to be created
+        "lunar": "0A777F", 
         "name": "A312 TP304/304L",
         "tags": ["A312 TP304", "A312 TP304L"],
         "steelType": "AUSTENITIC",
@@ -2079,7 +2079,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0A7FFF", //to be created
+        "lunar": "0A7FFF", 
         "name": "A312 TP321/321H",
         "tags": ["A312 TP321", "A312 TP321H"],
         "steelType": "AUSTENITIC",
@@ -2348,8 +2348,8 @@ module.exports = [
         "isComplete": true,
         "isMultiple": false
     },
-    { //two more: Hot-finished,  Annealed & Cold-worked,  Annealed (heat treatment missing)
-        "lunar": "FFF327", //Spec to be created
+    { 
+        "lunar": "FFF327", 
         "name": "A790 N08825",
         "tags": ["A790 N08825"],
         "steelType": "NICKEL_ALLOY",
@@ -2358,7 +2358,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "2302F6", //two more: Cold-worked,  Annealed & Cold-worked,  Stress-Relieved (heat treatment missing)
+        "lunar": "2302F6", 
         "name": "B165 N04400",
         "tags": ["B165 N04400"],
         "steelType": "NICKEL_ALLOY",
@@ -2367,7 +2367,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFFFFF", //Spec and Grade to be created
+        "lunar": "FFFFFF", 
         "name": "A515 60",
         "tags": ["A515 60"],
         "steelType": "CARBON_STEEL",
@@ -2376,7 +2376,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFFFFF", //Spec and Grade to be created
+        "lunar": "FFFFFF", 
         "name": "A515 65",
         "tags": ["A515 65"],
         "steelType": "CARBON_STEEL",
@@ -2385,7 +2385,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF34E", //Spec to be created
+        "lunar": "FFF34E", 
         "name": "A515 70",
         "tags": ["A515 70"],
         "steelType": "CARBON_STEEL",
@@ -2394,7 +2394,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFFFFF", //Spec and Grade to be created
+        "lunar": "FFFFFF", 
         "name": "A516 55",
         "tags": ["A516 55"],
         "steelType": "LOW_TEMP",
@@ -2403,7 +2403,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFFFFF", //Spec and Grade to be created
+        "lunar": "FFFFFF", 
         "name": "A516 60",
         "tags": ["A516 60"],
         "steelType": "LOW_TEMP",
@@ -2412,7 +2412,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFFFFF", //Spec and Grade to be created
+        "lunar": "FFFFFF", 
         "name": "A516 65",
         "tags": ["A516 65"],
         "steelType": "LOW_TEMP",
@@ -2421,7 +2421,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF34E", //Spec and Grade to be created
+        "lunar": "FFF34E", 
         "name": "A516 70",
         "tags": ["A516 70"],
         "steelType": "LOW_TEMP",
@@ -2466,7 +2466,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1CAFFF", //Grade to be created
+        "lunar": "1CAFFF", 
         "name": "A387 9 CL1",
         "tags": ["A387 9", "A387 9 CL1"],
         "steelType": "LOW_ALLOY",
@@ -2475,7 +2475,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1CAFFF", //Grade to be created
+        "lunar": "1CAFFF", 
         "name": "A387 9 CL2",
         "tags": ["A387 9", "A387 9 CL2"],
         "steelType": "LOW_ALLOY",
@@ -2547,7 +2547,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1CAFFF", //Grade to be created
+        "lunar": "1CAFFF", 
         "name": "A387 91/1",
         "tags": ["A387 91", "A387 91/1"],
         "steelType": "LOW_ALLOY",
@@ -2556,7 +2556,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1CAFFF", //Grade to be created
+        "lunar": "1CAFFF", 
         "name": "A387 91/2",
         "tags": ["A387 91", "A387 91/2"],
         "steelType": "LOW_ALLOY",
@@ -2645,7 +2645,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1CBFFF", //Grade to be created
+        "lunar": "1CBFFF", 
         "name": "A240 316H",
         "tags": ["A240 316H"],
         "steelType": "AUSTENITIC",
@@ -2654,7 +2654,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1CBFFF", //Grade to be created
+        "lunar": "1CBFFF", 
         "name": "A240 317",
         "tags": ["A240 317"],
         "steelType": "AUSTENITIC",
@@ -2672,7 +2672,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1CBFFF", //Grade to be created
+        "lunar": "1CBFFF", 
         "name": "A240 321/321H",
         "tags": ["A240 321", "A240 321H"],
         "steelType": "AUSTENITIC",
@@ -2753,7 +2753,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF2B9", //Spec to be created
+        "lunar": "FFF2B9", 
         "name": "B443 N06625",
         "tags": ["B443 N06625"],
         "steelType": "NICKEL_ALLOY",
@@ -2762,7 +2762,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF327", //Spec to be created
+        "lunar": "FFF327", 
         "name": "B424 N08825",
         "tags": ["B424 N08825"],
         "steelType": "NICKEL_ALLOY",
@@ -2771,7 +2771,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "FFF2F6", //Spec to be created
+        "lunar": "FFF2F6", 
         "name": "B127 N04400",
         "tags": ["B127 N04400"],
         "steelType": "NICKEL_ALLOY",
@@ -2783,25 +2783,25 @@ module.exports = [
         "lunar": "1AE2DF",
         "name": "A193 B7/A194 2H",
         "tags": ["A193 B7/A194 2H"],
-        "steelType": "CARBON_STEEL", //AISI 4140/4142
+        "steelType": "CARBON_STEEL", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B7/A194 4",
         "tags": ["A193 B7/A194 4"],
-        "steelType": "CARBON_STEEL", //AISI 4140/4142
+        "steelType": "CARBON_STEEL", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B7/A194 7",
         "tags": ["A193 B7/A194 7"],
-        "steelType": "CARBON_STEEL", //AISI 4140/4142
+        "steelType": "CARBON_STEEL", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2810,7 +2810,7 @@ module.exports = [
         "lunar": "1AD2E7",
         "name": "A320 L7/A194 4",
         "tags": ["A320 L7/A194 4"],
-        "steelType": "CARBON_STEEL", //AISI 4140/4142
+        "steelType": "CARBON_STEEL", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2819,7 +2819,7 @@ module.exports = [
         "lunar": "1AD55E",
         "name": "A320 L7/A194 7",
         "tags": ["A320 L7/A194 7"],
-        "steelType": "CARBON_STEEL", //AISI 4140/4142
+        "steelType": "CARBON_STEEL", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2828,13 +2828,13 @@ module.exports = [
         "lunar": "1AD6AE",
         "name": "A320 L7M/A194 7M",
         "tags": ["A320 L7M/A194 7M"],
-        "steelType": "CARBON_STEEL", //AISI 4140/4142
+        "steelType": "CARBON_STEEL", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 L43/A194 4",
         "tags": ["A320 L43/A194 4"],
         "steelType": "CARBON_STEEL",
@@ -2843,10 +2843,10 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 L43/A194 7",
         "tags": ["A320 L43/A194 7"],
-        "steelType": "CARBON_STEEL", //AISI 4340
+        "steelType": "CARBON_STEEL", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2855,7 +2855,7 @@ module.exports = [
         "lunar": "1AE4FA",
         "name": "A193 B8/A194 8",
         "tags": ["A193 B8/A194 8"],
-        "steelType": "AUSTENITIC", //AISI 304
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2864,7 +2864,7 @@ module.exports = [
         "lunar": "1AE623",
         "name": "A193 B8 CL1/A194 8",
         "tags": ["A193 B8/A194 8", "A193 B8 CL1/A194 8"],
-        "steelType": "AUSTENITIC", //AISI 304
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2873,7 +2873,7 @@ module.exports = [
         "lunar": "1AE624",
         "name": "A193 B8 CL2/A194 8",
         "tags": ["A193 B8/A194 8", "A193 B8 CL2/A194 8"],
-        "steelType": "AUSTENITIC", //AISI 304
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2882,16 +2882,16 @@ module.exports = [
         "lunar": "1AE4FE",
         "name": "A193 B8M/A194 8M",
         "tags": ["A193 B8M/A194 8M"],
-        "steelType": "AUSTENITIC", //AISI 316
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8M CL1/A194 8M",
         "tags": ["A193 B8M/A194 8M", "A193 B8M CL1/A194 8M"],
-        "steelType": "AUSTENITIC", //AISI 316
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2900,88 +2900,88 @@ module.exports = [
         "lunar": "1AE7C2",
         "name": "A193 B8M CL1/A194 8M",
         "tags": ["A193 B8M/A194 8M", "A193 B8M CL1/A194 8M"],
-        "steelType": "AUSTENITIC", //AISI 316
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8T/A194 8T",
         "tags": ["A193 B8T/A194 8T"],
-        "steelType": "AUSTENITIC", //AISI 321
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8T/A194 8T",
         "tags": ["A193 B8T/A194 8T", "A193 B8T CL1/A194 8T"],
-        "steelType": "AUSTENITIC", //AISI 321
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8T CL2/A194 8T",
         "tags": ["A193 B8T/A194 8T", "A193 B8T CL2/A194 8T"],
-        "steelType": "AUSTENITIC", //AISI 321
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8C/A194 8C",
         "tags": ["A193 B8C/A194 8C"],
-        "steelType": "AUSTENITIC", //AISI 347
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8C/A194 8C",
         "tags": ["A193 B8C/A194 8C", "A193 B8C CL1/A194 8C"],
-        "steelType": "AUSTENITIC", //AISI 347
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8C CL2/A194 8C",
         "tags": ["A193 B8C/A194 8C", "A193 B8C CL2/A194 8C"],
-        "steelType": "AUSTENITIC", //AISI 347
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8MLCuN/A194 B8MLCuN",
         "tags": ["A193 B8MLCuN/A194 B8MLCuN"],
-        "steelType": "AUSTENITIC", //AISI S31254
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1AEFFF", //Grade to be created
+        "lunar": "1AEFFF", 
         "name": "A193 B8MLCuNA/A194 B8MLCuNA",
         "tags": ["A193 B8MLCuNA/A194 B8MLCuNA"],
-        "steelType": "AUSTENITIC", //AISI S31254
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8/A194 8",
         "tags": ["A320 B8/A194 8"],
-        "steelType": "AUSTENITIC", //AISI 304
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2990,7 +2990,7 @@ module.exports = [
         "lunar": "1AD71E",
         "name": "A320 B8 CL1/A194 8",
         "tags": ["A320 B8/A194 8", "A320 B8 CL1/A194 8"],
-        "steelType": "AUSTENITIC", //AISI 304
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -2999,88 +2999,88 @@ module.exports = [
         "lunar": "1AD709",
         "name": "A320 B8 CL1/A194 8",
         "tags": ["A320 B8/A194 8", "A320 B8 CL2/A194 8"],
-        "steelType": "AUSTENITIC", //AISI 304
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8M/A194 8M",
         "tags": ["A320 B8M/A194 8M"],
-        "steelType": "AUSTENITIC", //AISI 316
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8M CL1/A194 8M",
         "tags": ["A320 B8M/A194 8M", "A320 B8M CL1/A194 8M"],
-        "steelType": "AUSTENITIC", //AISI 316
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8M CL1/A194 8M",
         "tags": ["A320 B8M/A194 8M", "A320 B8M CL2/A194 8M"],
-        "steelType": "AUSTENITIC", //AISI 316
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8T/A194 8T",
         "tags": ["A320 B8T/A194 8T"],
-        "steelType": "AUSTENITIC", //AISI 321
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8T CL1/A194 8T",
         "tags": ["A320 B8T/A194 8T", "A320 B8T CL1/A194 8T"],
-        "steelType": "AUSTENITIC", //AISI 321
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8T CL1/A194 8T",
         "tags": ["A320 B8T/A194 8T", "A320 B8T CL2/A194 8T"],
-        "steelType": "AUSTENITIC", //AISI 321
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8C/A194 8C",
         "tags": ["A320 B8C/A194 8C"],
-        "steelType": "AUSTENITIC", //AISI 347
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8C CL1/A194 8C",
         "tags": ["A320 B8C/A194 8C", "A320 B8C CL1/A194 8C"],
-        "steelType": "AUSTENITIC", //AISI 347
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "1ADFFF", //Grade to be created
+        "lunar": "1ADFFF", 
         "name": "A320 B8C CL2/A194 8C",
         "tags": ["A320 B8C/A194 8C", "A320 B8C CL2/A194 8C"],
-        "steelType": "AUSTENITIC", //AISI 347
+        "steelType": "AUSTENITIC", 
         "pffTypes": ["FASTENERS"],
         "isComplete": true,
         "isMultiple": false
@@ -3293,7 +3293,7 @@ module.exports = [
         "isMultiple": false
     },
     {
-        "lunar": "0D3FFF", //grade to be created
+        "lunar": "0D3FFF", 
         "name": "A182 F11/TRIM10",
         "tags": ["A182 F11/TRIM10"],
         "steelType": "LOW_ALLOY",
@@ -3930,5 +3930,5 @@ module.exports = [
         "pffTypes": ["SW_GASKETS"],
         "isComplete": true,
         "isMultiple": false
-    }
+    }  
 ]

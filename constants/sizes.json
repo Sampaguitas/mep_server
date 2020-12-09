@@ -1,11 +1,11 @@
-module.exports = [
+[
     {
         "nps": "1/8\"",
         "dn": "DN 6",
         "mm": 10.3,
         "in": 0.405,
         "lunar": "082",
-        "tags": ["1/8\"", "DN 6", "10.3 mm", "0.405\""],
+        "tags": ["1/8\"", "DN 6", "10.3 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -17,8 +17,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -27,7 +26,7 @@ module.exports = [
         "mm": 13.7,
         "in": 0.54,
         "lunar": "09A",
-        "tags": ["1/4\"", "DN 8", "13.7 mm", "0.54\""],
+        "tags": ["1/4\"", "DN 8", "13.7 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -39,8 +38,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -49,7 +47,7 @@ module.exports = [
         "mm": 17.1,
         "in": 0.675,
         "lunar": "0C0",
-        "tags": ["3/8\"", "DN 10", "17.1 mm", "17.2 mm", "0.675\""],
+        "tags": ["3/8\"", "DN 10", "17.1 mm", "17.2 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -61,8 +59,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -71,7 +68,7 @@ module.exports = [
         "mm": 21.3,
         "in": 0.84,
         "lunar": "0E4",
-        "tags": ["1/2\"", "DN 15", "21.3 mm", "20 mm", "0.84\""],
+        "tags": ["1/2\"", "DN 15", "21.3 mm", "20 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -83,8 +80,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -93,7 +89,7 @@ module.exports = [
         "mm": 26.7,
         "in": 1.05,
         "lunar": "10F",
-        "tags": ["3/4\"", "DN 20", "26.7 mm", "26.9 mm", "25 mm", "1.05\""],
+        "tags": ["3/4\"", "DN 20", "26.7 mm", "26.9 mm", "25 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -105,8 +101,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -115,7 +110,7 @@ module.exports = [
         "mm": 33.4,
         "in": 1.315,
         "lunar": "139",
-        "tags": ["1\"", "DN 25", "33.4 mm", "33.7 mm", "30 mm", "1.315\""],
+        "tags": ["1\"", "DN 25", "33.4 mm", "33.7 mm", "30 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -127,8 +122,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -137,7 +131,7 @@ module.exports = [
         "mm": 42.2,
         "in": 1.66,
         "lunar": "163",
-        "tags": ["1 1/4\"", "DN 32", "42.2 mm", "42.4 mm", "38 mm", "1.66\""],
+        "tags": ["1 1/4\"", "DN 32", "42.2 mm", "42.4 mm", "38 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -149,8 +143,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -159,7 +152,7 @@ module.exports = [
         "mm": 48.3,
         "in": 1.9,
         "lunar": "176",
-        "tags": ["1 1/2\"", "DN 40", "48.3 mm", "44.5 mm", "1.9\""],
+        "tags": ["1 1/2\"", "DN 40", "48.3 mm", "44.5 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -171,8 +164,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -181,7 +173,7 @@ module.exports = [
         "mm": 60.3,
         "in": 2.375,
         "lunar": "18E",
-        "tags": ["2\"", "DN 50", "60.3 mm", "57 mm", "2.375\""],
+        "tags": ["2\"", "DN 50", "60.3 mm", "57 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -193,8 +185,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -203,7 +194,7 @@ module.exports = [
         "mm": 73,
         "in": 2.875,
         "lunar": "1A1",
-        "tags": ["2 1/2\"", "DN 65", "73 mm", "76.1 mm", "2.875\""],
+        "tags": ["2 1/2\"", "DN 65", "73 mm", "76.1 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -215,8 +206,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -225,7 +215,7 @@ module.exports = [
         "mm": 88.9,
         "in": 3.5,
         "lunar": "1B8",
-        "tags": ["3\"", "DN 80", "88.9 mm", "3.5\""],
+        "tags": ["3\"", "DN 80", "88.9 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -237,8 +227,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -259,8 +248,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -269,7 +257,7 @@ module.exports = [
         "mm": 114.3,
         "in": 4.5,
         "lunar": "1D4",
-        "tags": ["4\"", "DN 100", "114.3 mm", "108 mm", "4.5\""],
+        "tags": ["4\"", "DN 100", "114.3 mm", "108 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -281,8 +269,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -291,7 +278,7 @@ module.exports = [
         "mm": 141.3,
         "in": 5.563,
         "lunar": "1F0",
-        "tags": ["5\"", "DN 125", "141.3 mm", "139.7 mm", "133 mm", "5.563\""],
+        "tags": ["5\"", "DN 125", "141.3 mm", "139.7 mm", "133 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -303,8 +290,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -313,7 +299,7 @@ module.exports = [
         "mm": 168.3,
         "in": 6.625,
         "lunar": "204",
-        "tags": ["6\"", "DN 150", "168.3 mm", "159 mm", "6.625\""],
+        "tags": ["6\"", "DN 150", "168.3 mm", "159 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -325,8 +311,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -335,7 +320,7 @@ module.exports = [
         "mm": 219.1,
         "in": 8.625,
         "lunar": "222",
-        "tags": ["8\"", "DN 200", "219.1 mm", "216 mm", "8.625\""],
+        "tags": ["8\"", "DN 200", "219.1 mm", "216 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -347,8 +332,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -357,7 +341,7 @@ module.exports = [
         "mm": 273,
         "in": 10.75,
         "lunar": "23E",
-        "tags": ["10\"", "DN 250", "273 mm", "267 mm", "10.75\""],
+        "tags": ["10\"", "DN 250", "273 mm", "267 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -369,8 +353,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -379,7 +362,7 @@ module.exports = [
         "mm": 323.8,
         "in": 12.75,
         "lunar": "24A",
-        "tags": ["12\"", "DN 300", "323.8 mm", "323.9 mm", "318 mm", "12.75\""],
+        "tags": ["12\"", "DN 300", "323.8 mm", "323.9 mm", "318 mm"],
         "pffTypes:": [
             "PIPES", 
             "PIPE_NIPPLES", 
@@ -391,8 +374,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -413,8 +395,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -435,8 +416,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -457,8 +437,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -479,8 +458,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -501,8 +479,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -523,8 +500,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -545,8 +521,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -567,8 +542,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -589,8 +563,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -611,8 +584,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -633,8 +605,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -655,8 +626,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -677,8 +647,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -699,8 +668,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -721,8 +689,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -743,8 +710,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -765,8 +731,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -787,8 +752,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -809,8 +773,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -831,8 +794,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -853,8 +815,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -875,8 +836,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -897,8 +857,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -919,8 +878,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -941,8 +899,7 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
         ]
     },
     {
@@ -963,8 +920,217 @@ module.exports = [
             "FORGED_FLANGES", 
             "EN_FLANGES", 
             "LINE_BLANKS", 
-            "MI_FITTINGS",
-            "SW_GASKETS"
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "88\"",
+        "dn": "DN 2200",
+        "mm": 2032,
+        "in": 88,
+        "lunar": "FFF",
+        "tags": ["88\"", "DN 2200", "2235 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "96\"",
+        "dn": "DN 2400",
+        "mm": 2438,
+        "in": 96,
+        "lunar": "FFF",
+        "tags": ["96\"", "DN 2400", "2438 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "104\"",
+        "dn": "DN 2600",
+        "mm": 2620,
+        "in": 104,
+        "lunar": "FFF",
+        "tags": ["104\"", "DN 2600", "2620 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "112\"",
+        "dn": "DN 2800",
+        "mm": 2820,
+        "in": 112,
+        "lunar": "FFF",
+        "tags": ["112\"", "DN 2800", "2820 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "120\"",
+        "dn": "DN 3000",
+        "mm": 3020,
+        "in": 120,
+        "lunar": "FFF",
+        "tags": ["120\"", "DN 3000", "3020 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "128\"",
+        "dn": "DN 3200",
+        "mm": 3220,
+        "in": 128,
+        "lunar": "FFF",
+        "tags": ["128\"", "DN 3200", "3220 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "136\"",
+        "dn": "DN 3400",
+        "mm": 3420,
+        "in": 136,
+        "lunar": "FFF",
+        "tags": ["136\"", "DN 3400", "3420 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "144\"",
+        "dn": "DN 3600",
+        "mm": 3620,
+        "in": 144,
+        "lunar": "FFF",
+        "tags": ["144\"", "DN 3600", "3620 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "152\"",
+        "dn": "DN 3800",
+        "mm": 3820,
+        "in": 152,
+        "lunar": "FFF",
+        "tags": ["152\"", "DN 3800", "3820 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
+        ]
+    },
+    {
+        "nps": "160\"",
+        "dn": "DN 4000",
+        "mm": 4020,
+        "in": 160,
+        "lunar": "FFF",
+        "tags": ["160\"", "DN 4000", "4020 mm"],
+        "pffTypes:": [
+            "PIPES", 
+            "PIPE_NIPPLES", 
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES", 
+            "FORGED_FITTINGS", 
+            "FORGED_OLETS", 
+            "VALVES", 
+            "FORGED_FLANGES", 
+            "EN_FLANGES", 
+            "LINE_BLANKS", 
+            "MI_FITTINGS"
         ]
     },
     {
@@ -1350,7 +1516,7 @@ module.exports = [
         "dn":"R-11",
         "mm":"",
         "in":"",
-        "lunar":"FFF",
+        "lunar":"FFF", 
         "tags": ["R-11"],
         "pffTypes": ["RING_GASKETS"]
     },
