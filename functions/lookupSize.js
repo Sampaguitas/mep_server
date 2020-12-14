@@ -1,5 +1,5 @@
 module.exports = function lookupSize(size) {
-    const found = require("../constants/sizes").find(element => element.tags.indexOf(size) > -1);
+    const found = require("../constants/sizes.json").find(element => element.tags.indexOf(size) > -1);
     if (found === undefined) {
         return {
             "lunar": "FFF", 

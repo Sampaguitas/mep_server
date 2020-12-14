@@ -1,5 +1,5 @@
 module.exports = function lookupType(type) {
-    const found = require('../constants/types').find(element => element.name === type);;
+    const found = require('../constants/types.json').find(element => element.name === type);;
     if (found === undefined) {
         return {
             'lunar': 'FFF',

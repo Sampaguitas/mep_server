@@ -49,3 +49,6 @@ app.use('/user/updatePwd', passport.authenticate('jwt', { session: false }), req
 
 //quote
 app.use('/quote/fake', passport.authenticate('jwt', { session: false }), require('./routes/quote/fake'));
+
+//dropbox
+app.use('/dropbox/steel_type', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/steel_type'));

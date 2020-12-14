@@ -1,4 +1,4 @@
-module.exports = [
+[
     {
         "lunar": "13",
         "name": "FF",
@@ -120,11 +120,6 @@ module.exports = [
         "pffTypes": ["MI_FITTINGS"]
     },
     {
-        "lunar": "18",
-        "name": "BSP",
-        "pffTypes": ["MI_FITTINGS"]
-    },
-    {
         "lunar": "34",
         "name": "FF A",
         "pffTypes": ["EN_FLANGES"]
@@ -168,5 +163,5 @@ module.exports = [
         "lunar": "8E",
         "name": "ORING GROOVE H",
         "pffTypes": ["EN_FLANGES"]
-    },
+    }
 ]

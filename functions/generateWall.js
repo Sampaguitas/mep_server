@@ -1,5 +1,5 @@
 module.exports = function lookupType(sizeId, wall) {
-    const found = require('../constants/walls').find(element => element.sizeId === sizeId && element.tags.indexOf(wall) > -1);;
+    const found = require('../constants/walls.json').find(element => element.sizeId === sizeId && element.tags.indexOf(wall) > -1);;
     if (found === undefined) {
         return {
             "lunar": "FFF",

@@ -24,7 +24,7 @@ module.exports = function lookupEnd(type, end) {
                     "name": "SCR"
                 }
             default:
-                const found = require("../constants/ends").find(element => element.name === end);
+                const found = require("../constants/ends.json").find(element => element.name === end);
                 if (found === undefined) {
                     return {
                         "lunar": "FF", 
@@ -38,7 +38,7 @@ module.exports = function lookupEnd(type, end) {
                 }
         }
     } else {
-        const found = require("../constants/ends").find(element => element.name === end);
+        const found = require("../constants/ends.json").find(element => element.name === end);
         if (found === undefined) {
             return {
                 "lunar": "FF", 
