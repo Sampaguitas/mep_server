@@ -52,3 +52,9 @@ app.use('/quote/fake', passport.authenticate('jwt', { session: false }), require
 
 //dropbox
 app.use('/dropbox/steel_type', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/steel_type'));
+app.use('/dropbox/pff_type', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/pff_type'));
+app.use('/dropbox/type', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/type'));
+app.use('/dropbox/size', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/size'));
+app.use('/dropbox/grade', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/grade'));
+app.use('/dropbox/end', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/end'));
+app.use('/dropbox/surface', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/surface'));

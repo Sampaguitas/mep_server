@@ -6,7 +6,7 @@
         "in": 0.405,
         "lunar": "082",
         "tags": ["1/8\"", "DN 6", "10.3 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -27,7 +27,7 @@
         "in": 0.54,
         "lunar": "09A",
         "tags": ["1/4\"", "DN 8", "13.7 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -48,7 +48,7 @@
         "in": 0.675,
         "lunar": "0C0",
         "tags": ["3/8\"", "DN 10", "17.1 mm", "17.2 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -68,8 +68,8 @@
         "mm": 21.3,
         "in": 0.84,
         "lunar": "0E4",
-        "tags": ["1/2\"", "DN 15", "21.3 mm", "20 mm"],
-        "pffTypes:": [
+        "tags": ["1/2\"", "DN 15", "20 mm", "21.3 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -89,8 +89,8 @@
         "mm": 26.7,
         "in": 1.05,
         "lunar": "10F",
-        "tags": ["3/4\"", "DN 20", "26.7 mm", "26.9 mm", "25 mm"],
-        "pffTypes:": [
+        "tags": ["3/4\"", "DN 20", "25 mm", "26.7 mm", "26.9 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -110,8 +110,8 @@
         "mm": 33.4,
         "in": 1.315,
         "lunar": "139",
-        "tags": ["1\"", "DN 25", "33.4 mm", "33.7 mm", "30 mm"],
-        "pffTypes:": [
+        "tags": ["1\"", "DN 25", "30 mm", "33.4 mm", "33.7 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -131,8 +131,8 @@
         "mm": 42.2,
         "in": 1.66,
         "lunar": "163",
-        "tags": ["1 1/4\"", "DN 32", "42.2 mm", "42.4 mm", "38 mm"],
-        "pffTypes:": [
+        "tags": ["1 1/4\"", "DN 32", "38 mm", "42.2 mm", "42.4 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -152,8 +152,8 @@
         "mm": 48.3,
         "in": 1.9,
         "lunar": "176",
-        "tags": ["1 1/2\"", "DN 40", "48.3 mm", "44.5 mm"],
-        "pffTypes:": [
+        "tags": ["1 1/2\"", "DN 40", "44.5 mm", "48.3 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -173,8 +173,8 @@
         "mm": 60.3,
         "in": 2.375,
         "lunar": "18E",
-        "tags": ["2\"", "DN 50", "60.3 mm", "57 mm"],
-        "pffTypes:": [
+        "tags": ["2\"", "DN 50", "57 mm", "60.3 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -194,8 +194,8 @@
         "mm": 73,
         "in": 2.875,
         "lunar": "1A1",
-        "tags": ["2 1/2\"", "DN 65", "73 mm", "76.1 mm"],
-        "pffTypes:": [
+        "tags": ["2 1/2\"", "DN 65", "76.1 mm", "73 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -216,7 +216,7 @@
         "in": 3.5,
         "lunar": "1B8",
         "tags": ["3\"", "DN 80", "88.9 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -237,7 +237,7 @@
         "in": 4,
         "lunar": "1C8",
         "tags": ["3 1/2\"", "DN 90", "101.6 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -257,8 +257,8 @@
         "mm": 114.3,
         "in": 4.5,
         "lunar": "1D4",
-        "tags": ["4\"", "DN 100", "114.3 mm", "108 mm"],
-        "pffTypes:": [
+        "tags": ["4\"", "DN 100", "108 mm", "114.3 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -278,8 +278,8 @@
         "mm": 141.3,
         "in": 5.563,
         "lunar": "1F0",
-        "tags": ["5\"", "DN 125", "141.3 mm", "139.7 mm", "133 mm"],
-        "pffTypes:": [
+        "tags": ["5\"", "DN 125", "133 mm", "139.7 mm", "141.3 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -299,8 +299,8 @@
         "mm": 168.3,
         "in": 6.625,
         "lunar": "204",
-        "tags": ["6\"", "DN 150", "168.3 mm", "159 mm"],
-        "pffTypes:": [
+        "tags": ["6\"", "DN 150", "159 mm", "168.3 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -320,8 +320,8 @@
         "mm": 219.1,
         "in": 8.625,
         "lunar": "222",
-        "tags": ["8\"", "DN 200", "219.1 mm", "216 mm"],
-        "pffTypes:": [
+        "tags": ["8\"", "DN 200", "216 mm", "219.1 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -341,8 +341,8 @@
         "mm": 273,
         "in": 10.75,
         "lunar": "23E",
-        "tags": ["10\"", "DN 250", "273 mm", "267 mm"],
-        "pffTypes:": [
+        "tags": ["10\"", "DN 250", "267 mm", "273 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -362,8 +362,8 @@
         "mm": 323.8,
         "in": 12.75,
         "lunar": "24A",
-        "tags": ["12\"", "DN 300", "323.8 mm", "323.9 mm", "318 mm"],
-        "pffTypes:": [
+        "tags": ["12\"", "DN 300", "318 mm", "323.8 mm", "323.9 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -384,7 +384,7 @@
         "in": 14,
         "lunar": "250",
         "tags": ["14\"", "DN 350", "355.6 mm", "368 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -405,7 +405,7 @@
         "in": 16,
         "lunar": "257",
         "tags": ["16\"", "DN 400", "406.4 mm", "419 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -426,7 +426,7 @@
         "in": 18,
         "lunar": "25C",
         "tags": ["18\"", "DN 450", "457 mm", "470 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -447,7 +447,7 @@
         "in": 20,
         "lunar": "261",
         "tags": ["20\"", "DN 500", "508 mm", "521 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -468,7 +468,7 @@
         "in": 22,
         "lunar": "265",
         "tags": ["22\"", "DN 550", "559 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -489,7 +489,7 @@
         "in": 24,
         "lunar": "268",
         "tags": ["24\"", "DN 600", "610 mm", "622 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -510,7 +510,7 @@
         "in": 26,
         "lunar": "26B",
         "tags": ["26\"", "DN 650", "660 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -531,7 +531,7 @@
         "in": 28,
         "lunar": "26E",
         "tags": ["28\"", "DN 700", "711 mm", "720 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -552,7 +552,7 @@
         "in": 30,
         "lunar": "26F",
         "tags": ["30\"", "DN 750", "762 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -573,7 +573,7 @@
         "in": 32,
         "lunar": "271",
         "tags": ["32\"", "DN 800", "813 mm", "820 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -594,7 +594,7 @@
         "in": 34,
         "lunar": "55B",
         "tags": ["34\"", "DN 850", "864 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -615,7 +615,7 @@
         "in": 36,
         "lunar": "275",
         "tags": ["36\"", "DN 900", "914 mm", "920 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -636,7 +636,7 @@
         "in": 38,
         "lunar": "557",
         "tags": ["38\"", "DN 950", "965 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -657,7 +657,7 @@
         "in": 40,
         "lunar": "278",
         "tags": ["40\"", "DN 1000", "1016 mm", "1020 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -678,7 +678,7 @@
         "in": 42,
         "lunar": "279",
         "tags": ["42\"", "DN 1050", "1067 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -699,7 +699,7 @@
         "in": 44,
         "lunar": "27B",
         "tags": ["44\"", "DN 1100", "1118 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -720,7 +720,7 @@
         "in": 46,
         "lunar": "560",
         "tags": ["46\"", "DN 1150", "1168 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -740,8 +740,8 @@
         "mm": 1219,
         "in": 48,
         "lunar": "27E",
-        "tags": ["48\"", "DN 1200", "1219 mm", "1220 mm"],
-        "pffTypes:": [
+        "tags": ["48\"", "DN 1200", "1220 mm", "1219 mm"],
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -762,7 +762,7 @@
         "in": 52,
         "lunar": "55A",
         "tags": ["52\"", "DN 1300", "1321 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -783,7 +783,7 @@
         "in": 56,
         "lunar": "2E9",
         "tags": ["56\"", "DN 1400", "1422 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -804,7 +804,7 @@
         "in": 60,
         "lunar": "282",
         "tags": ["60\"", "DN 1500", "1524 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -825,7 +825,7 @@
         "in": 64,
         "lunar": "558",
         "tags": ["64\"", "DN 1600", "1626 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -846,7 +846,7 @@
         "in": 68,
         "lunar": "55C",
         "tags": ["68\"", "DN 1700", "1727 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -867,7 +867,7 @@
         "in": 72,
         "lunar": "565",
         "tags": ["72\"", "DN 1800", "1829 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -888,7 +888,7 @@
         "in": 76,
         "lunar": "566",
         "tags": ["76\"", "DN 1900", "1930 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -909,7 +909,7 @@
         "in": 80,
         "lunar": "4CC",
         "tags": ["80\"", "DN 2000", "2032 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -930,7 +930,7 @@
         "in": 88,
         "lunar": "FFF",
         "tags": ["88\"", "DN 2200", "2235 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -951,7 +951,7 @@
         "in": 96,
         "lunar": "FFF",
         "tags": ["96\"", "DN 2400", "2438 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -972,7 +972,7 @@
         "in": 104,
         "lunar": "FFF",
         "tags": ["104\"", "DN 2600", "2620 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -993,7 +993,7 @@
         "in": 112,
         "lunar": "FFF",
         "tags": ["112\"", "DN 2800", "2820 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -1014,7 +1014,7 @@
         "in": 120,
         "lunar": "FFF",
         "tags": ["120\"", "DN 3000", "3020 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -1035,7 +1035,7 @@
         "in": 128,
         "lunar": "FFF",
         "tags": ["128\"", "DN 3200", "3220 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -1056,7 +1056,7 @@
         "in": 136,
         "lunar": "FFF",
         "tags": ["136\"", "DN 3400", "3420 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -1077,7 +1077,7 @@
         "in": 144,
         "lunar": "FFF",
         "tags": ["144\"", "DN 3600", "3620 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -1098,7 +1098,7 @@
         "in": 152,
         "lunar": "FFF",
         "tags": ["152\"", "DN 3800", "3820 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -1119,7 +1119,7 @@
         "in": 160,
         "lunar": "FFF",
         "tags": ["160\"", "DN 4000", "4020 mm"],
-        "pffTypes:": [
+        "pffTypes": [
             "PIPES", 
             "PIPE_NIPPLES", 
             "PIPE_FITTINGS",
@@ -1136,8 +1136,8 @@
     {
         "nps": "3/8\"",
         "dn": "3/8\"",
-        "mm": 9.5,
-        "in": 0.375,
+        "mm": "",
+        "in": "",
         "lunar": "079",
         "tags": ["3/8\""],
         "pffTypes": ["FASTENERS"]
@@ -1145,8 +1145,8 @@
     {
         "nps": "7/16\"",
         "dn": "7/16\"",
-        "mm": 11.1,
-        "in": 0.438,
+        "mm": "",
+        "in": "",
         "lunar": "086",
         "tags": ["7/16\""],
         "pffTypes": ["FASTENERS"]
@@ -1154,8 +1154,8 @@
     {
         "nps": "1/2\"",
         "dn": "1/2\"",
-        "mm": 12.7,
-        "in": 0.5,
+        "mm": "",
+        "in": "",
         "lunar": "08F",
         "tags": ["1/2\""],
         "pffTypes": ["FASTENERS"]
@@ -1163,8 +1163,8 @@
     {
         "nps": "9/16\"",
         "dn": "9/16\"",
-        "mm": 14.3,
-        "in": 0.563,
+        "mm": "",
+        "in": "",
         "lunar": "0A1",
         "tags": ["9/16\""],
         "pffTypes": ["FASTENERS"]
@@ -1172,8 +1172,8 @@
     {
         "nps": "5/8\"",
         "dn": "5/8\"",
-        "mm": 15.9,
-        "in": 0.625,
+        "mm": "",
+        "in": "",
         "lunar": "0B7",
         "tags": ["5/8\""],
         "pffTypes": ["FASTENERS"]
@@ -1181,8 +1181,8 @@
     {
         "nps": "3/4\"",
         "dn": "3/4\"",
-        "mm": 19.1,
-        "in": 0.75,
+        "mm": "",
+        "in": "",
         "lunar": "0D2",
         "tags": ["3/4\""],
         "pffTypes": ["FASTENERS"]
@@ -1190,8 +1190,8 @@
     {
         "nps": "7/8\"",
         "dn": "7/8\"",
-        "mm": 22.2,
-        "in": 0.875,
+        "mm": "",
+        "in": "",
         "lunar": "0EF",
         "tags": ["7/8\""],
         "pffTypes": ["FASTENERS"]
@@ -1199,8 +1199,8 @@
     {
         "nps": "1\"",
         "dn": "1\"",
-        "mm": 25.4,
-        "in": 1,
+        "mm": "",
+        "in": "",
         "lunar": "109",
         "tags": ["1\""],
         "pffTypes": ["FASTENERS"]
@@ -1208,8 +1208,8 @@
     {
         "nps": "1 1/8\"",
         "dn": "1 1/8\"",
-        "mm": 28.6,
-        "in": 1.125,
+        "mm": "",
+        "in": "",
         "lunar": "11F",
         "tags": ["1 1/8\""],
         "pffTypes": ["FASTENERS"]
@@ -1217,8 +1217,8 @@
     {
         "nps": "1 1/4\"",
         "dn": "1 1/4\"",
-        "mm": 31.8,
-        "in": 1.25,
+        "mm": "",
+        "in": "",
         "lunar": "131",
         "tags": ["1 1/4\""],
         "pffTypes": ["FASTENERS"]
@@ -1226,8 +1226,8 @@
     {
         "nps": "1 3/8\"",
         "dn": "1 3/8\"",
-        "mm": 34.9,
-        "in": 1.375,
+        "mm": "",
+        "in": "",
         "lunar": "140",
         "tags": ["1 3/8\""],
         "pffTypes": ["FASTENERS"]
@@ -1235,8 +1235,8 @@
     {
         "nps": "1 1/2\"",
         "dn": "1 1/2\"",
-        "mm": 38.1,
-        "in": 1.5,
+        "mm": "",
+        "in": "",
         "lunar": "152",
         "tags": ["1 1/2\""],
         "pffTypes": ["FASTENERS"]
@@ -1244,8 +1244,8 @@
     {
         "nps": "1 3/4\"",
         "dn": "1 3/4\"",
-        "mm": 44.5,
-        "in": 1.75,
+        "mm": "",
+        "in": "",
         "lunar": "16A",
         "tags": ["1 3/4\""],
         "pffTypes": ["FASTENERS"]
@@ -1253,8 +1253,8 @@
     {
         "nps": "1 7/8\"",
         "dn": "1 7/8\"",
-        "mm": 47.6,
-        "in": 1.875,
+        "mm": "",
+        "in": "",
         "lunar": "174",
         "tags": ["1 7/8\""],
         "pffTypes": ["FASTENERS"]
@@ -1262,8 +1262,8 @@
     {
         "nps": "2\"",
         "dn": "2\"",
-        "mm": 50.8,
-        "in": 2,
+        "mm": "",
+        "in": "",
         "lunar": "17A",
         "tags": ["2\""],
         "pffTypes": ["FASTENERS"]
@@ -1271,8 +1271,8 @@
     {
         "nps": "2 1/4\"",
         "dn": "2 1/4\"",
-        "mm": 57.2,
-        "in": 2.25,
+        "mm": "",
+        "in": "",
         "lunar": "189",
         "tags": ["2 1/4\""],
         "pffTypes": ["FASTENERS"]
@@ -1280,8 +1280,8 @@
     {
         "nps": "2 1/2\"",
         "dn": "2 1/2\"",
-        "mm": 63.5,
-        "in": 2.5,
+        "mm": "",
+        "in": "",
         "lunar": "195",
         "tags": ["2 1/2\""],
         "pffTypes": ["FASTENERS"]
@@ -1289,8 +1289,8 @@
     {
         "nps": "3\"",
         "dn": "3\"",
-        "mm": 76.2,
-        "in": 3,
+        "mm": "",
+        "in": "",
         "lunar": "1A6",
         "tags": ["3\""],
         "pffTypes": ["FASTENERS"]
@@ -1298,8 +1298,8 @@
     {
         "nps": "M10",
         "dn": "M10",
-        "mm": 10,
-        "in": 0.394,
+        "mm": "",
+        "in": "",
         "lunar": "080",
         "tags": ["M10"],
         "pffTypes": ["FASTENERS"]
@@ -1307,8 +1307,8 @@
     {
         "nps": "M12",
         "dn": "M12",
-        "mm": 12,
-        "in": 0.472,
+        "mm": "",
+        "in": "",
         "lunar": "08B",
         "tags": ["M12"],
         "pffTypes": ["FASTENERS"]
@@ -1316,8 +1316,8 @@
     {
         "nps": "M14",
         "dn": "M14",
-        "mm": 14,
-        "in": 0.551,
+        "mm": "",
+        "in": "",
         "lunar": "09D",
         "tags": ["M14"],
         "pffTypes": ["FASTENERS"]
@@ -1325,8 +1325,8 @@
     {
         "nps": "M16",
         "dn": "M16",
-        "mm": 16,
-        "in": 0.63,
+        "mm": "",
+        "in": "",
         "lunar": "0B8",
         "tags": ["M16"],
         "pffTypes": ["FASTENERS"]
@@ -1334,8 +1334,8 @@
     {
         "nps": "M18",
         "dn": "M18",
-        "mm": 18,
-        "in": 0.709,
+        "mm": "",
+        "in": "",
         "lunar": "0CA",
         "tags": ["M18"],
         "pffTypes": ["FASTENERS"]
@@ -1343,8 +1343,8 @@
     {
         "nps": "M20",
         "dn": "M20",
-        "mm": 20,
-        "in": 0.787,
+        "mm": "",
+        "in": "",
         "lunar": "0D9",
         "tags": ["M20"],
         "pffTypes": ["FASTENERS"]
@@ -1352,8 +1352,8 @@
     {
         "nps": "M22",
         "dn": "M22",
-        "mm": 22,
-        "in": 0.866,
+        "mm": "",
+        "in": "",
         "lunar": "0EE",
         "tags": ["M22"],
         "pffTypes": ["FASTENERS"]
@@ -1361,8 +1361,8 @@
     {
         "nps": "M24",
         "dn": "M24",
-        "mm": 24,
-        "in": 0.945,
+        "mm": "",
+        "in": "",
         "lunar": "0FF",
         "tags": ["M24"],
         "pffTypes": ["FASTENERS"]
@@ -1370,8 +1370,8 @@
     {
         "nps": "M27",
         "dn": "M27",
-        "mm": 27,
-        "in": 1.063,
+        "mm": "",
+        "in": "",
         "lunar": "112",
         "tags": ["M27"],
         "pffTypes": ["FASTENERS"]
@@ -1379,8 +1379,8 @@
     {
         "nps": "M30",
         "dn": "M30",
-        "mm": 30,
-        "in": 1.181,
+        "mm": "",
+        "in": "",
         "lunar": "125",
         "tags": ["M30"],
         "pffTypes": ["FASTENERS"]
@@ -1388,8 +1388,8 @@
     {
         "nps": "M33",
         "dn": "M33",
-        "mm": 33,
-        "in": 1.299,
+        "mm": "",
+        "in": "",
         "lunar": "135",
         "tags": ["M33"],
         "pffTypes": ["FASTENERS"]
@@ -1397,8 +1397,8 @@
     {
         "nps": "M36",
         "dn": "M36",
-        "mm": 36,
-        "in": 1.417,
+        "mm": "",
+        "in": "",
         "lunar": "149",
         "tags": ["M36"],
         "pffTypes": ["FASTENERS"]
@@ -1406,8 +1406,8 @@
     {
         "nps": "M39",
         "dn": "M39",
-        "mm": 39,
-        "in": 1.535,
+        "mm": "",
+        "in": "",
         "lunar": "156",
         "tags": ["M39"],
         "pffTypes": ["FASTENERS"]
@@ -1415,8 +1415,8 @@
     {
         "nps": "M42",
         "dn": "M42",
-        "mm": 42,
-        "in": 1.654,
+        "mm": "",
+        "in": "",
         "lunar": "161",
         "tags": ["M42"],
         "pffTypes": ["FASTENERS"]
@@ -1424,8 +1424,8 @@
     {
         "nps": "M45",
         "dn": "M45",
-        "mm": 45,
-        "in": 1.772,
+        "mm": "",
+        "in": "",
         "lunar": "16B",
         "tags": ["M45"],
         "pffTypes": ["FASTENERS"]
@@ -1433,8 +1433,8 @@
     {
         "nps": "M48",
         "dn": "M48",
-        "mm": 48,
-        "in": 1.89,
+        "mm": "",
+        "in": "",
         "lunar": "175",
         "tags": ["M48"],
         "pffTypes": ["FASTENERS"]
@@ -1442,8 +1442,8 @@
     {
         "nps": "M52",
         "dn": "M52",
-        "mm": 52,
-        "in": 2.047,
+        "mm": "",
+        "in": "",
         "lunar": "17E",
         "tags": ["M52"],
         "pffTypes": ["FASTENERS"]
@@ -1451,8 +1451,8 @@
     {
         "nps": "M56",
         "dn": "M56",
-        "mm": 56,
-        "in": 2.205,
+        "mm": "",
+        "in": "",
         "lunar": "185",
         "tags": ["M56"],
         "pffTypes": ["FASTENERS"]
@@ -1460,8 +1460,8 @@
     {
         "nps": "M60",
         "dn": "M60",
-        "mm": 60,
-        "in": 2.362,
+        "mm": "",
+        "in": "",
         "lunar": "18D",
         "tags": ["M60"],
         "pffTypes": ["FASTENERS"]
@@ -1469,8 +1469,8 @@
     {
         "nps": "M64",
         "dn": "M64",
-        "mm": 64,
-        "in": 2.52,
+        "mm": "",
+        "in": "",
         "lunar": "46E",
         "tags": ["M64"],
         "pffTypes": ["FASTENERS"]
@@ -1478,8 +1478,8 @@
     {
         "nps": "M68",
         "dn": "M68",
-        "mm": 68,
-        "in": 2.677,
+        "mm": "",
+        "in": "",
         "lunar": "2B9",
         "tags": ["M68"],
         "pffTypes": ["FASTENERS"]
@@ -1487,8 +1487,8 @@
     {
         "nps": "M72",
         "dn": "M72",
-        "mm": 72,
-        "in": 2.834,
+        "mm": "",
+        "in": "",
         "lunar": "29E",
         "tags": ["M72"],
         "pffTypes": ["FASTENERS"]
@@ -1496,8 +1496,8 @@
     {
         "nps": "M76",
         "dn": "M76",
-        "mm": 76,
-        "in": 2.992,
+        "mm": "",
+        "in": "",
         "lunar": "1A4",
         "tags": ["M76"],
         "pffTypes": ["FASTENERS"]
@@ -1505,8 +1505,8 @@
     {
         "nps": "M80",
         "dn": "M80",
-        "mm": 80,
-        "in": 3.15,
+        "mm": "",
+        "in": "",
         "lunar": "1AA",
         "tags": ["M80"],
         "pffTypes": ["FASTENERS"]

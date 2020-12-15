@@ -1,0 +1,178 @@
+[
+    {
+        "lunar": "32",
+        "name": "HDG",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "FBE Coating",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "3LPE/PP Coating",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "Liquid epoxy Coating",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "Liquid polyurethane (PU) Coating",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "Polyurethane foam (PUF) Coating",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "Polypropylene (PP) foam Coating",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "Liquid epoxy Lining",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "Liquid polyurethane (PU) Lining",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "FBE Lining",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    },
+    {
+        "lunar": "FF",
+        "name": "Cement Mortar Lining (CML)",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES", 
+            "SWAGE_NIPPLES",
+            "PIPE_FITTINGS",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "VALVES"
+        ]
+    }
+]
