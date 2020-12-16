@@ -1,0 +1,562 @@
+[
+    {
+        "name": "SRL",
+        "lunar": "5E0",
+        "pffTypes": [
+            "PIPES"
+        ]
+    },
+    {
+        "name": "DRL",
+        "lunar": "5DF",
+        "pffTypes": [
+            "PIPES"
+        ]
+    },
+    {
+        "name": "30 mm",
+        "lunar": "620",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "40 mm",
+        "lunar": "623",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "50 mm",
+        "lunar": "625",
+        "pffTypes": [
+            "FASTENERS",
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "55 mm",
+        "lunar": "8FD",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "60 mm",
+        "lunar": "628",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "65 mm",
+        "lunar": "74D",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "70 mm",
+        "lunar": "6D8",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "75 mm",
+        "lunar": "629",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "80 mm",
+        "lunar": "62A",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "85 mm",
+        "lunar": "62B",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "90 mm",
+        "lunar": "62C",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "95 mm",
+        "lunar": "FFF",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "100 mm",
+        "lunar": "62E",
+        "pffTypes": [
+            "FASTENERS",
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "105 mm",
+        "lunar": "FFF",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "110 mm",
+        "lunar": "633",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "115 mm",
+        "lunar": "635",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "120 mm",
+        "lunar": "63B",
+        "pffTypes": [
+            "FASTENERS",
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "125 mm",
+        "lunar": "63C",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "135 mm",
+        "lunar": "640",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "140 mm",
+        "lunar": "8A0",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "145 mm",
+        "lunar": "643",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "150 mm",
+        "lunar": "644",
+        "pffTypes": [
+            "FASTENERS",
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "160 mm",
+        "lunar": "64B",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "165 mm",
+        "lunar": "652",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "170 mm",
+        "lunar": "656",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "175 mm",
+        "lunar": "658",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "180 mm",
+        "lunar": "667",
+        "pffTypes": [
+            "FASTENERS",
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "185 mm",
+        "lunar": "65A",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "190 mm",
+        "lunar": "65D",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "195 mm",
+        "lunar": "661",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "200 mm",
+        "lunar": "663",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "205 mm",
+        "lunar": "671",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "210 mm",
+        "lunar": "6AD",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "215 mm",
+        "lunar": "673",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "220 mm",
+        "lunar": "674",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "230 mm",
+        "lunar": "67A",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "235 mm",
+        "lunar": "67B",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "250 mm",
+        "lunar": "67D",
+        "pffTypes": [
+            "FASTENERS",
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "255 mm",
+        "lunar": "67F",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "260 mm",
+        "lunar": "680",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "275 mm",
+        "lunar": "684",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "280 mm",
+        "lunar": "686",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "285 mm",
+        "lunar": "687",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "290 mm",
+        "lunar": "6B9",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "300 mm",
+        "lunar": "689",
+        "pffTypes": [
+            "FASTENERS",
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "325 mm",
+        "lunar": "68F",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "335 mm",
+        "lunar": "691",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "345 mm",
+        "lunar": "693",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "350 mm",
+        "lunar": "695",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "375 mm",
+        "lunar": "69C",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "380 mm",
+        "lunar": "69D",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "400 mm",
+        "lunar": "6A0",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "405 mm",
+        "lunar": "FFF",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "435 mm",
+        "lunar": "FFF",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "445 mm",
+        "lunar": "6A1",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "450 mm",
+        "lunar": "6B2",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "485 mm",
+        "lunar": "FFF",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "495 mm",
+        "lunar": "FFF",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "500 mm",
+        "lunar": "6A5",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "540 mm",
+        "lunar": "6B2",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "615 mm",
+        "lunar": "FFF",
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "name": "1 1/2\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "2\"",
+        "lunar": "926",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "2 1/2\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "3\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "3 1/2\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "4\"",
+        "lunar": "7B2",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "4 1/2\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "5\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "5 1/5\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "6\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "7\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "8\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "9\"",
+        "lunar": "7B9",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "10\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "11\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
+        "name": "12\"",
+        "lunar": "FFF",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    }
+]
