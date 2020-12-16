@@ -327,7 +327,25 @@
         "lunar": "024",
         "name": "ESWNI",
         "tags": ["ESWNI"],
-        "pffType": "PIPE_FITTINGS",
+        "pffType": "SWAGE_NIPPLES",
+        "specs": ["MSS SP-95"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ESWNI 3000",
+        "tags": ["ESWNI 3000"],
+        "pffType": "SWAGE_NIPPLES",
+        "specs": ["MSS SP-95"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ESWNI 6000",
+        "tags": ["ESWNI 6000"],
+        "pffType": "SWAGE_NIPPLES",
         "specs": ["MSS SP-95"],
         "isComplete": true,
         "isMultiple": false
@@ -336,7 +354,25 @@
         "lunar": "013",
         "name": "CSWNI",
         "tags": ["CSWNI"],
-        "pffType": "PIPE_FITTINGS",
+        "pffType": "SWAGE_NIPPLES",
+        "specs": ["ASME B16.9"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "476",
+        "name": "CSWNI 3000",
+        "tags": ["CSWNI 3000"],
+        "pffType": "SWAGE_NIPPLES",
+        "specs": ["ASME B16.9"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "477",
+        "name": "CSWNI 6000",
+        "tags": ["CSWNI 6000"],
+        "pffType": "SWAGE_NIPPLES",
         "specs": ["ASME B16.9"],
         "isComplete": true,
         "isMultiple": false
