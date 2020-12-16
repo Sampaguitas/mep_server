@@ -2,14 +2,14 @@ module.exports = function lookupEnd(type, end) {
     if (type.pffType === "PIPE_FITTINGS") {
         return {
             "lunar": "01",
-            "name": "BE",
+            "name": "BW",
         }
     } else if (type.pffType === "FORGED_OLETS") {
         switch(type.name) {
             case "WELDOL":
                 return {
                     "lunar": "01",
-                    "name": "BE"
+                    "name": "BW"
                 }
             case "SOCKOL 3000":
             case "SOCKOL 6000":

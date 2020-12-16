@@ -22,7 +22,12 @@
     {
         "lunar": "01",
         "name": "BE",
-        "pffTypes": ["PIPES", "PIPE_FITTINGS", "FORGED_OLETS"]
+        "pffTypes": ["PIPES"]
+    },
+    {
+        "lunar": "05",
+        "name": "BW",
+        "pffTypes": ["PIPE_FITTINGS", "FORGED_OLETS"]
     },
     {
         "lunar": "14",
