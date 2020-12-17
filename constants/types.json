@@ -414,6 +414,15 @@
         "isMultiple": false
     },
     {
+        "lunar": "FFF",
+        "name": "BOSS 9000",
+        "tags": ["BOSS 9000"],
+        "pffType": "FORGED_FITTINGS",
+        "specs": ["ASME B16.11"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "0E2",
         "name": "ELB 2000 90",
         "tags": ["ELB 2000 90"],
