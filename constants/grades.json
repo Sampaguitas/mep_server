@@ -2340,6 +2340,231 @@
         "isMultiple": false
     },
     {
+        "lunar": "0E90BA",
+        "name": "A928 S31803",
+        "tags": ["A928 S31803"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "2350BA",
+        "name": "A928 CL1 S31803",
+        "tags": ["A928 S31803", "A928 CL1 S31803"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "2360BA",
+        "name": "A928 CL3 S31803",
+        "tags": ["A928 S31803", "A928 CL3 S31803"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0E9101",
+        "name": "A928 S32205",
+        "tags": ["A928 S32205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "235101",
+        "name": "A928 CL1 S32205",
+        "tags": ["A928 S32205", "A928 CL1 S32205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "236101",
+        "name": "A928 CL3 S32205",
+        "tags": ["A928 S32205", "A928 CL3 S32205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0E9100",
+        "name": "A928 S32750",
+        "tags": ["A928 S32750"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "235100",
+        "name": "A928 CL1 S32750",
+        "tags": ["A928 S32750", "A928 CL1 S32750"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "236100",
+        "name": "A928 CL3 S32750",
+        "tags": ["A928 S32750", "A928 CL3 S32750"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0E90FF",
+        "name": "A928 S32760",
+        "tags": ["A928 S32760"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "2350FF",
+        "name": "A928 CL1 S32760",
+        "tags": ["A928 S32760", "A928 CL1 S32760"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "2360FF",
+        "name": "A928 CL3 S32760",
+        "tags": ["A928 S32760", "A928 CL3 S32760"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0E90BA",
+        "name": "A928 S31803",
+        "tags": ["A928 S31803"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "2350BA",
+        "name": "A928 CL1 S31803",
+        "tags": ["A928 S31803", "A928 CL1 S31803"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "2350BA",
+        "name": "A928 CL1 S31803/S2205",
+        "tags": ["A928 S31803", "A928 CL1 S31803", "A928 S2205", "A928 CL1 S2205", "A928 CL1 S31803/S2205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
+        "lunar": "2360BA",
+        "name": "A928 CL3 S31803",
+        "tags": ["A928 S31803", "A928 CL3 S31803"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0E9101",
+        "name": "A928 S32205",
+        "tags": ["A928 S32205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "235101",
+        "name": "A928 CL1 S32205",
+        "tags": ["A928 S32205", "A928 CL1 S32205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "236101",
+        "name": "A928 CL3 S32205",
+        "tags": ["A928 S32205", "A928 CL3 S32205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0E9100",
+        "name": "A928 S32750",
+        "tags": ["A928 S32750"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "235100",
+        "name": "A928 CL1 S32750",
+        "tags": ["A928 S32750", "A928 CL1 S32750"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "236100",
+        "name": "A928 CL3 S32750",
+        "tags": ["A928 S32750", "A928 CL3 S32750"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0E90FF",
+        "name": "A928 S32760",
+        "tags": ["A928 S32760"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "2350FF",
+        "name": "A928 CL2 S32760",
+        "tags": ["A928 S32760", "A928 CL2 S32760"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "2360FF",
+        "name": "A928 CL3 S32760",
+        "tags": ["A928 S32760", "A928 CL3 S32760"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "20F2B9",
         "name": "A790 N06625",
         "tags": ["A790 N06625"],
