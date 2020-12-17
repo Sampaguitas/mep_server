@@ -324,6 +324,24 @@
         "isMultiple": false
     },
     {
+        "lunar": "6CB",
+        "name": "TEE BARRED",
+        "tags": ["TEE BARRED"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["ASME B16.9"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "170",
+        "name": "LAT TEE",
+        "tags": ["LAT TEE"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["ASME B16.9"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "024",
         "name": "ESWNI",
         "tags": ["ESWNI"],
@@ -373,24 +391,6 @@
         "name": "CSWNI 6000",
         "tags": ["CSWNI 6000"],
         "pffType": "SWAGE_NIPPLES",
-        "specs": ["ASME B16.9"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "6CB",
-        "name": "TEE BARRED",
-        "tags": ["TEE BARRED"],
-        "pffType": "PIPE_FITTINGS",
-        "specs": ["ASME B16.9"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "170",
-        "name": "LAT TEE",
-        "tags": ["LAT TEE"],
-        "pffType": "PIPE_FITTINGS",
         "specs": ["ASME B16.9"],
         "isComplete": true,
         "isMultiple": false
@@ -450,36 +450,36 @@
         "isMultiple": false
     },
     {
-        "lunar": "0E3",
-        "name": "TEE 2000",
-        "tags": ["TEE 2000"],
+        "lunar": "0E1",
+        "name": "ELB 2000 45",
+        "tags": ["ELB 2000 45"],
         "pffType": "FORGED_FITTINGS",
         "specs": ["ASME B16.11"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "05C",
-        "name": "TEE 3000",
-        "tags": ["TEE 3000"],
+        "lunar": "019",
+        "name": "ELB 3000 45",
+        "tags": ["ELB 3000 45"],
         "pffType": "FORGED_FITTINGS",
         "specs": ["ASME B16.11"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "05D",
-        "name": "TEE 6000",
-        "tags": ["TEE 6000"],
+        "lunar": "01B",
+        "name": "ELB 6000 45",
+        "tags": ["ELB 6000 45"],
         "pffType": "FORGED_FITTINGS",
         "specs": ["ASME B16.11"],
         "isComplete": true,
         "isMultiple": false
     },
     {
-        "lunar": "0DE",
-        "name": "TEE 9000",
-        "tags": ["TEE 9000"],
+        "lunar": "15D",
+        "name": "ELB 9000 45",
+        "tags": ["ELB 9000 45"],
         "pffType": "FORGED_FITTINGS",
         "specs": ["ASME B16.11"],
         "isComplete": true,
@@ -516,42 +516,6 @@
         "lunar": "FFF", 
         "name": "CROSS 9000",
         "tags": ["CROSS 9000"],
-        "pffType": "FORGED_FITTINGS",
-        "specs": ["ASME B16.11"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "0E1",
-        "name": "ELB 2000 45",
-        "tags": ["ELB 2000 45"],
-        "pffType": "FORGED_FITTINGS",
-        "specs": ["ASME B16.11"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "019",
-        "name": "ELB 3000 45",
-        "tags": ["ELB 3000 45"],
-        "pffType": "FORGED_FITTINGS",
-        "specs": ["ASME B16.11"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "01B",
-        "name": "ELB 6000 45",
-        "tags": ["ELB 6000 45"],
-        "pffType": "FORGED_FITTINGS",
-        "specs": ["ASME B16.11"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "15D",
-        "name": "ELB 9000 45",
-        "tags": ["ELB 9000 45"],
         "pffType": "FORGED_FITTINGS",
         "specs": ["ASME B16.11"],
         "isComplete": true,
@@ -698,6 +662,51 @@
         "tags": ["INS 6000"],
         "pffType": "FORGED_FITTINGS",
         "specs": ["MSS SP-79"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "057",
+        "name": "STR ELB 3000 90",
+        "tags": ["STR ELB 3000 90"],
+        "pffType": "FORGED_FITTINGS",
+        "specs": ["ASME B16.11"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0E3",
+        "name": "TEE 2000",
+        "tags": ["TEE 2000"],
+        "pffType": "FORGED_FITTINGS",
+        "specs": ["ASME B16.11"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "05C",
+        "name": "TEE 3000",
+        "tags": ["TEE 3000"],
+        "pffType": "FORGED_FITTINGS",
+        "specs": ["ASME B16.11"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "05D",
+        "name": "TEE 6000",
+        "tags": ["TEE 6000"],
+        "pffType": "FORGED_FITTINGS",
+        "specs": ["ASME B16.11"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0DE",
+        "name": "TEE 9000",
+        "tags": ["TEE 9000"],
+        "pffType": "FORGED_FITTINGS",
+        "specs": ["ASME B16.11"],
         "isComplete": true,
         "isMultiple": false
     },
