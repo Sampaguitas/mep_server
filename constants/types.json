@@ -612,6 +612,15 @@
         "isMultiple": false
     },
     {
+        "lunar": "032",
+        "name": "HNIP 3000",
+        "tags": ["HNIP 3000"],
+        "pffType": "FORGED_FITTINGS",
+        "specs": ["ASME B16.11"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "00D",
         "name": "CAP 3000",
         "tags": ["CAP 3000"],
