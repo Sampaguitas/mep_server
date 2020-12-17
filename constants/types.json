@@ -486,6 +486,15 @@
         "isMultiple": false
     },
     {
+        "lunar": "057",
+        "name": "STR ELB 3000 90",
+        "tags": ["STR ELB 3000 90"],
+        "pffType": "FORGED_FITTINGS",
+        "specs": ["ASME B16.11"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "0E0",
         "name": "CROSS 2000",
         "tags": ["CROSS 2000"],
@@ -662,15 +671,6 @@
         "tags": ["INS 6000"],
         "pffType": "FORGED_FITTINGS",
         "specs": ["MSS SP-79"],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "057",
-        "name": "STR ELB 3000 90",
-        "tags": ["STR ELB 3000 90"],
-        "pffType": "FORGED_FITTINGS",
-        "specs": ["ASME B16.11"],
         "isComplete": true,
         "isMultiple": false
     },
