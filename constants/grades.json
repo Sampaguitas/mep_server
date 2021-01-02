@@ -2277,6 +2277,15 @@
         "isMultiple": false
     },
     {
+        "lunar": "0E80BA",
+        "name": "A790 S31803/S32205",
+        "tags": ["A790 S31803", "A790 S32205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
         "lunar": "0E8101",
         "name": "A790 S32205",
         "tags": ["A790 S32205"],
