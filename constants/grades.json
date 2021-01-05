@@ -387,6 +387,15 @@
         "isMultiple": false
     },
     {
+        "lunar": "0CC0C4",
+        "name": "A815 WPS31803/WPS32205",
+        "tags": ["A815 WPS31803", "A815 WPS32205"],
+        "steelType": "DUPLEX",
+        "pffTypes": ["PIPE_FITTINGS", "SWAGE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
         "lunar": "0CC101",
         "name": "A815 WPS32205",
         "tags": ["A815 WPS32205"],
