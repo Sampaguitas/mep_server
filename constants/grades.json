@@ -1989,6 +1989,69 @@
         "isMultiple": false
     },
     {
+        "lunar": "20132A",
+        "name": "A213 TP316",
+        "tags": ["A213 TP316"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "201780",
+        "name": "A213 TP316/316L",
+        "tags": ["A213 TP316", "A213 TP316L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
+        "lunar": "0A3780",
+        "name": "A213/A269 TP316/316L",
+        "tags": ["A213 TP316", "A213 TP316L", "A269 TP316", "A269 TP316L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
+        "lunar": "20132B",
+        "name": "A213 TP316L",
+        "tags": ["A213 TP316L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "03532A",
+        "name": "A269 TP316",
+        "tags": ["A269 TP316"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "035780",
+        "name": "A269 TP316/316L",
+        "tags": ["A269 TP316", "A269 TP316L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
+        "lunar": "03532B",
+        "name": "A269 TP316L",
+        "tags": ["A269 TP316L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "0A7328",
         "name": "A312 TP304",
         "tags": ["A312 TP304"],
