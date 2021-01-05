@@ -1989,6 +1989,42 @@
         "isMultiple": false
     },
     {
+        "lunar": "201328",
+        "name": "A213 TP304",
+        "tags": ["A213 TP304"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "20177F",
+        "name": "A213 TP304/304L",
+        "tags": ["A213 TP304", "A213 TP304L", "A213 TP304/304L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
+        "lunar": "0A377F",
+        "name": "A213/A269 TP304/304L",
+        "tags": ["A213 TP304", "A213 TP304L", "A269 TP304", "A269 TP304L", "A213/A269 TP304/304L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
+        "lunar": "201329",
+        "name": "A213 TP304L",
+        "tags": ["A213 TP304L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "20132A",
         "name": "A213 TP316",
         "tags": ["A213 TP316"],
@@ -2019,6 +2055,33 @@
         "lunar": "20132B",
         "name": "A213 TP316L",
         "tags": ["A213 TP316L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "035328",
+        "name": "A269 TP304",
+        "tags": ["A269 TP304"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "03577F",
+        "name": "A269 TP304/304L",
+        "tags": ["A269 TP304", "A269 TP304L", "A269 TP304/304L"],
+        "steelType": "AUSTENITIC",
+        "pffTypes": ["PIPES", "PIPE_NIPPLES"],
+        "isComplete": true,
+        "isMultiple": true
+    },
+    {
+        "lunar": "035329",
+        "name": "A269 TP304L",
+        "tags": ["A269 TP304L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
