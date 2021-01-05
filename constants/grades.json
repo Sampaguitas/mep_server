@@ -11,7 +11,7 @@
     {
         "lunar": "009051", 
         "name": "A420 WPB/WPL6",
-        "tags": ["A234 WPB", "A420 WPL6"],
+        "tags": ["A234 WPB", "A420 WPL6", "A420 WPB/WPL6"],
         "steelType": "LOW_TEMP",
         "pffTypes": ["PIPE_FITTINGS", "SWAGE_NIPPLES"],
         "isComplete": true,
@@ -20,7 +20,7 @@
     {
         "lunar": "22D6F8",
         "name": "A234 WPB/A420 WPL6/A860 WPHY52",
-        "tags": ["A234 WPB", "A420 WPL6", "A860 WPHY52"],
+        "tags": ["A234 WPB", "A420 WPL6", "A860 WPHY52", "A234 WPB/A420 WPL6/A860 WPHY52"],
         "steelType": "LOW_TEMP",
         "pffTypes": ["PIPE_FITTINGS", "SWAGE_NIPPLES"],
         "isComplete": true,
@@ -236,7 +236,7 @@
     {
         "lunar": "0D677F", 
         "name": "A403 WP304/304L",
-        "tags": ["A403 WP304", "A403 WP304L"],
+        "tags": ["A403 WP304", "A403 WP304L", "A403 WP304/304L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPE_FITTINGS", "SWAGE_NIPPLES"],
         "isComplete": true,
@@ -272,7 +272,7 @@
     {
         "lunar": "0D6780", 
         "name": "A403 WP316/316L",
-        "tags": ["A403 WP316", "A403 WP316L"],
+        "tags": ["A403 WP316", "A403 WP316L", "A403 WP316/316L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPE_FITTINGS", "SWAGE_NIPPLES"],
         "isComplete": true,
@@ -326,7 +326,7 @@
     {
         "lunar": "0D6FFF", 
         "name": "A403 WP321/321H",
-        "tags": ["A403 WP321", "A403 WP321H"],
+        "tags": ["A403 WP321", "A403 WP321H", "A403 WP321/321H"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPE_FITTINGS", "SWAGE_NIPPLES"],
         "isComplete": true,
@@ -389,7 +389,7 @@
     {
         "lunar": "0CC0C4",
         "name": "A815 WPS31803/WPS32205",
-        "tags": ["A815 WPS31803", "A815 WPS32205"],
+        "tags": ["A815 WPS31803", "A815 WPS32205", "A815 WPS31803/WPS32205"],
         "steelType": "DUPLEX",
         "pffTypes": ["PIPE_FITTINGS", "SWAGE_NIPPLES"],
         "isComplete": true,
@@ -479,7 +479,7 @@
     {
         "lunar": "229009",
         "name": "A105N/A350 LF2 CL1",
-        "tags": ["A105", "A105N", "A350 LF2", "A350 LF2 CL1"],
+        "tags": ["A105", "A105N", "A350 LF2", "A350 LF2 CL1", "A105N/A350 LF2 CL1"],
         "steelType": "LOW_TEMP",
         "pffTypes": ["FORGED_FLANGES",  "EN_FLANGES", "FORGED_FITTINGS", "SWAGE_NIPPLES", "FORGED_OLETS", "LINE_BLANKS"],
         "isComplete": true,
@@ -488,7 +488,7 @@
     {
         "lunar": "22A0A2", 
         "name": "A105N/A350 LF2 CL1/A694 F52",
-        "tags": ["A105", "A105N", "A350 LF2", "A350 LF2 CL1", "A694 F52"],
+        "tags": ["A105", "A105N", "A350 LF2", "A350 LF2 CL1", "A694 F52", "A105N/A350 LF2 CL1/A694 F52"],
         "steelType": "LOW_TEMP",
         "pffTypes": ["FORGED_FLANGES",  "EN_FLANGES", "FORGED_FITTINGS", "SWAGE_NIPPLES", "FORGED_OLETS", "LINE_BLANKS"],
         "isComplete": true,
@@ -766,7 +766,7 @@
     {
         "lunar": "0D3760",
         "name": "A182 F304/304L",
-        "tags": ["A182 F304", "A182 F304L"],
+        "tags": ["A182 F304", "A182 F304L", "A182 F304/304L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["FORGED_FLANGES",  "EN_FLANGES", "FORGED_FITTINGS", "SWAGE_NIPPLES", "FORGED_OLETS", "LINE_BLANKS"],
         "isComplete": true,
@@ -820,7 +820,7 @@
     {
         "lunar": "0D3745",
         "name": "A182 F316/316L",
-        "tags": ["A182 F316", "A182 F316L"],
+        "tags": ["A182 F316", "A182 F316L", "A182 F316/316L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["FORGED_FLANGES",  "EN_FLANGES", "FORGED_FITTINGS", "SWAGE_NIPPLES", "FORGED_OLETS", "LINE_BLANKS"],
         "isComplete": true,
@@ -866,7 +866,7 @@
     {
         "lunar": "0D3FFF", 
         "name": "A182 F321/321H",
-        "tags": ["A182 F321", "A182 F321H"],
+        "tags": ["A182 F321", "A182 F321H", "A182 F321/321H"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["FORGED_FLANGES",  "EN_FLANGES", "FORGED_FITTINGS", "SWAGE_NIPPLES", "FORGED_OLETS", "LINE_BLANKS"],
         "isComplete": true,
@@ -1046,7 +1046,7 @@
     {
         "lunar": "00F2B4",
         "name": "A53 B/API5L B PSL1",
-        "tags": ["A53 B", "API5L B", "API5L B PSL1"],
+        "tags": ["A53 B", "API5L B", "API5L B PSL1", "A53 B/API5L B PSL1"],
         "steelType": "CARBON_STEEL",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -1055,7 +1055,7 @@
     {
         "lunar": "1182B4",
         "name": "A53 B/A106 B/API5L B PSL1",
-        "tags": ["A53 B", "A106 B", "API5L B", "API5L B PSL1"],
+        "tags": ["A53 B", "A106 B", "API5L B", "API5L B PSL1", "A53 B/A106 B/API5L B PSL1"],
         "steelType": "CARBON_STEEL",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -1064,7 +1064,7 @@
     {
         "lunar": "118026",
         "name": "A53 B/A106 B/API5L X42 PSL1",
-        "tags": ["A53 B", "A106 B", "API5L X42", "API5L X42 PSL1"],
+        "tags": ["A53 B", "A106 B", "API5L X42", "API5L X42 PSL1", "A53 B/A106 B/API5L X42 PSL1"],
         "steelType": "CARBON_STEEL",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -1082,7 +1082,7 @@
     {
         "lunar": "0E72B4",
         "name": "A106 B/API5L B PSL1",
-        "tags": ["A106 B", "API5L B", "API5L B PSL1"],
+        "tags": ["A106 B", "API5L B", "API5L B PSL1", "A106 B/API5L B PSL1"],
         "steelType": "CARBON_STEEL",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -1091,7 +1091,7 @@
     {
         "lunar": "0E719F", 
         "name": "A106 B/API5L BNS PSL2",
-        "tags": ["A106 B", "API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BN PSL2", "API5L BNS PSL2"],
+        "tags": ["A106 B", "API5L B", "API5L B PSL1", "API5L B PSL2", "API5L BN PSL2", "API5L BNS PSL2", "A106 B/API5L BNS PSL2"],
         "steelType": "CARBON_STEEL",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -1100,7 +1100,7 @@
     {
         "lunar": "0E7026",
         "name": "A106 B/API5L X42 PSL1",
-        "tags": ["A106 B", "API5L X42", "API5L X42 PSL1"],
+        "tags": ["A106 B", "API5L X42", "API5L X42 PSL1", "A106 B/API5L X42 PSL1"],
         "steelType": "CARBON_STEEL",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -1109,7 +1109,7 @@
     {
         "lunar": "0E782E", 
         "name": "A106 B/API5L X42NS PSL2",
-        "tags": ["A106 B", "API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42N PSL2", "API5L X42NS PSL2"],
+        "tags": ["A106 B", "API5L X42", "API5L X42 PSL1", "API5L X42 PSL2", "API5L X42N PSL2", "API5L X42NS PSL2", "A106 B/API5L X42NS PSL2"],
         "steelType": "CARBON_STEEL",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -1127,7 +1127,7 @@
     {
         "lunar": "22C82F",
         "name": "A106 C/A333 6/API5L X52N PSL2",
-        "tags": ["A106 C", "A333 6", "API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52N PSL2"],
+        "tags": ["A106 C", "A333 6", "API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52N PSL2", "A106 C/A333 6/API5L X52N PSL2"],
         "steelType": "LOW_TEMP",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -1694,7 +1694,7 @@
     {
         "lunar": "22C82F",
         "name": "A333 6/API5L X52N PSL2",
-        "tags": ["A333 6", "API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52N PSL2"],
+        "tags": ["A333 6", "API5L X52", "API5L X52 PSL1", "API5L X52 PSL2", "API5L X52N PSL2", "A333 6/API5L X52N PSL2"],
         "steelType": "LOW_TEMP",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2000,7 +2000,7 @@
     {
         "lunar": "201780",
         "name": "A213 TP316/316L",
-        "tags": ["A213 TP316", "A213 TP316L"],
+        "tags": ["A213 TP316", "A213 TP316L", "A213 TP316/316L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2009,7 +2009,7 @@
     {
         "lunar": "0A3780",
         "name": "A213/A269 TP316/316L",
-        "tags": ["A213 TP316", "A213 TP316L", "A269 TP316", "A269 TP316L"],
+        "tags": ["A213 TP316", "A213 TP316L", "A269 TP316", "A269 TP316L", "A213/A269 TP316/316L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2036,7 +2036,7 @@
     {
         "lunar": "035780",
         "name": "A269 TP316/316L",
-        "tags": ["A269 TP316", "A269 TP316L"],
+        "tags": ["A269 TP316", "A269 TP316L", "A269 TP316/316L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2063,7 +2063,7 @@
     {
         "lunar": "0A777F", 
         "name": "A312 TP304/304L",
-        "tags": ["A312 TP304", "A312 TP304L"],
+        "tags": ["A312 TP304", "A312 TP304L", "A312 TP304/304L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2108,7 +2108,7 @@
     {
         "lunar": "0A7780",
         "name": "A312 TP316/316L",
-        "tags": ["A312 TP316", "A312 TP316L"],
+        "tags": ["A312 TP316", "A312 TP316L", "A312 TP316/316L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2153,7 +2153,7 @@
     {
         "lunar": "0A7FFF", 
         "name": "A312 TP321/321H",
-        "tags": ["A312 TP321", "A312 TP321H"],
+        "tags": ["A312 TP321", "A312 TP321H", "A312 TP321/321H"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2216,7 +2216,7 @@
     {
         "lunar": "0EA77F",
         "name": "A358 304/304L",
-        "tags": ["A358 304", "A358 304L"],
+        "tags": ["A358 304", "A358 304L", "A358 304/304L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2261,7 +2261,7 @@
     {
         "lunar": "0EA780",
         "name": "A358 316/316L",
-        "tags": ["A358 316", "A358 316L"],
+        "tags": ["A358 316", "A358 316L", "A358 316/316L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2351,7 +2351,7 @@
     {
         "lunar": "0E80BA",
         "name": "A790 S31803/S32205",
-        "tags": ["A790 S31803", "A790 S32205"],
+        "tags": ["A790 S31803", "A790 S32205", "A790 S31803/S32205"],
         "steelType": "DUPLEX",
         "pffTypes": ["PIPES", "PIPE_NIPPLES"],
         "isComplete": true,
@@ -2882,7 +2882,7 @@
     {
         "lunar": "1CB77F",
         "name": "A240 304/304L",
-        "tags": ["A240 304", "A240 304L"],
+        "tags": ["A240 304", "A240 304L", "A240 304/304L", "A240 304/304L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["LINE_BLANKS"],
         "isComplete": true,
@@ -2935,7 +2935,7 @@
     {
         "lunar": "1CB055",
         "name": "A240 316/316L",
-        "tags": ["A240 316", "A240 316L"],
+        "tags": ["A240 316", "A240 316L", "A240 316/316L"],
         "steelType": "AUSTENITIC",
         "pffTypes": ["LINE_BLANKS"],
         "isComplete": true,
