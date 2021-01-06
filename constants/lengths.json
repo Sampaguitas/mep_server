@@ -67,7 +67,8 @@
         "name": "75 mm",
         "lunar": "629",
         "pffTypes": [
-            "FASTENERS"
+            "FASTENERS",
+            "PIPE_NIPPLES"
         ]
     },
     {
