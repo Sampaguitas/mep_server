@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
     const size_one = decodeURI(req.query.size_one);
 
     let regMm = /^(\d|\.)* mm$/
-    let regIn = /^(\d|\.)* in$/
+    let regIn = /^(\d|\.)*\"$/
     let regIdt = /^(STD|XS|XXS)$/
     let regSch = [
         "CARBON_STEEL",
