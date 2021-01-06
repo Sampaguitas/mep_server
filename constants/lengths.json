@@ -21,6 +21,13 @@
         ]
     },
     {
+        "name": "38 mm",
+        "lunar": "8F7",
+        "pffTypes": [
+            "PIPE_NIPPLES"
+        ]
+    },
+    {
         "name": "40 mm",
         "lunar": "623",
         "pffTypes": [
