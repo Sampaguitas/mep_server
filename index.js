@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const passport = require('passport');
 const cors = require('cors');
 const fs = require('fs');
+var CronJob = require('cron').CronJob
 
 const app = express();
 
@@ -63,3 +64,25 @@ app.use('/dropbox/grade', passport.authenticate('jwt', { session: false }), requ
 app.use('/dropbox/length', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/length'));
 app.use('/dropbox/end', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/end'));
 app.use('/dropbox/surface', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/surface'));
+
+//cron
+cronRanges = [
+    { "_id": 0, "name": "Seconds", "range": "0-59" },
+    { "_id": 1, "name": "Minutes", "range": "0-59" },
+    { "_id": 2, "name": "Hours", "range": "0-23" },
+    { "_id": 3, "name": "Day of Month", "range": "1-31" },
+    { "_id": 4, "name": "Months", "range": "0-11 (Jan-Dec)" },
+    { "_id": 5, "name": "Day of Week", "range": "0-6 (Sun-Sat)" },
+]
+
+// var clearDownloadHistory = new CronJob('00 00 * * * *', function() {
+//     //run every hours
+//   console.log(new Date());
+// }, null, true, 'America/Los_Angeles');
+
+var updateRates = new CronJob('00 00 * * * *', function() {
+    require('./functions/updateRates')().then(res => console.log(res.message));
+}, null, true, 'America/Los_Angeles')
+
+updateRates.start();
+// clearDownloadHistory.start();
