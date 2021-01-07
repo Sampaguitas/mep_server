@@ -85,6 +85,7 @@ var updateRates = new CronJob('00 00 00 * * *', function() {
 }, null, true, 'Europe/London')
 
 // http://www.cma-cgm.com/ebusiness/prices-finder/GetQuoteLines/ST/2021-01-07?pol=BEANR&pod=AEJEA
+// http://www.cma-cgm.com/ebusiness/prices-finder/GetChargeDetail
 // https://www.cma-cgm.com/eBusiness/Schedules
 
 updateRates.start();
