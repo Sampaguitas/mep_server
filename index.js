@@ -80,9 +80,12 @@ cronRanges = [
 //   console.log(new Date());
 // }, null, true, 'America/Los_Angeles');
 
-var updateRates = new CronJob('00 00 * * * *', function() {
+var updateRates = new CronJob('00 00 00 * * *', function() {
     require('./functions/updateRates')().then(res => console.log(res.message));
-}, null, true, 'America/Los_Angeles')
+}, null, true, 'Europe/London')
+
+// http://www.cma-cgm.com/ebusiness/prices-finder/GetQuoteLines/ST/2021-01-07?pol=BEANR&pod=AEJEA
+// https://www.cma-cgm.com/eBusiness/Schedules
 
 updateRates.start();
 // clearDownloadHistory.start();
