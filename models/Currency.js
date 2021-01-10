@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const RateSchema = new Schema({
+const CurrencySchema = new Schema({
     _id: String,
     name: String,
     unitPerUsd: Number,
@@ -10,4 +10,4 @@ const RateSchema = new Schema({
 });
 // , {timestamps: true});
 
-module.exports = Rate = mongoose.model('rates', RateSchema);
+module.exports = Currency = mongoose.model('currencies', CurrencySchema);

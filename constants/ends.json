@@ -110,9 +110,9 @@
         "pffTypes": ["PIPE_NIPPLES"]
     },
     {
-        "lunar": "10",
-        "name": "SCR",
-        "pffTypes": ["FORGED_FITTINGS", "FORGED_OLETS", "VALVES"]
+        "lunar": "17",
+        "name": "NPT",
+        "pffTypes": ["FORGED_FITTINGS", "FORGED_OLETS", "VALVES", "MI_FITTINGS"]
     },
     {
         "lunar": "11",

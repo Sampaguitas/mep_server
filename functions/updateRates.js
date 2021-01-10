@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 const { JSDOM } = require("jsdom");
 const _ = require('lodash');
-const Rate = require('../models/Rate');
+const Currency = require('../models/Currency');
 
 module.exports = function updateRates() {
 
@@ -61,7 +61,7 @@ module.exports = function updateRates() {
 
 function upsertRate(rate) {
     return new Promise(function(resolve) {
-        Rate.findByIdAndUpdate(rate._id, rate, { new: true, upsert: true }, function(err, res) {
+        Currency.findByIdAndUpdate(rate._id, rate, { new: true, upsert: true }, function(err, res) {
             if (!!err || !res) {
                 resolve({ isRejected: true });
             } else {

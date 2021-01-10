@@ -1,4 +1,4 @@
 'use strict'
 require('./Quote');
 require('./User');
-require('./Rate');
+require('./Currency');

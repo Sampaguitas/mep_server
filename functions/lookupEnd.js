@@ -20,8 +20,8 @@ module.exports = function lookupEnd(type, end) {
             case "THREADOL 3000":
             case "THREADOL 6000":
                 return {
-                    "lunar": "10",
-                    "name": "SCR"
+                    "lunar": "17",
+                    "name": "NPT"
                 }
             default:
                 const found = require("../constants/ends.json").find(element => element.name === end);
