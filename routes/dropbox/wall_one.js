@@ -16,9 +16,16 @@ router.get('/', (req, res) => {
         "LOW_ALLOY",
     ].includes(steel_type) ? /^S\d*$/ : /^S\d*S?$/
 
-    let sizeObject = require('../../constants/sizes.json')
-    .find(e => e.pffTypes.includes(pff_type) && e.tags.includes(size_one))
-    if (!sizeObject || !sizeObject.mm) {
+    let noWallOne = [
+        "FORGED_FITTINGS",
+        "MI_FITTINGS",
+        "SW_GASKETS",
+        "FASTENERS",
+        "RING_GASKETS"
+    ]
+
+    let sizeObject = require('../../constants/sizes.json').find(e => e.tags.includes(size_one) && !!e.mm)
+    if (noWallOne.includes(pff_type) || !sizeObject) {
         res.status(200).json([])
     } else {
         let temp = require('../../constants/walls.json')
@@ -43,7 +50,10 @@ router.get('/', (req, res) => {
             "sch": [],
         });
 
-        res.status(200).json([...temp.idt, ...temp.sch, ...temp.mm, ...temp.in]);
+        res.status(200).json(
+            [...temp.idt, ...temp.sch, ...temp.mm, ...temp.in]
+            .filter((value, index, self) => self.indexOf(value) === index)
+        );
     }
 });
 

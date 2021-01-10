@@ -5,19 +5,24 @@
         "mm": 10.3,
         "in": 0.405,
         "lunar": "082",
-        "tags": ["1/8\"", "DN 6", "10.3 mm"],
+        "tags": [
+            "1/8\"",
+            "DN 6",
+            "10.3 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -26,19 +31,24 @@
         "mm": 13.7,
         "in": 0.54,
         "lunar": "09A",
-        "tags": ["1/4\"", "DN 8", "13.7 mm"],
+        "tags": [
+            "1/4\"",
+            "DN 8",
+            "13.7 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -47,19 +57,25 @@
         "mm": 17.1,
         "in": 0.675,
         "lunar": "0C0",
-        "tags": ["3/8\"", "DN 10", "17.1 mm", "17.2 mm"],
+        "tags": [
+            "3/8\"",
+            "DN 10",
+            "17.1 mm",
+            "17.2 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -68,8 +84,12 @@
         "mm": "",
         "in": "",
         "lunar": "079",
-        "tags": ["3/8\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "3/8\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "7/16\"",
@@ -77,8 +97,12 @@
         "mm": "",
         "in": "",
         "lunar": "086",
-        "tags": ["7/16\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "7/16\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "1/2\"",
@@ -86,19 +110,25 @@
         "mm": 21.3,
         "in": 0.84,
         "lunar": "0E4",
-        "tags": ["1/2\"", "DN 15", "20 mm", "21.3 mm"],
+        "tags": [
+            "1/2\"",
+            "DN 15",
+            "20 mm",
+            "21.3 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -107,8 +137,12 @@
         "mm": "",
         "in": "",
         "lunar": "08F",
-        "tags": ["1/2\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "1/2\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "9/16\"",
@@ -116,8 +150,12 @@
         "mm": "",
         "in": "",
         "lunar": "0A1",
-        "tags": ["9/16\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "9/16\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "5/8\"",
@@ -125,8 +163,12 @@
         "mm": "",
         "in": "",
         "lunar": "0B7",
-        "tags": ["5/8\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "5/8\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "3/4\"",
@@ -134,19 +176,26 @@
         "mm": 26.7,
         "in": 1.05,
         "lunar": "10F",
-        "tags": ["3/4\"", "DN 20", "25 mm", "26.7 mm", "26.9 mm"],
+        "tags": [
+            "3/4\"",
+            "DN 20",
+            "25 mm",
+            "26.7 mm",
+            "26.9 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -155,8 +204,12 @@
         "mm": "",
         "in": "",
         "lunar": "0D2",
-        "tags": ["3/4\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "3/4\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "7/8\"",
@@ -164,8 +217,12 @@
         "mm": "",
         "in": "",
         "lunar": "0EF",
-        "tags": ["7/8\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "7/8\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "1\"",
@@ -173,19 +230,26 @@
         "mm": 33.4,
         "in": 1.315,
         "lunar": "139",
-        "tags": ["1\"", "DN 25", "30 mm", "33.4 mm", "33.7 mm"],
+        "tags": [
+            "1\"",
+            "DN 25",
+            "30 mm",
+            "33.4 mm",
+            "33.7 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -194,8 +258,12 @@
         "mm": "",
         "in": "",
         "lunar": "109",
-        "tags": ["1\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "1\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "1 1/8\"",
@@ -203,8 +271,12 @@
         "mm": "",
         "in": "",
         "lunar": "11F",
-        "tags": ["1 1/8\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "1 1/8\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "1 1/4\"",
@@ -212,19 +284,26 @@
         "mm": 42.2,
         "in": 1.66,
         "lunar": "163",
-        "tags": ["1 1/4\"", "DN 32", "38 mm", "42.2 mm", "42.4 mm"],
+        "tags": [
+            "1 1/4\"",
+            "DN 32",
+            "38 mm",
+            "42.2 mm",
+            "42.4 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -233,8 +312,12 @@
         "mm": "",
         "in": "",
         "lunar": "131",
-        "tags": ["1 1/4\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "1 1/4\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "1 3/8\"",
@@ -242,8 +325,12 @@
         "mm": "",
         "in": "",
         "lunar": "140",
-        "tags": ["1 3/8\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "1 3/8\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "1 1/2\"",
@@ -251,19 +338,25 @@
         "mm": 48.3,
         "in": 1.9,
         "lunar": "176",
-        "tags": ["1 1/2\"", "DN 40", "44.5 mm", "48.3 mm"],
+        "tags": [
+            "1 1/2\"",
+            "DN 40",
+            "44.5 mm",
+            "48.3 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -272,8 +365,12 @@
         "mm": "",
         "in": "",
         "lunar": "152",
-        "tags": ["1 1/2\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "1 1/2\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "1 3/4\"",
@@ -281,8 +378,12 @@
         "mm": "",
         "in": "",
         "lunar": "16A",
-        "tags": ["1 3/4\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "1 3/4\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "1 7/8\"",
@@ -290,8 +391,12 @@
         "mm": "",
         "in": "",
         "lunar": "174",
-        "tags": ["1 7/8\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "1 7/8\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "2\"",
@@ -299,19 +404,25 @@
         "mm": 60.3,
         "in": 2.375,
         "lunar": "18E",
-        "tags": ["2\"", "DN 50", "57 mm", "60.3 mm"],
+        "tags": [
+            "2\"",
+            "DN 50",
+            "57 mm",
+            "60.3 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -320,8 +431,12 @@
         "mm": "",
         "in": "",
         "lunar": "17A",
-        "tags": ["2\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "2\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "2 1/4\"",
@@ -329,8 +444,12 @@
         "mm": "",
         "in": "",
         "lunar": "189",
-        "tags": ["2 1/4\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "2 1/4\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "2 1/2\"",
@@ -338,19 +457,25 @@
         "mm": 73,
         "in": 2.875,
         "lunar": "1A1",
-        "tags": ["2 1/2\"", "DN 65", "76.1 mm", "73 mm"],
+        "tags": [
+            "2 1/2\"",
+            "DN 65",
+            "76.1 mm",
+            "73 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -359,8 +484,12 @@
         "mm": "",
         "in": "",
         "lunar": "195",
-        "tags": ["2 1/2\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "2 1/2\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "3\"",
@@ -368,19 +497,24 @@
         "mm": 88.9,
         "in": 3.5,
         "lunar": "1B8",
-        "tags": ["3\"", "DN 80", "88.9 mm"],
+        "tags": [
+            "3\"",
+            "DN 80",
+            "88.9 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -389,8 +523,12 @@
         "mm": "",
         "in": "",
         "lunar": "1A6",
-        "tags": ["3\""],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "3\""
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "3 1/2\"",
@@ -398,19 +536,24 @@
         "mm": 101.6,
         "in": 4,
         "lunar": "1C8",
-        "tags": ["3 1/2\"", "DN 90", "101.6 mm"],
+        "tags": [
+            "3 1/2\"",
+            "DN 90",
+            "101.6 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -419,19 +562,25 @@
         "mm": 114.3,
         "in": 4.5,
         "lunar": "1D4",
-        "tags": ["4\"", "DN 100", "108 mm", "114.3 mm"],
+        "tags": [
+            "4\"",
+            "DN 100",
+            "108 mm",
+            "114.3 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -440,19 +589,26 @@
         "mm": 141.3,
         "in": 5.563,
         "lunar": "1F0",
-        "tags": ["5\"", "DN 125", "133 mm", "139.7 mm", "141.3 mm"],
+        "tags": [
+            "5\"",
+            "DN 125",
+            "133 mm",
+            "139.7 mm",
+            "141.3 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -461,19 +617,25 @@
         "mm": 168.3,
         "in": 6.625,
         "lunar": "204",
-        "tags": ["6\"", "DN 150", "159 mm", "168.3 mm"],
+        "tags": [
+            "6\"",
+            "DN 150",
+            "159 mm",
+            "168.3 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -482,19 +644,25 @@
         "mm": 219.1,
         "in": 8.625,
         "lunar": "222",
-        "tags": ["8\"", "DN 200", "216 mm", "219.1 mm"],
+        "tags": [
+            "8\"",
+            "DN 200",
+            "216 mm",
+            "219.1 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -503,19 +671,25 @@
         "mm": 273,
         "in": 10.75,
         "lunar": "23E",
-        "tags": ["10\"", "DN 250", "267 mm", "273 mm"],
+        "tags": [
+            "10\"",
+            "DN 250",
+            "267 mm",
+            "273 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -524,19 +698,26 @@
         "mm": 323.8,
         "in": 12.75,
         "lunar": "24A",
-        "tags": ["12\"", "DN 300", "318 mm", "323.8 mm", "323.9 mm"],
+        "tags": [
+            "12\"",
+            "DN 300",
+            "318 mm",
+            "323.8 mm",
+            "323.9 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -545,19 +726,25 @@
         "mm": 355.6,
         "in": 14,
         "lunar": "250",
-        "tags": ["14\"", "DN 350", "355.6 mm", "368 mm"],
+        "tags": [
+            "14\"",
+            "DN 350",
+            "355.6 mm",
+            "368 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -566,19 +753,25 @@
         "mm": 406.4,
         "in": 16,
         "lunar": "257",
-        "tags": ["16\"", "DN 400", "406.4 mm", "419 mm"],
+        "tags": [
+            "16\"",
+            "DN 400",
+            "406.4 mm",
+            "419 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -587,19 +780,25 @@
         "mm": 457,
         "in": 18,
         "lunar": "25C",
-        "tags": ["18\"", "DN 450", "457 mm", "470 mm"],
+        "tags": [
+            "18\"",
+            "DN 450",
+            "457 mm",
+            "470 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -608,19 +807,25 @@
         "mm": 508,
         "in": 20,
         "lunar": "261",
-        "tags": ["20\"", "DN 500", "508 mm", "521 mm"],
+        "tags": [
+            "20\"",
+            "DN 500",
+            "508 mm",
+            "521 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -629,19 +834,24 @@
         "mm": 559,
         "in": 22,
         "lunar": "265",
-        "tags": ["22\"", "DN 550", "559 mm"],
+        "tags": [
+            "22\"",
+            "DN 550",
+            "559 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -650,19 +860,25 @@
         "mm": 610,
         "in": 24,
         "lunar": "268",
-        "tags": ["24\"", "DN 600", "610 mm", "622 mm"],
+        "tags": [
+            "24\"",
+            "DN 600",
+            "610 mm",
+            "622 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -671,19 +887,24 @@
         "mm": 660,
         "in": 26,
         "lunar": "26B",
-        "tags": ["26\"", "DN 650", "660 mm"],
+        "tags": [
+            "26\"",
+            "DN 650",
+            "660 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -692,19 +913,25 @@
         "mm": 711,
         "in": 28,
         "lunar": "26E",
-        "tags": ["28\"", "DN 700", "711 mm", "720 mm"],
+        "tags": [
+            "28\"",
+            "DN 700",
+            "711 mm",
+            "720 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -713,19 +940,24 @@
         "mm": 762,
         "in": 30,
         "lunar": "26F",
-        "tags": ["30\"", "DN 750", "762 mm"],
+        "tags": [
+            "30\"",
+            "DN 750",
+            "762 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -734,19 +966,25 @@
         "mm": 813,
         "in": 32,
         "lunar": "271",
-        "tags": ["32\"", "DN 800", "813 mm", "820 mm"],
+        "tags": [
+            "32\"",
+            "DN 800",
+            "813 mm",
+            "820 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -755,19 +993,24 @@
         "mm": 864,
         "in": 34,
         "lunar": "55B",
-        "tags": ["34\"", "DN 850", "864 mm"],
+        "tags": [
+            "34\"",
+            "DN 850",
+            "864 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -776,19 +1019,25 @@
         "mm": 914,
         "in": 36,
         "lunar": "275",
-        "tags": ["36\"", "DN 900", "914 mm", "920 mm"],
+        "tags": [
+            "36\"",
+            "DN 900",
+            "914 mm",
+            "920 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -797,19 +1046,24 @@
         "mm": 965,
         "in": 38,
         "lunar": "557",
-        "tags": ["38\"", "DN 950", "965 mm"],
+        "tags": [
+            "38\"",
+            "DN 950",
+            "965 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -818,19 +1072,25 @@
         "mm": 1016,
         "in": 40,
         "lunar": "278",
-        "tags": ["40\"", "DN 1000", "1016 mm", "1020 mm"],
+        "tags": [
+            "40\"",
+            "DN 1000",
+            "1016 mm",
+            "1020 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -839,19 +1099,24 @@
         "mm": 1067,
         "in": 42,
         "lunar": "279",
-        "tags": ["42\"", "DN 1050", "1067 mm"],
+        "tags": [
+            "42\"",
+            "DN 1050",
+            "1067 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -860,19 +1125,24 @@
         "mm": 1118,
         "in": 44,
         "lunar": "27B",
-        "tags": ["44\"", "DN 1100", "1118 mm"],
+        "tags": [
+            "44\"",
+            "DN 1100",
+            "1118 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -881,19 +1151,24 @@
         "mm": 1168,
         "in": 46,
         "lunar": "560",
-        "tags": ["46\"", "DN 1150", "1168 mm"],
+        "tags": [
+            "46\"",
+            "DN 1150",
+            "1168 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -902,19 +1177,25 @@
         "mm": 1219,
         "in": 48,
         "lunar": "27E",
-        "tags": ["48\"", "DN 1200", "1220 mm", "1219 mm"],
+        "tags": [
+            "48\"",
+            "DN 1200",
+            "1220 mm",
+            "1219 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -923,19 +1204,24 @@
         "mm": 1321,
         "in": 52,
         "lunar": "55A",
-        "tags": ["52\"", "DN 1300", "1321 mm"],
+        "tags": [
+            "52\"",
+            "DN 1300",
+            "1321 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -944,19 +1230,24 @@
         "mm": 1422,
         "in": 56,
         "lunar": "2E9",
-        "tags": ["56\"", "DN 1400", "1422 mm"],
+        "tags": [
+            "56\"",
+            "DN 1400",
+            "1422 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -965,19 +1256,24 @@
         "mm": 1524,
         "in": 60,
         "lunar": "282",
-        "tags": ["60\"", "DN 1500", "1524 mm"],
+        "tags": [
+            "60\"",
+            "DN 1500",
+            "1524 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -986,19 +1282,24 @@
         "mm": 1626,
         "in": 64,
         "lunar": "558",
-        "tags": ["64\"", "DN 1600", "1626 mm"],
+        "tags": [
+            "64\"",
+            "DN 1600",
+            "1626 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1007,19 +1308,24 @@
         "mm": 1727,
         "in": 68,
         "lunar": "55C",
-        "tags": ["68\"", "DN 1700", "1727 mm"],
+        "tags": [
+            "68\"",
+            "DN 1700",
+            "1727 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1028,19 +1334,24 @@
         "mm": 1829,
         "in": 72,
         "lunar": "565",
-        "tags": ["72\"", "DN 1800", "1829 mm"],
+        "tags": [
+            "72\"",
+            "DN 1800",
+            "1829 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1049,19 +1360,24 @@
         "mm": 1930,
         "in": 76,
         "lunar": "566",
-        "tags": ["76\"", "DN 1900", "1930 mm"],
+        "tags": [
+            "76\"",
+            "DN 1900",
+            "1930 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1070,19 +1386,24 @@
         "mm": 2032,
         "in": 80,
         "lunar": "4CC",
-        "tags": ["80\"", "DN 2000", "2032 mm"],
+        "tags": [
+            "80\"",
+            "DN 2000",
+            "2032 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1091,19 +1412,24 @@
         "mm": 2032,
         "in": 88,
         "lunar": "FFF",
-        "tags": ["88\"", "DN 2200", "2235 mm"],
+        "tags": [
+            "88\"",
+            "DN 2200",
+            "2235 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1112,19 +1438,24 @@
         "mm": 2438,
         "in": 96,
         "lunar": "FFF",
-        "tags": ["96\"", "DN 2400", "2438 mm"],
+        "tags": [
+            "96\"",
+            "DN 2400",
+            "2438 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1133,19 +1464,24 @@
         "mm": 2620,
         "in": 104,
         "lunar": "FFF",
-        "tags": ["104\"", "DN 2600", "2620 mm"],
+        "tags": [
+            "104\"",
+            "DN 2600",
+            "2620 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1154,19 +1490,24 @@
         "mm": 2820,
         "in": 112,
         "lunar": "FFF",
-        "tags": ["112\"", "DN 2800", "2820 mm"],
+        "tags": [
+            "112\"",
+            "DN 2800",
+            "2820 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1175,19 +1516,24 @@
         "mm": 3020,
         "in": 120,
         "lunar": "FFF",
-        "tags": ["120\"", "DN 3000", "3020 mm"],
+        "tags": [
+            "120\"",
+            "DN 3000",
+            "3020 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1196,19 +1542,24 @@
         "mm": 3220,
         "in": 128,
         "lunar": "FFF",
-        "tags": ["128\"", "DN 3200", "3220 mm"],
+        "tags": [
+            "128\"",
+            "DN 3200",
+            "3220 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1217,19 +1568,24 @@
         "mm": 3420,
         "in": 136,
         "lunar": "FFF",
-        "tags": ["136\"", "DN 3400", "3420 mm"],
+        "tags": [
+            "136\"",
+            "DN 3400",
+            "3420 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1238,19 +1594,24 @@
         "mm": 3620,
         "in": 144,
         "lunar": "FFF",
-        "tags": ["144\"", "DN 3600", "3620 mm"],
+        "tags": [
+            "144\"",
+            "DN 3600",
+            "3620 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1259,19 +1620,24 @@
         "mm": 3820,
         "in": 152,
         "lunar": "FFF",
-        "tags": ["152\"", "DN 3800", "3820 mm"],
+        "tags": [
+            "152\"",
+            "DN 3800",
+            "3820 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1280,19 +1646,24 @@
         "mm": 4020,
         "in": 160,
         "lunar": "FFF",
-        "tags": ["160\"", "DN 4000", "4020 mm"],
+        "tags": [
+            "160\"",
+            "DN 4000",
+            "4020 mm"
+        ],
         "pffTypes": [
-            "PIPES", 
-            "PIPE_NIPPLES", 
+            "PIPES",
+            "PIPE_NIPPLES",
             "PIPE_FITTINGS",
-            "SWAGE_NIPPLES", 
-            "FORGED_FITTINGS", 
-            "FORGED_OLETS", 
-            "VALVES", 
-            "FORGED_FLANGES", 
-            "EN_FLANGES", 
-            "LINE_BLANKS", 
-            "MI_FITTINGS"
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_OLETS",
+            "VALVES",
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "LINE_BLANKS",
+            "MI_FITTINGS",
+            "SW_GASKETS"
         ]
     },
     {
@@ -1301,8 +1672,12 @@
         "mm": "",
         "in": "",
         "lunar": "080",
-        "tags": ["M10"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M10"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M12",
@@ -1310,8 +1685,12 @@
         "mm": "",
         "in": "",
         "lunar": "08B",
-        "tags": ["M12"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M12"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M14",
@@ -1319,8 +1698,12 @@
         "mm": "",
         "in": "",
         "lunar": "09D",
-        "tags": ["M14"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M14"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M16",
@@ -1328,8 +1711,12 @@
         "mm": "",
         "in": "",
         "lunar": "0B8",
-        "tags": ["M16"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M16"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M18",
@@ -1337,8 +1724,12 @@
         "mm": "",
         "in": "",
         "lunar": "0CA",
-        "tags": ["M18"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M18"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M20",
@@ -1346,8 +1737,12 @@
         "mm": "",
         "in": "",
         "lunar": "0D9",
-        "tags": ["M20"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M20"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M22",
@@ -1355,8 +1750,12 @@
         "mm": "",
         "in": "",
         "lunar": "0EE",
-        "tags": ["M22"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M22"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M24",
@@ -1364,8 +1763,12 @@
         "mm": "",
         "in": "",
         "lunar": "0FF",
-        "tags": ["M24"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M24"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M27",
@@ -1373,8 +1776,12 @@
         "mm": "",
         "in": "",
         "lunar": "112",
-        "tags": ["M27"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M27"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M30",
@@ -1382,8 +1789,12 @@
         "mm": "",
         "in": "",
         "lunar": "125",
-        "tags": ["M30"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M30"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M33",
@@ -1391,8 +1802,12 @@
         "mm": "",
         "in": "",
         "lunar": "135",
-        "tags": ["M33"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M33"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M36",
@@ -1400,8 +1815,12 @@
         "mm": "",
         "in": "",
         "lunar": "149",
-        "tags": ["M36"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M36"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M39",
@@ -1409,8 +1828,12 @@
         "mm": "",
         "in": "",
         "lunar": "156",
-        "tags": ["M39"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M39"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M42",
@@ -1418,8 +1841,12 @@
         "mm": "",
         "in": "",
         "lunar": "161",
-        "tags": ["M42"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M42"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M45",
@@ -1427,8 +1854,12 @@
         "mm": "",
         "in": "",
         "lunar": "16B",
-        "tags": ["M45"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M45"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M48",
@@ -1436,8 +1867,12 @@
         "mm": "",
         "in": "",
         "lunar": "175",
-        "tags": ["M48"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M48"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M52",
@@ -1445,8 +1880,12 @@
         "mm": "",
         "in": "",
         "lunar": "17E",
-        "tags": ["M52"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M52"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M56",
@@ -1454,8 +1893,12 @@
         "mm": "",
         "in": "",
         "lunar": "185",
-        "tags": ["M56"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M56"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M60",
@@ -1463,8 +1906,12 @@
         "mm": "",
         "in": "",
         "lunar": "18D",
-        "tags": ["M60"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M60"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M64",
@@ -1472,8 +1919,12 @@
         "mm": "",
         "in": "",
         "lunar": "46E",
-        "tags": ["M64"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M64"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M68",
@@ -1481,8 +1932,12 @@
         "mm": "",
         "in": "",
         "lunar": "2B9",
-        "tags": ["M68"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M68"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M72",
@@ -1490,8 +1945,12 @@
         "mm": "",
         "in": "",
         "lunar": "29E",
-        "tags": ["M72"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M72"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M76",
@@ -1499,8 +1958,12 @@
         "mm": "",
         "in": "",
         "lunar": "1A4",
-        "tags": ["M76"],
-        "pffTypes": ["FASTENERS"]
+        "tags": [
+            "M76"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
     },
     {
         "nps": "M80",
@@ -1508,1438 +1971,2078 @@
         "mm": "",
         "in": "",
         "lunar": "1AA",
-        "tags": ["M80"],
-        "pffTypes": ["FASTENERS"]
-    },
-    {
-        "nps":"R-11",
-        "dn":"R-11",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-11"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-12",
-        "dn":"R-12",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-12"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-13",
-        "dn":"R-13",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-13"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-14",
-        "dn":"R-14",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-14"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-15",
-        "dn":"R-15",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-15"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-16",
-        "dn":"R-16",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-16"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-17",
-        "dn":"R-17",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-17"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-18",
-        "dn":"R-18",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-18"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-19",
-        "dn":"R-19",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-19"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-20",
-        "dn":"R-20",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-20"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-21",
-        "dn":"R-21",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-21"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-22",
-        "dn":"R-22",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-22"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-23",
-        "dn":"R-23",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-23"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-24",
-        "dn":"R-24",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-24"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-25",
-        "dn":"R-25",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-25"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-26",
-        "dn":"R-26",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-26"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-27",
-        "dn":"R-27",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-27"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-28",
-        "dn":"R-28",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-28"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-29",
-        "dn":"R-29",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-29"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-30",
-        "dn":"R-30",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-30"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-31",
-        "dn":"R-31",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-31"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-32",
-        "dn":"R-32",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-32"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-33",
-        "dn":"R-33",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-33"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-34",
-        "dn":"R-34",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-34"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-35",
-        "dn":"R-35",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-35"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-36",
-        "dn":"R-36",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-36"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-37",
-        "dn":"R-37",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-37"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-38",
-        "dn":"R-38",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-38"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-39",
-        "dn":"R-39",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-39"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-40",
-        "dn":"R-40",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-40"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-41",
-        "dn":"R-41",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-41"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-42",
-        "dn":"R-42",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-42"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-43",
-        "dn":"R-43",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-43"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-44",
-        "dn":"R-44",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-44"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-45",
-        "dn":"R-45",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-45"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-46",
-        "dn":"R-46",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-46"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-47",
-        "dn":"R-47",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-47"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-48",
-        "dn":"R-48",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-48"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-49",
-        "dn":"R-49",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-49"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-50",
-        "dn":"R-50",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-50"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-51",
-        "dn":"R-51",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-51"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-52",
-        "dn":"R-52",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-52"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-53",
-        "dn":"R-53",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-53"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-54",
-        "dn":"R-54",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-54"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-55",
-        "dn":"R-55",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-55"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-56",
-        "dn":"R-56",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-56"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-57",
-        "dn":"R-57",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-57"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-58",
-        "dn":"R-58",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-58"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-59",
-        "dn":"R-59",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-59"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-60",
-        "dn":"R-60",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-60"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-61",
-        "dn":"R-61",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-61"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-62",
-        "dn":"R-62",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-62"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-63",
-        "dn":"R-63",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-63"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-64",
-        "dn":"R-64",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-64"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-65",
-        "dn":"R-65",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-65"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-66",
-        "dn":"R-66",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-66"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-67",
-        "dn":"R-67",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-67"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-68",
-        "dn":"R-68",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-68"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-69",
-        "dn":"R-69",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-69"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-70",
-        "dn":"R-70",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-70"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-71",
-        "dn":"R-71",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-71"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-72",
-        "dn":"R-72",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-72"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-73",
-        "dn":"R-73",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-73"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-74",
-        "dn":"R-74",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-74"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-75",
-        "dn":"R-75",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-75"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-76",
-        "dn":"R-76",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-76"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-77",
-        "dn":"R-77",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-77"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-78",
-        "dn":"R-78",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-78"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-79",
-        "dn":"R-79",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-79"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-80",
-        "dn":"R-80",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-80"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-81",
-        "dn":"R-81",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-81"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-82",
-        "dn":"R-82",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-82"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-84",
-        "dn":"R-84",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-84"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-85",
-        "dn":"R-85",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-85"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-86",
-        "dn":"R-86",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-86"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-87",
-        "dn":"R-87",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-87"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-88",
-        "dn":"R-88",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-88"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-89",
-        "dn":"R-89",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-89"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-90",
-        "dn":"R-90",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-90"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-91",
-        "dn":"R-91",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-91"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-92",
-        "dn":"R-92",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-92"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-93",
-        "dn":"R-93",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-93"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-94",
-        "dn":"R-94",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-94"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-95",
-        "dn":"R-95",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-95"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-96",
-        "dn":"R-96",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-96"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-97",
-        "dn":"R-97",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-97"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-98",
-        "dn":"R-98",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-98"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-99",
-        "dn":"R-99",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-99"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-100",
-        "dn":"R-100",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-100"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-101",
-        "dn":"R-101",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-101"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-102",
-        "dn":"R-102",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-102"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-103",
-        "dn":"R-103",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-103"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-104",
-        "dn":"R-104",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-104"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"R-105",
-        "dn":"R-105",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["R-105"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-20",
-        "dn":"RX-20",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-20"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-23",
-        "dn":"RX-23",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-23"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-24",
-        "dn":"RX-24",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-24"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-25",
-        "dn":"RX-25",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-25"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-26",
-        "dn":"RX-26",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-26"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-27",
-        "dn":"RX-27",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-27"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-31",
-        "dn":"RX-31",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-31"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-35",
-        "dn":"RX-35",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-35"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-37",
-        "dn":"RX-37",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-37"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-39",
-        "dn":"RX-39",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-39"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-41",
-        "dn":"RX-41",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-41"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-44",
-        "dn":"RX-44",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-44"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-45",
-        "dn":"RX-45",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-45"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-46",
-        "dn":"RX-46",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-46"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-47",
-        "dn":"RX-47",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-47"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-49",
-        "dn":"RX-49",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-49"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-50",
-        "dn":"RX-50",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-50"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-53",
-        "dn":"RX-53",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-53"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-54",
-        "dn":"RX-54",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-54"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-57",
-        "dn":"RX-57",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-57"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-63",
-        "dn":"RX-63",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-63"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-65",
-        "dn":"RX-65",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-65"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-66",
-        "dn":"RX-66",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-66"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-69",
-        "dn":"RX-69",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-69"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-70",
-        "dn":"RX-70",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-70"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-73",
-        "dn":"RX-73",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-73"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-74",
-        "dn":"RX-74",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-74"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-82",
-        "dn":"RX-82",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-82"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-84",
-        "dn":"RX-84",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-84"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-85",
-        "dn":"RX-85",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-85"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-86",
-        "dn":"RX-86",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-86"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-87",
-        "dn":"RX-87",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-87"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-88",
-        "dn":"RX-88",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-88"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-89",
-        "dn":"RX-89",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-89"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-90",
-        "dn":"RX-90",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-90"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-91",
-        "dn":"RX-91",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-91"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-99",
-        "dn":"RX-99",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-99"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-201",
-        "dn":"RX-201",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-201"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-205",
-        "dn":"RX-205",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-205"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-210",
-        "dn":"RX-210",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-210"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"RX-215",
-        "dn":"RX-215",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["RX-215"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-150",
-        "dn":"BX-150",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-150"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-151",
-        "dn":"BX-151",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-151"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-152",
-        "dn":"BX-152",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-152"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-153",
-        "dn":"BX-153",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-153"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-154",
-        "dn":"BX-154",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-154"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-155",
-        "dn":"BX-155",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-155"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-156",
-        "dn":"BX-156",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-156"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-157",
-        "dn":"BX-157",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-157"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-158",
-        "dn":"BX-158",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-158"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-159",
-        "dn":"BX-159",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-159"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-160",
-        "dn":"BX-160",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-160"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-161",
-        "dn":"BX-161",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-161"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-162",
-        "dn":"BX-162",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-162"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-163",
-        "dn":"BX-163",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-163"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-164",
-        "dn":"BX-164",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-164"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-165",
-        "dn":"BX-165",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-165"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-166",
-        "dn":"BX-166",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-166"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-167",
-        "dn":"BX-167",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-167"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-168",
-        "dn":"BX-168",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-168"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-169",
-        "dn":"BX-169",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-169"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-170",
-        "dn":"BX-170",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-170"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-171",
-        "dn":"BX-171",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-171"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-172",
-        "dn":"BX-172",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-172"],
-        "pffTypes": ["RING_GASKETS"]
-    },
-    {
-        "nps":"BX-303",
-        "dn":"BX-303",
-        "mm":"",
-        "in":"",
-        "lunar":"FFF", 
-        "tags": ["BX-303"],
-        "pffTypes": ["RING_GASKETS"]
+        "tags": [
+            "M80"
+        ],
+        "pffTypes": [
+            "FASTENERS"
+        ]
+    },
+    {
+        "nps": "R-11",
+        "dn": "R-11",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-11"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-12",
+        "dn": "R-12",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-12"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-13",
+        "dn": "R-13",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-13"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-14",
+        "dn": "R-14",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-14"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-15",
+        "dn": "R-15",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-15"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-16",
+        "dn": "R-16",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-16"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-17",
+        "dn": "R-17",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-17"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-18",
+        "dn": "R-18",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-18"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-19",
+        "dn": "R-19",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-19"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-20",
+        "dn": "R-20",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-20"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-21",
+        "dn": "R-21",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-21"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-22",
+        "dn": "R-22",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-22"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-23",
+        "dn": "R-23",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-23"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-24",
+        "dn": "R-24",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-24"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-25",
+        "dn": "R-25",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-25"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-26",
+        "dn": "R-26",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-26"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-27",
+        "dn": "R-27",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-27"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-28",
+        "dn": "R-28",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-28"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-29",
+        "dn": "R-29",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-29"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-30",
+        "dn": "R-30",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-30"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-31",
+        "dn": "R-31",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-31"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-32",
+        "dn": "R-32",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-32"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-33",
+        "dn": "R-33",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-33"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-34",
+        "dn": "R-34",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-34"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-35",
+        "dn": "R-35",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-35"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-36",
+        "dn": "R-36",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-36"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-37",
+        "dn": "R-37",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-37"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-38",
+        "dn": "R-38",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-38"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-39",
+        "dn": "R-39",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-39"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-40",
+        "dn": "R-40",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-40"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-41",
+        "dn": "R-41",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-41"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-42",
+        "dn": "R-42",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-42"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-43",
+        "dn": "R-43",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-43"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-44",
+        "dn": "R-44",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-44"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-45",
+        "dn": "R-45",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-45"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-46",
+        "dn": "R-46",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-46"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-47",
+        "dn": "R-47",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-47"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-48",
+        "dn": "R-48",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-48"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-49",
+        "dn": "R-49",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-49"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-50",
+        "dn": "R-50",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-50"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-51",
+        "dn": "R-51",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-51"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-52",
+        "dn": "R-52",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-52"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-53",
+        "dn": "R-53",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-53"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-54",
+        "dn": "R-54",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-54"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-55",
+        "dn": "R-55",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-55"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-56",
+        "dn": "R-56",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-56"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-57",
+        "dn": "R-57",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-57"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-58",
+        "dn": "R-58",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-58"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-59",
+        "dn": "R-59",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-59"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-60",
+        "dn": "R-60",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-60"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-61",
+        "dn": "R-61",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-61"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-62",
+        "dn": "R-62",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-62"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-63",
+        "dn": "R-63",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-63"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-64",
+        "dn": "R-64",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-64"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-65",
+        "dn": "R-65",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-65"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-66",
+        "dn": "R-66",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-66"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-67",
+        "dn": "R-67",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-67"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-68",
+        "dn": "R-68",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-68"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-69",
+        "dn": "R-69",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-69"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-70",
+        "dn": "R-70",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-70"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-71",
+        "dn": "R-71",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-71"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-72",
+        "dn": "R-72",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-72"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-73",
+        "dn": "R-73",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-73"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-74",
+        "dn": "R-74",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-74"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-75",
+        "dn": "R-75",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-75"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-76",
+        "dn": "R-76",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-76"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-77",
+        "dn": "R-77",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-77"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-78",
+        "dn": "R-78",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-78"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-79",
+        "dn": "R-79",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-79"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-80",
+        "dn": "R-80",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-80"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-81",
+        "dn": "R-81",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-81"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-82",
+        "dn": "R-82",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-82"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-84",
+        "dn": "R-84",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-84"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-85",
+        "dn": "R-85",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-85"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-86",
+        "dn": "R-86",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-86"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-87",
+        "dn": "R-87",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-87"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-88",
+        "dn": "R-88",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-88"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-89",
+        "dn": "R-89",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-89"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-90",
+        "dn": "R-90",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-90"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-91",
+        "dn": "R-91",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-91"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-92",
+        "dn": "R-92",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-92"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-93",
+        "dn": "R-93",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-93"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-94",
+        "dn": "R-94",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-94"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-95",
+        "dn": "R-95",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-95"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-96",
+        "dn": "R-96",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-96"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-97",
+        "dn": "R-97",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-97"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-98",
+        "dn": "R-98",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-98"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-99",
+        "dn": "R-99",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-99"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-100",
+        "dn": "R-100",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-100"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-101",
+        "dn": "R-101",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-101"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-102",
+        "dn": "R-102",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-102"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-103",
+        "dn": "R-103",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-103"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-104",
+        "dn": "R-104",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-104"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "R-105",
+        "dn": "R-105",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "R-105"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-20",
+        "dn": "RX-20",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-20"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-23",
+        "dn": "RX-23",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-23"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-24",
+        "dn": "RX-24",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-24"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-25",
+        "dn": "RX-25",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-25"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-26",
+        "dn": "RX-26",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-26"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-27",
+        "dn": "RX-27",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-27"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-31",
+        "dn": "RX-31",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-31"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-35",
+        "dn": "RX-35",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-35"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-37",
+        "dn": "RX-37",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-37"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-39",
+        "dn": "RX-39",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-39"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-41",
+        "dn": "RX-41",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-41"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-44",
+        "dn": "RX-44",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-44"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-45",
+        "dn": "RX-45",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-45"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-46",
+        "dn": "RX-46",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-46"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-47",
+        "dn": "RX-47",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-47"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-49",
+        "dn": "RX-49",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-49"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-50",
+        "dn": "RX-50",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-50"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-53",
+        "dn": "RX-53",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-53"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-54",
+        "dn": "RX-54",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-54"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-57",
+        "dn": "RX-57",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-57"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-63",
+        "dn": "RX-63",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-63"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-65",
+        "dn": "RX-65",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-65"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-66",
+        "dn": "RX-66",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-66"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-69",
+        "dn": "RX-69",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-69"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-70",
+        "dn": "RX-70",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-70"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-73",
+        "dn": "RX-73",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-73"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-74",
+        "dn": "RX-74",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-74"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-82",
+        "dn": "RX-82",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-82"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-84",
+        "dn": "RX-84",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-84"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-85",
+        "dn": "RX-85",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-85"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-86",
+        "dn": "RX-86",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-86"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-87",
+        "dn": "RX-87",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-87"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-88",
+        "dn": "RX-88",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-88"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-89",
+        "dn": "RX-89",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-89"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-90",
+        "dn": "RX-90",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-90"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-91",
+        "dn": "RX-91",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-91"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-99",
+        "dn": "RX-99",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-99"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-201",
+        "dn": "RX-201",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-201"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-205",
+        "dn": "RX-205",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-205"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-210",
+        "dn": "RX-210",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-210"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "RX-215",
+        "dn": "RX-215",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "RX-215"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-150",
+        "dn": "BX-150",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-150"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-151",
+        "dn": "BX-151",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-151"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-152",
+        "dn": "BX-152",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-152"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-153",
+        "dn": "BX-153",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-153"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-154",
+        "dn": "BX-154",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-154"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-155",
+        "dn": "BX-155",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-155"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-156",
+        "dn": "BX-156",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-156"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-157",
+        "dn": "BX-157",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-157"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-158",
+        "dn": "BX-158",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-158"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-159",
+        "dn": "BX-159",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-159"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-160",
+        "dn": "BX-160",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-160"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-161",
+        "dn": "BX-161",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-161"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-162",
+        "dn": "BX-162",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-162"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-163",
+        "dn": "BX-163",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-163"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-164",
+        "dn": "BX-164",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-164"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-165",
+        "dn": "BX-165",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-165"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-166",
+        "dn": "BX-166",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-166"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-167",
+        "dn": "BX-167",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-167"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-168",
+        "dn": "BX-168",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-168"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-169",
+        "dn": "BX-169",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-169"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-170",
+        "dn": "BX-170",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-170"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-171",
+        "dn": "BX-171",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-171"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-172",
+        "dn": "BX-172",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-172"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
+    },
+    {
+        "nps": "BX-303",
+        "dn": "BX-303",
+        "mm": "",
+        "in": "",
+        "lunar": "FFF",
+        "tags": [
+            "BX-303"
+        ],
+        "pffTypes": [
+            "RING_GASKETS"
+        ]
     }
 ]
