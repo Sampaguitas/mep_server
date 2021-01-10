@@ -9,7 +9,6 @@ const TypeSchema = new Schema({
     specs: [String],
     isComplete: Boolean,
     isMultiple: Boolean
-
 });
 
 module.exports = Type = mongoose.model('types', TypeSchema);
