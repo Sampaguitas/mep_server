@@ -1,15 +1,19 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
+const _ = require("lodash");
 
 router.get('/', (req, res) => {
     const steel_type = decodeURI(req.query.steel_type);
     const pff_type = decodeURI(req.query.pff_type);
-    res.status(200).json(require('../../constants/grades.json')
-    .filter(e => e.steelType === steel_type && e.pffTypes.includes(pff_type))
+    res.status(200).json(require("../../constants/grades.json")
+    .filter(e => !_.isUndefined(req.query.steel_type) ? e.steelType === steel_type : true)
+    .filter(e => !_.isUndefined(req.query.pff_type) ? e.pffTypes.includes(pff_type) : true)
     .reduce(function (acc, cur) {
         acc.push(cur.name);
         return acc;
-    }, []));
+    }, [])
+    .filter((value, index, self) => self.indexOf(value) === index)
+    .sort((a, b) => a.localeCompare(b)));
 });
 
 module.exports = router;

@@ -8,6 +8,5 @@ const CurrencySchema = new Schema({
     usdPerUnit: Number,
     updatedAt: Date
 });
-// , {timestamps: true});
 
 module.exports = Currency = mongoose.model('currencies', CurrencySchema);

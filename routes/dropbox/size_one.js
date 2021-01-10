@@ -27,8 +27,12 @@ router.get('/', (req, res) => {
         "dn": [],
         "mm": [],
         "other": []
-    });
-    res.status(200).json([...temp.nps, ...temp.dn, ...temp.mm, ...temp.other]);
+    }
+    );
+    res.status(200).json(
+        [...temp.nps, ...temp.dn, ...temp.mm, ...temp.other]
+        .filter((value, index, self) => self.indexOf(value) === index)
+        );
 });
 
 module.exports = router;

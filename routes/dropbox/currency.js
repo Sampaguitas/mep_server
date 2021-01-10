@@ -10,7 +10,8 @@ router.get('/', (req, res) => {
             res.status(200).json(currencies.reduce(function(acc, cur) {
                 acc.push(cur._id);
                 return acc;
-            }, []));
+            }, [])
+            .sort((a, b) => a.localeCompare(b)));
         };
     });
 });
