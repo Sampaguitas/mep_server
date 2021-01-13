@@ -1,4 +1,4 @@
-function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, end){
+module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end){
     let tempObject = {}
     tempObject.sizeOne = require("./generateSize")(sizeOne, type);
     tempObject.sizeTwo = require("./generateSize")(sizeTwo, type);
@@ -8,6 +8,7 @@ function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade
     tempObject.wallThree = require("./generateWall")(tempObject.sizeThree.mm, wallOne);
     tempObject.type = require("./generateType")(tempObject.sizeOne.mm, type);
     tempObject.grade = require("./lookupGrade")(grade);
+    tempObject.length = require("./lookupLength")(length);
     tempObject.end = require("./lookupEnd")(tempObject.type, end);
 
     if (tempObject.type.pffType === "FORGED_OLETS") {
@@ -47,34 +48,35 @@ function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade
         "desc":{
             "lunar": Object.keys(tempObject).reduce(function (acc, cur) {
                 switch(cur) {
-                    case "end": return `${acc}FFFFF${tempObject[cur].lunar}FFFFFFFF1`;
+                    case "length": return `${acc}FF${tempObject[cur].lunar}`;
+                    case "end": return `${acc}${tempObject[cur].lunar}FFFFFFFF1`;
                     default: return `${acc}${tempObject[cur].lunar}`;
                 }
             }, ""),
             "name": Object.keys(tempObject).reduce(function (acc, cur) {
                 switch(cur) {
                     case "sizeOne":
-                        if (tempObject[cur].name != "") {
+                        if (!!tempObject[cur].name) {
                             acc = tempObject[cur].name;
                         }
                         break;
                     case "sizeTwo": 
-                        if (tempObject[cur].name != "") {
+                        if (!!tempObject[cur].name) {
                             acc = `${acc} X ${tempObject[cur].name}`;
                         }
                         break;
                     case "sizeThree":
-                        if (tempObject[cur].name != "") {
+                        if (!!tempObject[cur].name) {
                             acc = tempObject.type.pffType === "FORGED_OLETS" ? `${acc} - ${tempObject[cur].name}` : `${acc} X ${tempObject[cur].name}`;
                         }
                         break;
                     case "wallTwo":
-                        if (tempObject[cur].name != "") {
+                        if (!!tempObject[cur].name) {
                             acc = `${acc} X ${tempObject[cur].name}`;
                         }
                         break;
                     default:
-                        if (tempObject[cur].name != "") {
+                        if (!!tempObject[cur].name) {
                             acc = `${acc} ${tempObject[cur].name}`;
                         }
                 }
@@ -88,6 +90,7 @@ function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade
                 "wallTwo": tempObject.wallTwo.tags,
                 "type": tempObject.type.tags,
                 "grade": tempObject.grade.tags,
+                "length": !!tempObject.length.name ? [tempObject.length.name] : [],
                 "end": !!tempObject.end.name ? [tempObject.end.name] : [],
             }
         }
@@ -97,4 +100,4 @@ function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade
     return resObject;
 }
 
-console.log(generateDesc("36\"", "3\"", "1/2\"", "STD", "", "WELDOL", "A105", ""));
+// console.log(generateDesc("36\"", "3\"", "1/2\"", "STD", "", "WELDOL", "A105", ""));
