@@ -3,21 +3,36 @@ const Schema = mongoose.Schema;
 const _ = require('lodash');
 
 const StockSchema = new Schema({
-    _id: String,
-    desc: {
-        lunar: String,
-        name: String,
-        tags: {
-            sizeOne: [String],
-            sizeTwo: [String],
-            sizeThree: [String],
-            wallOne: [String],
-            wallTwo: [String],
-            type: [String],
-            grade: [String],
-            length: [String],
-            end: [String]
+    "artNr": String,
+    "location": String, 
+    "desc": {
+        "lunar": String,
+        "name": String,
+        "tags": {
+            "sizeOne": [String],
+            "sizeTwo": [String],
+            "sizeThree": [String],
+            "wallOne": [String],
+            "wallTwo": [String],
+            "type": [String],
+            "grade": [String],
+            "length": [String],
+            "end": [String]
         }
+    },
+    "price": {
+        "metric": {
+            "value": Number,
+            "toEur": Number,
+            "uom": String,
+            
+        },
+        "imperial": {
+            "value": Number,
+            "toEur": Number,
+            "uom": String
+        },
+        "currency": String
     },
 });
 
