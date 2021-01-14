@@ -1,8 +1,15 @@
 const express = require('express');
 const router = express.Router();
+const Stock = require("../../models/Stock")
 
-router.post('/', (req, res) => {
+router.post('/', async function(req, res) {
+    
     const data = JSON.parse(req.body.data);
+    
+    let myPromises = [];
+    let nRejected = 0;
+    let nUpserted = 0;
+
     data.forEach(element => {
 
         let artNr = !!element[0] ? element[0] : "";
@@ -23,13 +30,42 @@ router.post('/', (req, res) => {
         myObject.artNr = artNr;
         
         if (!!itemDesc) {
-            myObject.desc.name = itemDesc;
+            myObject.description.name = itemDesc;
         }
 
-        console.log(myObject.desc);
+        myPromises.push(upsertDesc(myObject));
     });
 
-    res.status(200).json({message: "passed the test"});
+    await Promise.all(myPromises).then(r => {
+        if (r.isRejected) {
+            nRejected++;
+        } else {
+            nUpserted++;
+        }
+    })
+
+    res.status(200).json({message: `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted`});
 });
 
 module.exports = router;
+
+function upsertDesc(myObject) {
+    return new Promise(function(resolve) {
+        if (!myObject.artNr || !myObject.location) {
+            resolve({isRejected: true});
+        } else {
+
+            let conditions = { artNr: myObject.artNr, location: myObject.location }
+            let update = { description: myObject.description }
+            let options = { new: true, upsert: true }
+            
+            require("../../models/Stock").findOneAndUpdate(conditions, update, options, function(err, res) {
+                if (!!err || !res) {
+                    resolve({isRejected: true});
+                } else {
+                    resolve({isRejected: false});
+                }
+            });
+        }
+    });
+}

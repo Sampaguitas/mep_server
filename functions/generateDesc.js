@@ -45,7 +45,7 @@ module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wal
     delete tempObject.wallThree //remove the temp wall
 
     resObject = {
-        "desc":{
+        "description":{
             "lunar": Object.keys(tempObject).reduce(function (acc, cur) {
                 switch(cur) {
                     case "length": return `${acc}FF${tempObject[cur].lunar}`;

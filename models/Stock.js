@@ -5,7 +5,7 @@ const _ = require('lodash');
 const StockSchema = new Schema({
     "artNr": String,
     "location": String, 
-    "desc": {
+    "description": {
         "lunar": String,
         "name": String,
         "tags": {
