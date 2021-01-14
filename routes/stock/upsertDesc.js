@@ -3,7 +3,6 @@ const router = express.Router();
 
 router.post('/', (req, res) => {
     const data = JSON.parse(req.body.data);
-    // console.log(typeof(JSON.parse(data)));
     data.forEach(element => {
 
         let artNr = !!element[0] ? element[0] : "";
@@ -19,21 +18,14 @@ router.post('/', (req, res) => {
         let end = !!element[10] ? element[10] : "";
         let surface = !!element[11] ? element[11] : "";
         
-        let myObject = require('../../functions/generateDesc')(
-            sizeOne,
-            sizeTwo,
-            sizeThree,
-            wallOne,
-            wallTwo,
-            type,
-            grade,
-            length,
-            end
-        );
+        let myObject = require('../../functions/generateDesc')(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end);
+        
         myObject.artNr = artNr;
+        
         if (!!itemDesc) {
             myObject.desc.name = itemDesc;
         }
+
         console.log(myObject.desc);
     });
 
