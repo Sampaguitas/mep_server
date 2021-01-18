@@ -54,6 +54,7 @@ app.use('/dropbox/wall_two', passport.authenticate('jwt', { session: false }), r
 
 //quote
 app.use('/stock/upsertDesc', passport.authenticate('jwt', { session: false }), require('./routes/stock/upsertDesc'));
+
 //user
 app.use('/user/changePwd', passport.authenticate('jwt', { session: false }), require('./routes/user/changePwd'));
 app.use('/user/create', passport.authenticate('jwt', { session: false }), require('./routes/user/create'));

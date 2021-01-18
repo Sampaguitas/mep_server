@@ -2,6 +2,7 @@
     {
         "lunar": "32",
         "name": "HDG",
+        "tags": ["HDG"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -19,6 +20,7 @@
     {
         "lunar": "FF",
         "name": "FBE Coating",
+        "tags": ["FBE Coating"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -36,6 +38,7 @@
     {
         "lunar": "FF",
         "name": "3LPE/PP Coating",
+        "tags": ["3LPE/PP Coating"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -53,6 +56,7 @@
     {
         "lunar": "FF",
         "name": "Liquid epoxy Coating",
+        "tags": ["Liquid epoxy Coating"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -70,6 +74,7 @@
     {
         "lunar": "FF",
         "name": "Liquid polyurethane (PU) Coating",
+        "tags": ["Liquid polyurethane (PU) Coating"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -87,6 +92,7 @@
     {
         "lunar": "FF",
         "name": "Polyurethane foam (PUF) Coating",
+        "tags": ["Polyurethane foam (PUF) Coating"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -104,6 +110,7 @@
     {
         "lunar": "FF",
         "name": "Polypropylene (PP) foam Coating",
+        "tags": ["Polypropylene (PP) foam Coating"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -121,6 +128,7 @@
     {
         "lunar": "FF",
         "name": "Liquid epoxy Lining",
+        "tags": ["Liquid epoxy Lining"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -138,6 +146,7 @@
     {
         "lunar": "FF",
         "name": "Liquid polyurethane (PU) Lining",
+        "tags": ["Liquid polyurethane (PU) Lining"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -155,6 +164,7 @@
     {
         "lunar": "FF",
         "name": "FBE Lining",
+        "tags": ["FBE Lining"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 
@@ -172,6 +182,7 @@
     {
         "lunar": "FF",
         "name": "Cement Mortar Lining (CML)",
+        "tags": ["Cement Mortar Lining (CML)"],
         "pffTypes": [
             "PIPES",
             "PIPE_NIPPLES", 

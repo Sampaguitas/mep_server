@@ -4,11 +4,13 @@ module.exports = function lookupLength(length) {
         return {
             "lunar": "FFF", 
             "name": length,
+            "tags": length ? [length] : []
         };
     } else {
         return {
             "lunar": found.lunar,
             "name": length,
+            "tags": found.tags
         };
     }
 }

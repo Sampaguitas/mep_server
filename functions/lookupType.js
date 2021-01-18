@@ -10,7 +10,7 @@ module.exports = function lookupType(type) {
     } else {
         return {
             'lunar': found.lunar,
-            'name': found.name,
+            'name': type,
             'tags': found.tags,
             'pffType': found.pffType,
         };

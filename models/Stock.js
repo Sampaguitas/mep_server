@@ -8,16 +8,43 @@ const StockSchema = new Schema({
     "description": {
         "lunar": String,
         "name": String,
-        "tags": {
-            "sizeOne": [String],
-            "sizeTwo": [String],
-            "sizeThree": [String],
-            "wallOne": [String],
-            "wallTwo": [String],
-            "type": [String],
-            "grade": [String],
-            "length": [String],
-            "end": [String]
+        "parameters": {
+            "sizeOne": {
+                "name": String,
+                "tags": [String]
+            },
+            "sizeTwo": {
+                "name": String,
+                "tags": [String]
+            },
+            "sizeThree": {
+                "name": String,
+                "tags": [String]
+            },
+            "wallOne": {
+                "name": String,
+                "tags": [String]
+            },
+            "wallTwo": {
+                "name": String,
+                "tags": [String]
+            },
+            "type": {
+                "name": String,
+                "tags": [String]
+            },
+            "grade": {
+                "name": String,
+                "tags": [String]
+            },
+            "length": {
+                "name": String,
+                "tags": [String]
+            },
+            "end": {
+                "name": String,
+                "tags": [String]
+            }
         }
     },
     "price": {
@@ -25,7 +52,6 @@ const StockSchema = new Schema({
             "value": Number,
             "toEur": Number,
             "uom": String,
-            
         },
         "imperial": {
             "value": Number,

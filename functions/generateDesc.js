@@ -1,5 +1,7 @@
-module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end){
+module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end, surface){
+    
     let tempObject = {}
+    
     tempObject.sizeOne = require("./generateSize")(sizeOne, type);
     tempObject.sizeTwo = require("./generateSize")(sizeTwo, type);
     tempObject.sizeThree = require("./generateSize")(sizeThree, type);
@@ -10,6 +12,7 @@ module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wal
     tempObject.grade = require("./lookupGrade")(grade);
     tempObject.length = require("./lookupLength")(length);
     tempObject.end = require("./lookupEnd")(tempObject.type, end);
+    tempObject.surface = require("./lookupSurface")(surface);
 
     if (tempObject.type.pffType === "FORGED_OLETS") {
         
@@ -49,7 +52,7 @@ module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wal
             "lunar": Object.keys(tempObject).reduce(function (acc, cur) {
                 switch(cur) {
                     case "length": return `${acc}FF${tempObject[cur].lunar}`;
-                    case "end": return `${acc}${tempObject[cur].lunar}FFFFFFFF1`;
+                    case "surface": return `${acc}${tempObject[cur].lunar}FFFFFF1`;
                     default: return `${acc}${tempObject[cur].lunar}`;
                 }
             }, ""),
@@ -82,19 +85,49 @@ module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wal
                 }
                 return acc;
             },""),
-            "tags": {
-                "sizeOne": tempObject.sizeOne.tags,
-                "sizeTwo": tempObject.sizeTwo.tags,
-                "sizeThree": tempObject.sizeThree.tags,
-                "wallOne": tempObject.wallOne.tags,
-                "wallTwo": tempObject.wallTwo.tags,
-                "type": tempObject.type.tags,
-                "grade": tempObject.grade.tags,
-                "length": !!tempObject.length.name ? [tempObject.length.name] : [],
-                "end": !!tempObject.end.name ? [tempObject.end.name] : [],
+            "parameters": {
+                "sizeOne": {
+                    "name": tempObject.sizeOne.name,
+                    "tags": tempObject.sizeOne.tags
+                },
+                "sizeTwo": {
+                    "name": tempObject.sizeTwo.name,
+                    "tags": tempObject.sizeTwo.tags
+                },
+                "sizeThree": {
+                    "name": tempObject.sizeThree.name,
+                    "tags": tempObject.sizeThree.tags
+                },
+                "wallOne": {
+                    "name": tempObject.wallOne.name,
+                    "tags": tempObject.wallOne.tags
+                },
+                "wallTwo": {
+                    "name": tempObject.wallTwo.name,
+                    "tags": tempObject.wallTwo.tags
+                },
+                "type": {
+                    "name": tempObject.type.name,
+                    "tags": tempObject.type.tags
+                },
+                "grade": {
+                    "name": tempObject.grade.name,
+                    "tags": tempObject.grade.tags
+                },
+                "length": {
+                    "name": tempObject.length.name,
+                    "tags": tempObject.length.tags
+                },
+                "end": {
+                    "name": tempObject.end.name,
+                    "tags": tempObject.end.tags,
+                },
+                "surface": {
+                    "name": tempObject.surface.name,
+                    "tags": tempObject.surface.tags,
+                }
             }
         }
-        
     }
     
     return resObject;
