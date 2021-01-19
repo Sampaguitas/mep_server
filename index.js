@@ -52,6 +52,9 @@ app.use('/dropbox/type', passport.authenticate('jwt', { session: false }), requi
 app.use('/dropbox/wall_one', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/wall_one'));
 app.use('/dropbox/wall_two', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/wall_two'));
 
+//process
+app.use('/process/findOne', passport.authenticate('jwt', { session: false }), require('./routes/process/findOne'));
+
 //quote
 app.use('/stock/upsertDesc', passport.authenticate('jwt', { session: false }), require('./routes/stock/upsertDesc'));
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Import = require("../../models/Import");
+const Process = require("../../models/Process");
 router.post('/', function(req, res) {
 
     const data = JSON.parse(req.body.data);
@@ -14,12 +14,16 @@ router.post('/', function(req, res) {
         res.status(400).json({message: "Stock Location has not been specified."});
     } else {
         
-        let newImport = new Import({"user": req.user.name, "import_type": "Description", "location": location, status: 0 });
+        let newProcess = new Process({
+            "user": req.user.name, 
+            "process_type": "update_stock_desc", 
+            "status": 0 
+        });
 
-        newImport
+        newProcess
         .save()
-        .then(resImport => {
-            res.status(200).json({ data: resImport._id });
+        .then(resProcess => {
+            res.status(200).json({ "data": resProcess._id });
 
             data.forEach(function (element, index, array) {
 
@@ -36,7 +40,7 @@ router.post('/', function(req, res) {
                 let end = !!element[10] ? element[10] : "";
                 let surface = !!element[11] ? element[11] : "";
                 
-                let myObject = require('../../functions/generateDesc')(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end, surface);
+                let myObject = require("../../functions/generateDesc")(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end, surface);
                 
                 myObject.artNr = artNr;
                 
@@ -44,7 +48,7 @@ router.post('/', function(req, res) {
                     myObject.description.name = itemDesc;
                 }
     
-                myPromises.push(upsertDesc(myObject, location, resImport._id, index, array.length));
+                myPromises.push(upsertDesc(myObject, location, resProcess._id, index, array.length));
             });
     
             Promise.all(myPromises).then(myResults => {
@@ -56,8 +60,8 @@ router.post('/', function(req, res) {
                     }
                 });
                 let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted`;
-                require("../../models/Import").findByIdAndUpdate(resImport._id, { message: message, status: 1 }, function (errUpdate, resUpdate) {
-                    if (!!errUpdate || resUpdate) {
+                require("../../models/Process").findByIdAndUpdate(resProcess._id, { message: message, status: 1 }, function (errUpdate, resUpdate) {
+                    if (!!errUpdate || !resUpdate) {
                         console.log("error1", message);
                     } else {
                         console.log("success1", message);
@@ -66,7 +70,7 @@ router.post('/', function(req, res) {
             })
             .catch( () => {
                 let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted`;
-                require("../../models/Import").findByIdAndUpdate(resImport._id, { message: message, status: 1 }, function (errUpdate, resUpdate) {
+                require("../../models/Process").findByIdAndUpdate(resProcess._id, { message: message, status: 1 }, function (errUpdate, resUpdate) {
                     if (!!errUpdate || !resUpdate) {
                         console.log("error2", message);
                     } else {
@@ -76,33 +80,33 @@ router.post('/', function(req, res) {
             });
         })
         .catch( () => {
-            res.status(400).json({message: "Could not generate Import Log."});
+            res.status(400).json({"message": "Could not generate Process Log."});
         });
     }
 });
 
 module.exports = router;
 
-function upsertDesc(myObject, location, importId, index, length) {
+function upsertDesc(myObject, location, processId, index, length) {
     return new Promise(function(resolve) {
         
-        let ImportConditions = { _id : importId }
-        let ImportUpdate = { status: Math.min(Math.max(index / (length -1), 0), 1) }
-        let ImportOptions = { new: true, upsert: true }
+        let ProcessConditions = { "_id" : processId }
+        let ProcessUpdate = { "status": index = 0 ? 0 : Math.min(Math.max(index / (length -1), 0), 1) }
+        let ProcessOptions = { "new": true, "upsert": true }
 
-        require("../../models/Import").findOneAndUpdate(ImportConditions, ImportUpdate, ImportOptions, function (errImport, resImport) {
+        require("../../models/Process").findOneAndUpdate(ProcessConditions, ProcessUpdate, ProcessOptions, function (errProcess, resProcess) {
             if (!myObject.artNr || !location) {
-                resolve({isRejected: true});
+                resolve({"isRejected": true});
             } else {
-                let stockConditions = { artNr: myObject.artNr, location: location }
-                let stockUpdate = { description: myObject.description }
-                let stockOptions = { new: true, upsert: true }
+                let stockConditions = { "artNr": myObject.artNr, "location": location }
+                let stockUpdate = { "description": myObject.description }
+                let stockOptions = { "new": true, "upsert": true }
                 
                 require("../../models/Stock.js").findOneAndUpdate(stockConditions, stockUpdate, stockOptions, function(errStock, resStock) {
                     if (!!errStock || !resStock) {
-                        resolve({isRejected: true});
+                        resolve({"isRejected": true});
                     } else {
-                        resolve({isRejected: false});
+                        resolve({"isRejected": false});
                     }
                 });
             }
