@@ -1,10 +1,10 @@
 module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end, surface){
     
     let tempObject = {}
-    
-    tempObject.sizeOne = require("./generateSize")(sizeOne, type);
-    tempObject.sizeTwo = require("./generateSize")(sizeTwo, type);
-    tempObject.sizeThree = require("./generateSize")(sizeThree, type);
+    let pffType = require("./lookupPff")(type);
+    tempObject.sizeOne = require("./lookupSize")(sizeOne, pffType);
+    tempObject.sizeTwo = require("./lookupSize")(sizeTwo, pffType);
+    tempObject.sizeThree = require("./lookupSize")(sizeThree, pffType);
     tempObject.wallOne = require("./generateWall")(tempObject.sizeOne.mm, wallOne);
     tempObject.wallTwo = require("./generateWall")(tempObject.sizeTwo.mm, !!wallTwo ? wallTwo : !!sizeTwo ? wallOne : "");
     tempObject.wallThree = require("./generateWall")(tempObject.sizeThree.mm, wallOne);
@@ -14,7 +14,7 @@ module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wal
     tempObject.end = require("./lookupEnd")(tempObject.type, end);
     tempObject.surface = require("./lookupSurface")(surface);
 
-    if (tempObject.type.pffType === "FORGED_OLETS") {
+    if (pffType === "FORGED_OLETS") {
         
         let sizeBefore = [[tempObject.sizeOne, tempObject.wallOne], [tempObject.sizeTwo, tempObject.wallTwo], [tempObject.sizeThree, tempObject.wallThree]]
         let sizeSorted = sizeBefore.sort(function(a,b) {

@@ -2,9 +2,8 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const _ = require('lodash');
 
-const StockSchema = new Schema({
-    "artNr": String,
-    "location": String, 
+const Stock_US_Schema = new Schema({
+    "_id": String,
     "description": {
         "lunar": String,
         "name": String,
@@ -62,4 +61,4 @@ const StockSchema = new Schema({
     },
 });
 
-module.exports= Stock = mongoose.model('stocks', StockSchema);
+module.exports= Stock_US = mongoose.model('stocks_us', Stock_US_Schema);

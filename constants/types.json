@@ -63,6 +63,30 @@
         "isMultiple": false
     },
     {
+        "lunar": "FFF",
+        "name": "TUBE",
+        "tags": ["TUBE"],
+        "pffType": "TUBES",
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "085",
+        "name": "TUBE SMLS",
+        "tags": ["TUBE", "TUBE SMLS"],
+        "pffType": "TUBES",
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "07E",
+        "name": "TUBE WLD",
+        "tags": ["TUBE", "TUBE WLD"],
+        "pffType": "TUBES",
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "00C",
         "name": "CAP",
         "tags": ["CAP"],

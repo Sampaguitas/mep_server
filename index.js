@@ -22,14 +22,25 @@ app.use(passport.initialize());
 require('./models/index');
 require('./config/passport')(passport);
 
-//DB config
+//DBs config
 const db = require('./config/keys').mongoURI;
+// const db_vanleeuwen = require('./config/keys').mongoURI_vanleeuwen;
 
-//Connect to MongoDB
+// Connect to MongoDB
 mongoose
 .connect(db,{useNewUrlParser:true, useUnifiedTopology: true})
 .then(() => console.log("MongoDB Connected"))
 .catch(err => console.log(err));
+
+// var conn = mongoose.createConnection(db, {useNewUrlParser:true, useUnifiedTopology: true})
+// .then(() => console.log("MEP Connected"))
+// .catch(err => console.log(err));
+
+// var conn_vanleeuwen = mongoose.createConnection(db_vanleeuwen, {useNewUrlParser:true, useUnifiedTopology: true})
+// .then(() => console.log("Vanleeuwen Connected"))
+// .catch(err => console.log(err));
+
+
 
 // Listen on port
 const port = process.env.PORT || 5000;

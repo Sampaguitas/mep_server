@@ -8,7 +8,9 @@ const WallSchema = new Schema({
     schS: String,
     mm: Number,
     in: Number,
-    sizeId: Schema.Types.ObjectId
+    pffTypes: [String],
+    sizeId: Schema.Types.ObjectId,
+    
 });
 
 //sizeId: mongoose.SchemaTypes.ObjectId

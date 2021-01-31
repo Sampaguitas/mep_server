@@ -9,7 +9,11 @@ const ProcessSchema = new Schema({
         type: Number,
         default: 0
     },
-    "message": String
+    "message": String,
+    "rejections": [{
+        "row": Number,
+        "reason": String,
+    }]
 },
 {
     timestamps: true 
