@@ -10,7 +10,6 @@ router.get('/', (req, res) => {
     const size_one = decodeURI(req.query.size_one);
     let noPffTwo = [
         "PIPES",
-        "TUBES",
         "PIPE_NIPPLES", 
         "LINE_BLANKS",
         "FASTENERS",
