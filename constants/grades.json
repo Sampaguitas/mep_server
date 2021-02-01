@@ -5214,6 +5214,21 @@
         "isMultiple": false
     },
     {
+        "lunar": "00EFFF",
+        "name": "API5L X52/API5L X60",
+        "tags": [
+            "API5L X52",
+            "API5L X60"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": false,
+        "isMultiple": true
+    },
+    {
         "lunar": "00E107",
         "name": "API5L X52 PSL1",
         "tags": [
