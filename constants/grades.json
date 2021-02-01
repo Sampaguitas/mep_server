@@ -1702,6 +1702,25 @@
         "isMultiple": false
     },
     {
+        "lunar": "0D30C5",
+        "name": "A182 F51 (S31803)/F60 (S32205)",
+        "tags": [
+            "A182 F51 (S31803)",
+            "A182 F60 (S32205)"
+        ],
+        "steelType": "DUPLEX",
+        "pffTypes": [
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "FORGED_FITTINGS",
+            "SWAGE_NIPPLES",
+            "FORGED_OLETS",
+            "LINE_BLANKS"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "0D3130",
         "name": "A182 F60 (S32205)",
         "tags": [
@@ -5215,7 +5234,7 @@
     },
     {
         "lunar": "00EFFF",
-        "name": "API5L X52/API5L X60",
+        "name": "API5L X52/X60",
         "tags": [
             "API5L X52",
             "API5L X60"
@@ -6813,7 +6832,7 @@
         "isMultiple": false
     },
     {
-        "lunar": "0E80BA",
+        "lunar": "0E80C4",
         "name": "A790 S31803/S32205",
         "tags": [
             "A790 S31803",
