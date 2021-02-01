@@ -2032,6 +2032,24 @@
         "isMultiple": true
     },
     {
+        "lunar": "0E72B4",
+        "name": "A106 B/API5L B PSL2",
+        "tags": [
+            "A106 B",
+            "API5L B",
+            "API5L B PSL1",
+            "API5L B PSL2",
+            "A106 B/API5L B PSL2"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": false,
+        "isMultiple": true
+    },
+    {
         "lunar": "0E719F",
         "name": "A106 B/API5L BNS PSL2",
         "tags": [
