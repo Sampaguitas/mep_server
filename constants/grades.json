@@ -5200,6 +5200,156 @@
         "isMultiple": false
     },
     {
+        "lunar": "00E0C3",
+        "name": "API5L X52",
+        "tags": [
+            "API5L X52"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00E107",
+        "name": "API5L X52 PSL1",
+        "tags": [
+            "API5L X52",
+            "API5L X52 PSL1"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00E0F9",
+        "name": "API5L X52 PSL2",
+        "tags": [
+            "API5L X52",
+            "API5L X52 PSL1",
+            "API5L X52 PSL2"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00E267",
+        "name": "API5L X52N PSL2",
+        "tags": [
+            "API5L X52",
+            "API5L X52 PSL1",
+            "API5L X52 PSL2",
+            "API5L X52N PSL2"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00EFFF",
+        "name": "API5L X52NS PSL2",
+        "tags": [
+            "API5L X52",
+            "API5L X52 PSL1",
+            "API5L X52 PSL2",
+            "API5L X52N PSL2",
+            "API5L X52NS PSL2"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00EFFF",
+        "name": "API5L X52Q PSL2",
+        "tags": [
+            "API5L X52",
+            "API5L X52 PSL1",
+            "API5L X52 PSL2",
+            "API5L X52Q PSL2"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00EFFF",
+        "name": "API5L X52QS PSL2",
+        "tags": [
+            "API5L X52",
+            "API5L X52 PSL1",
+            "API5L X52 PSL2",
+            "API5L X52Q PSL2",
+            "API5L X52QS PSL2"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00EFFF",
+        "name": "API5L X52M PSL2",
+        "tags": [
+            "API5L X52",
+            "API5L X52 PSL1",
+            "API5L X52 PSL2",
+            "API5L X52M PSL2"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00EFFF",
+        "name": "API5L X52MS PSL2",
+        "tags": [
+            "API5L X52",
+            "API5L X52 PSL1",
+            "API5L X52 PSL2",
+            "API5L X52M PSL2",
+            "API5L X52MS PSL2"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "00E10E",
         "name": "API5L X60",
         "tags": [
@@ -5854,156 +6004,6 @@
         "tags": [
             "A671 CC65",
             "A671 CC65 CL32"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00E0C3",
-        "name": "API5L X52",
-        "tags": [
-            "API5L X52"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": false,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00E107",
-        "name": "API5L X52 PSL1",
-        "tags": [
-            "API5L X52",
-            "API5L X52 PSL1"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00E0F9",
-        "name": "API5L X52 PSL2",
-        "tags": [
-            "API5L X52",
-            "API5L X52 PSL1",
-            "API5L X52 PSL2"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": false,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00E267",
-        "name": "API5L X52N PSL2",
-        "tags": [
-            "API5L X52",
-            "API5L X52 PSL1",
-            "API5L X52 PSL2",
-            "API5L X52N PSL2"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00EFFF",
-        "name": "API5L X52NS PSL2",
-        "tags": [
-            "API5L X52",
-            "API5L X52 PSL1",
-            "API5L X52 PSL2",
-            "API5L X52N PSL2",
-            "API5L X52NS PSL2"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00EFFF",
-        "name": "API5L X52Q PSL2",
-        "tags": [
-            "API5L X52",
-            "API5L X52 PSL1",
-            "API5L X52 PSL2",
-            "API5L X52Q PSL2"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00EFFF",
-        "name": "API5L X52QS PSL2",
-        "tags": [
-            "API5L X52",
-            "API5L X52 PSL1",
-            "API5L X52 PSL2",
-            "API5L X52Q PSL2",
-            "API5L X52QS PSL2"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00EFFF",
-        "name": "API5L X52M PSL2",
-        "tags": [
-            "API5L X52",
-            "API5L X52 PSL1",
-            "API5L X52 PSL2",
-            "API5L X52M PSL2"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPES",
-            "PIPE_NIPPLES"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "00EFFF",
-        "name": "API5L X52MS PSL2",
-        "tags": [
-            "API5L X52",
-            "API5L X52 PSL1",
-            "API5L X52 PSL2",
-            "API5L X52M PSL2",
-            "API5L X52MS PSL2"
         ],
         "steelType": "LOW_TEMP",
         "pffTypes": [
