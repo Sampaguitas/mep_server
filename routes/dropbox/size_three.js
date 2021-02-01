@@ -4,6 +4,7 @@ const router = express.Router();
 let regNps = /^(\d| |\/)*"$/
 let regDn = /^DN \d*$/
 let regMm = /^(\d|\.)* mm$/
+let regIn = /^(\d|\.)* in$/
 
 router.get('/', (req, res) => {
     const pff_type = decodeURI(req.query.pff_type);
@@ -28,6 +29,8 @@ router.get('/', (req, res) => {
                         acc.dn.push(tag);
                     } else if(regMm.test(tag)) {
                         acc.mm.push(tag);
+                    } else if(regIn.test(tag)) {
+                        acc.in.push(tag);
                     } else {
                         acc.other.push(tag);
                     }
@@ -37,10 +40,11 @@ router.get('/', (req, res) => {
                 "nps": [],
                 "dn": [],
                 "mm": [],
+                "in": [],
                 "other": []
             });
             res.status(200).json(
-            [...temp_three.nps, ...temp_three.dn, ...temp_three.mm, ...temp_three.other]
+            [...temp_three.nps, ...temp_three.dn, ...temp_three.mm, ...temp_three.in, ...temp_three.other]
             .filter((value, index, self) => self.indexOf(value) === index)
             );
         }

@@ -9,7 +9,19 @@
             "4 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -22,7 +34,19 @@
             "5 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -35,7 +59,19 @@
             "6 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -48,7 +84,19 @@
             "7 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -61,7 +109,19 @@
             "8 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -74,7 +134,19 @@
             "9 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -87,7 +159,19 @@
             "10 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -100,7 +184,19 @@
             "10.2 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -116,7 +212,19 @@
             "0.405 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -129,7 +237,19 @@
             "12 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -142,7 +262,19 @@
             "12.7 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -160,7 +292,19 @@
             "0.54 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -173,7 +317,19 @@
             "14 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -186,7 +342,19 @@
             "15 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -199,7 +367,19 @@
             "16 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -217,7 +397,19 @@
             "0.675 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -230,7 +422,19 @@
             "18 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -243,7 +447,19 @@
             "19 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -262,7 +478,19 @@
             "0.84 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -275,7 +503,19 @@
             "22 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -288,7 +528,19 @@
             "25.4 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -301,7 +553,19 @@
             "26 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -320,7 +584,19 @@
             "1.05 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -333,7 +609,19 @@
             "28 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -346,7 +634,19 @@
             "31.8 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -359,7 +659,19 @@
             "32 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -378,7 +690,19 @@
             "1.315 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -391,7 +715,19 @@
             "35 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -404,7 +740,19 @@
             "40 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -417,7 +765,19 @@
             "42 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -436,7 +796,19 @@
             "1.66 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -449,7 +821,19 @@
             "44 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -462,7 +846,19 @@
             "45 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -475,7 +871,19 @@
             "48 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -494,7 +902,19 @@
             "1.9 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -507,7 +927,19 @@
             "50 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -520,7 +952,19 @@
             "51 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -533,7 +977,19 @@
             "54 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -546,7 +1002,19 @@
             "55 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -559,7 +1027,19 @@
             "60 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -578,7 +1058,19 @@
             "2.375 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -591,7 +1083,19 @@
             "63.5 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -604,7 +1108,19 @@
             "65 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -617,7 +1133,19 @@
             "70 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -633,7 +1161,19 @@
             "2.875 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -646,7 +1186,19 @@
             "75 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -659,7 +1211,19 @@
             "76 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -675,7 +1239,19 @@
             "76.1 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -688,7 +1264,19 @@
             "80 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -701,7 +1289,19 @@
             "82.5 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -714,7 +1314,19 @@
             "85 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -733,7 +1345,19 @@
             "3.5 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -746,7 +1370,19 @@
             "89 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -759,7 +1395,19 @@
             "90 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -772,7 +1420,19 @@
             "95 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -785,7 +1445,19 @@
             "100 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -802,7 +1474,19 @@
             "4 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -815,7 +1499,19 @@
             "110 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -828,7 +1524,19 @@
             "114 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -847,7 +1555,19 @@
             "4.5 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -860,7 +1580,19 @@
             "120 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -873,7 +1605,19 @@
             "121 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -886,7 +1630,19 @@
             "127 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -899,7 +1655,19 @@
             "130 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -915,7 +1683,19 @@
             "139.7 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -928,7 +1708,19 @@
             "140 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -944,7 +1736,19 @@
             "5.563 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -957,7 +1761,19 @@
             "150 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -970,7 +1786,19 @@
             "152.4 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -983,7 +1811,19 @@
             "160 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -996,7 +1836,19 @@
             "168 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1015,7 +1867,19 @@
             "6.625 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1028,7 +1892,19 @@
             "170 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1041,7 +1917,19 @@
             "177.8 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1054,7 +1942,19 @@
             "180 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1067,7 +1967,19 @@
             "190 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1080,7 +1992,19 @@
             "193.7 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1093,7 +2017,19 @@
             "200 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1106,7 +2042,19 @@
             "203 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1125,7 +2073,19 @@
             "8.625 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1138,7 +2098,19 @@
             "220 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1151,7 +2123,19 @@
             "229 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1164,7 +2148,19 @@
             "240 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1177,7 +2173,19 @@
             "244.5 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1190,7 +2198,19 @@
             "260 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1209,7 +2229,19 @@
             "10.75 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1222,7 +2254,19 @@
             "280 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1235,7 +2279,19 @@
             "298.5 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1248,7 +2304,19 @@
             "300 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1261,7 +2329,19 @@
             "320 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1279,7 +2359,19 @@
             "12.75 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1298,7 +2390,19 @@
             "12.75 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1311,7 +2415,19 @@
             "340 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1330,7 +2446,19 @@
             "14 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1343,7 +2471,19 @@
             "360 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1356,7 +2496,19 @@
             "380 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1375,7 +2527,19 @@
             "16 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1388,7 +2552,19 @@
             "406.5 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1407,7 +2583,19 @@
             "18 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1426,7 +2614,19 @@
             "20 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1442,7 +2642,19 @@
             "22 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1461,7 +2673,19 @@
             "24 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1477,7 +2701,19 @@
             "26 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1496,7 +2732,19 @@
             "28 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1512,7 +2760,19 @@
             "30 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1531,7 +2791,19 @@
             "32 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1547,7 +2819,19 @@
             "34 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1566,7 +2850,19 @@
             "36 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1582,7 +2878,19 @@
             "38 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1601,7 +2909,19 @@
             "40 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1617,7 +2937,19 @@
             "42 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1633,7 +2965,19 @@
             "44 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1649,7 +2993,19 @@
             "46 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1667,7 +3023,19 @@
             "48 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1683,7 +3051,19 @@
             "52 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1699,7 +3079,19 @@
             "56 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1715,7 +3107,19 @@
             "60 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1731,7 +3135,19 @@
             "64 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1747,7 +3163,19 @@
             "68 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1763,7 +3191,19 @@
             "72 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1779,7 +3219,19 @@
             "76 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1792,7 +3244,19 @@
             "2030 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1808,7 +3272,19 @@
             "80 in"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1821,7 +3297,19 @@
             "2134 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1834,7 +3322,19 @@
             "2235 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1847,7 +3347,19 @@
             "2337 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1860,7 +3372,19 @@
             "2438 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
@@ -1873,7 +3397,19 @@
             "2450 mm"
         ],
         "pffTypes": [
-            "PIPES"
+            "PIPES",
+            "PIPE_FITTINGS",
+            "PIPE_NIPPLES",
+            "SWAGE_NIPPLES",
+            "FORGED_FITTINGS",
+            "FORGED_FLANGES",
+            "FORGED_OLETS",
+            "LINE_BLANKS",
+            "EN_FLANGES",
+            "SW_GASKETS",
+            "VALVES",
+            "MI_FITTINGS",
+            "OTHERS"
         ]
     },
     {
