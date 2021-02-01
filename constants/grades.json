@@ -5812,6 +5812,37 @@
         "isMultiple": false
     },
     {
+        "lunar": "00A023",
+        "name": "A333 6 LT45",
+        "tags": [
+            "A333 6",
+            "A333 6 LT45"
+        ],
+        "steelType": "LOW_TEMP",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "00A116",
+        "name": "A333 6 LT50",
+        "tags": [
+            "A333 6",
+            "A333 6 LT45",
+            "A333 6 LT50"
+        ],
+        "steelType": "LOW_TEMP",
+        "pffTypes": [
+            "PIPES",
+            "PIPE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "22C82F",
         "name": "A333 6/API5L X52N PSL2",
         "tags": [
