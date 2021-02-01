@@ -1706,7 +1706,8 @@
         "name": "A182 F51 (S31803)/F60 (S32205)",
         "tags": [
             "A182 F51 (S31803)",
-            "A182 F60 (S32205)"
+            "A182 F60 (S32205)",
+            "A182 F51 (S31803)/F60 (S32205)"
         ],
         "steelType": "DUPLEX",
         "pffTypes": [
@@ -5237,7 +5238,8 @@
         "name": "API5L X52/X60",
         "tags": [
             "API5L X52",
-            "API5L X60"
+            "API5L X60",
+            "API5L X52/X60"
         ],
         "steelType": "CARBON_STEEL",
         "pffTypes": [
@@ -7672,7 +7674,6 @@
         "tags": [
             "A240 304",
             "A240 304L",
-            "A240 304/304L",
             "A240 304/304L"
         ],
         "steelType": "AUSTENITIC",
@@ -7819,7 +7820,8 @@
         "name": "A240 321/321H",
         "tags": [
             "A240 321",
-            "A240 321H"
+            "A240 321H",
+            "A240 321/321H"
         ],
         "steelType": "AUSTENITIC",
         "pffTypes": [
