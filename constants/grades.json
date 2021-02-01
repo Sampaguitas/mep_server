@@ -818,6 +818,24 @@
         "isMultiple": true
     },
     {
+        "lunar": "2100A3",
+        "name": "A694 F52",
+        "tags": [
+            "A694 F52"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "FORGED_FLANGES",
+            "EN_FLANGES",
+            "FORGED_FITTINGS",
+            "SWAGE_NIPPLES",
+            "FORGED_OLETS",
+            "LINE_BLANKS"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "210130",
         "name": "A694 F60",
         "tags": [
@@ -1063,24 +1081,6 @@
         "name": "A350 LF9",
         "tags": [
             "A350 LF9"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "FORGED_FLANGES",
-            "EN_FLANGES",
-            "FORGED_FITTINGS",
-            "SWAGE_NIPPLES",
-            "FORGED_OLETS",
-            "LINE_BLANKS"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "2100A3",
-        "name": "A694 F52",
-        "tags": [
-            "A694 F52"
         ],
         "steelType": "LOW_TEMP",
         "pffTypes": [
