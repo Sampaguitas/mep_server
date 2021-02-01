@@ -61,6 +61,20 @@
         "isMultiple": false
     },
     {
+        "lunar": "22D0BF",
+        "name": "A860 WPHY52",
+        "tags": [
+            "A860 WPHY52"
+        ],
+        "steelType": "CARBON_STEEL",
+        "pffTypes": [
+            "PIPE_FITTINGS",
+            "SWAGE_NIPPLES"
+        ],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "22D13C",
         "name": "A860 WPHY60",
         "tags": [
@@ -135,20 +149,6 @@
         "name": "A420 WPL9",
         "tags": [
             "A420 WPL9"
-        ],
-        "steelType": "LOW_TEMP",
-        "pffTypes": [
-            "PIPE_FITTINGS",
-            "SWAGE_NIPPLES"
-        ],
-        "isComplete": true,
-        "isMultiple": false
-    },
-    {
-        "lunar": "22D0BF",
-        "name": "A860 WPHY52",
-        "tags": [
-            "A860 WPHY52"
         ],
         "steelType": "LOW_TEMP",
         "pffTypes": [
