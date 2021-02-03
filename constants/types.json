@@ -108,6 +108,249 @@
         "isMultiple": false
     },
     {
+        "lunar": "FFF",
+        "name": "ELB 2D 180",
+        "tags": ["ELB 2D 180"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0C9",
+        "name": "ELB 2D 180 SMLS",
+        "tags": ["ELB 2D 180", "ELB 2D 180 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0D2",
+        "name": "ELB 2D 180 WLD",
+        "tags": ["ELB 2D 180", "ELB 2D 180 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ELB 2D 45",
+        "tags": ["ELB 2D 45"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0C3",
+        "name": "ELB 2D 45 SMLS",
+        "tags": ["ELB 2D 45", "ELB 2D 45 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0CC",
+        "name": "ELB 2D 45 WLD",
+        "tags": ["ELB 2D 45", "ELB 2D 45 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ELB 2D 90",
+        "tags": ["ELB 2D 90"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0C6",
+        "name": "ELB 2D 90 SMLS",
+        "tags": ["ELB 2D 90", "ELB 2D 90 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0CF",
+        "name": "ELB 2D 90 WLD",
+        "tags": ["ELB 2D 90", "ELB 2D 90 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ELB 3D 180",
+        "tags": ["ELB 3D 180"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0CA",
+        "name": "ELB 3D 180 SMLS",
+        "tags": ["ELB 3D 180", "ELB 3D 180 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0D3",
+        "name": "ELB 3D 180 WLD",
+        "tags": ["ELB 3D 180", "ELB 3D 180 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ELB 3D 45",
+        "tags": ["ELB 3D 45"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0C4",
+        "name": "ELB 3D 45 SMLS",
+        "tags": ["ELB 3D 45", "ELB 3D 45 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0CD",
+        "name": "ELB 3D 45 WLD",
+        "tags": ["ELB 3D 45", "ELB 3D 45 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ELB 3D 90",
+        "tags": ["ELB 3D 90"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0C7",
+        "name": "ELB 3D 90 SMLS",
+        "tags": ["ELB 3D 90", "ELB 3D 90 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0D0",
+        "name": "ELB 3D 90 WLD",
+        "tags": ["ELB 3D 90", "ELB 3D 90 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ELB 5D 180",
+        "tags": ["ELB 5D 180"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0CB",
+        "name": "ELB 5D 180 SMLS",
+        "tags": ["ELB 5D 180", "ELB 5D 180 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0D4",
+        "name": "ELB 5D 180 WLD",
+        "tags": ["ELB 5D 180", "ELB 5D 180 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ELB 5D 45",
+        "tags": ["ELB 5D 45"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0C5",
+        "name": "ELB 5D 45 SMLS",
+        "tags": ["ELB 5D 45", "ELB 5D 45 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0CE",
+        "name": "ELB 5D 45 WLD",
+        "tags": ["ELB 5D 45", "ELB 5D 45 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "FFF",
+        "name": "ELB 5D 90",
+        "tags": ["ELB 5D 90"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": false,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0C8",
+        "name": "ELB 5D 90 SMLS",
+        "tags": ["ELB 5D 90", "ELB 5D 90 SMLS"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
+        "lunar": "0D1",
+        "name": "ELB 5D 90 WLD",
+        "tags": ["ELB 5D 90", "ELB 5D 90 WLD"],
+        "pffType": "PIPE_FITTINGS",
+        "specs": ["EN 10253"],
+        "isComplete": true,
+        "isMultiple": false
+    },
+    {
         "lunar": "FFF", 
         "name": "ELB LR 180",
         "tags": ["ELB LR 180"],
