@@ -112,7 +112,7 @@
         "name": "ELB 2D 180",
         "tags": ["ELB 2D 180"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -121,7 +121,7 @@
         "name": "ELB 2D 180 SMLS",
         "tags": ["ELB 2D 180", "ELB 2D 180 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -130,7 +130,7 @@
         "name": "ELB 2D 180 WLD",
         "tags": ["ELB 2D 180", "ELB 2D 180 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -139,7 +139,7 @@
         "name": "ELB 2D 45",
         "tags": ["ELB 2D 45"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -148,7 +148,7 @@
         "name": "ELB 2D 45 SMLS",
         "tags": ["ELB 2D 45", "ELB 2D 45 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -157,7 +157,7 @@
         "name": "ELB 2D 45 WLD",
         "tags": ["ELB 2D 45", "ELB 2D 45 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -166,7 +166,7 @@
         "name": "ELB 2D 90",
         "tags": ["ELB 2D 90"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -175,7 +175,7 @@
         "name": "ELB 2D 90 SMLS",
         "tags": ["ELB 2D 90", "ELB 2D 90 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -184,7 +184,7 @@
         "name": "ELB 2D 90 WLD",
         "tags": ["ELB 2D 90", "ELB 2D 90 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -193,7 +193,7 @@
         "name": "ELB 3D 180",
         "tags": ["ELB 3D 180"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -202,7 +202,7 @@
         "name": "ELB 3D 180 SMLS",
         "tags": ["ELB 3D 180", "ELB 3D 180 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -211,7 +211,7 @@
         "name": "ELB 3D 180 WLD",
         "tags": ["ELB 3D 180", "ELB 3D 180 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -220,7 +220,7 @@
         "name": "ELB 3D 45",
         "tags": ["ELB 3D 45"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -229,7 +229,7 @@
         "name": "ELB 3D 45 SMLS",
         "tags": ["ELB 3D 45", "ELB 3D 45 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -238,7 +238,7 @@
         "name": "ELB 3D 45 WLD",
         "tags": ["ELB 3D 45", "ELB 3D 45 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -247,7 +247,7 @@
         "name": "ELB 3D 90",
         "tags": ["ELB 3D 90"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -256,7 +256,7 @@
         "name": "ELB 3D 90 SMLS",
         "tags": ["ELB 3D 90", "ELB 3D 90 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -265,7 +265,7 @@
         "name": "ELB 3D 90 WLD",
         "tags": ["ELB 3D 90", "ELB 3D 90 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -274,7 +274,7 @@
         "name": "ELB 5D 180",
         "tags": ["ELB 5D 180"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -283,7 +283,7 @@
         "name": "ELB 5D 180 SMLS",
         "tags": ["ELB 5D 180", "ELB 5D 180 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -292,7 +292,7 @@
         "name": "ELB 5D 180 WLD",
         "tags": ["ELB 5D 180", "ELB 5D 180 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -301,7 +301,7 @@
         "name": "ELB 5D 45",
         "tags": ["ELB 5D 45"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -310,7 +310,7 @@
         "name": "ELB 5D 45 SMLS",
         "tags": ["ELB 5D 45", "ELB 5D 45 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -319,7 +319,7 @@
         "name": "ELB 5D 45 WLD",
         "tags": ["ELB 5D 45", "ELB 5D 45 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -328,7 +328,7 @@
         "name": "ELB 5D 90",
         "tags": ["ELB 5D 90"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": false,
         "isMultiple": false
     },
@@ -337,7 +337,7 @@
         "name": "ELB 5D 90 SMLS",
         "tags": ["ELB 5D 90", "ELB 5D 90 SMLS"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -346,7 +346,7 @@
         "name": "ELB 5D 90 WLD",
         "tags": ["ELB 5D 90", "ELB 5D 90 WLD"],
         "pffType": "PIPE_FITTINGS",
-        "specs": ["EN 10253"],
+        "specs": ["EN10253"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2507,7 +2507,7 @@
         "name": "FWF (1) PN 2.5",
         "tags": ["FWF (1) PN 2.5"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2516,7 +2516,7 @@
         "name": "FWF (1) PN 2.5/6",
         "tags": ["FWF (1) PN 2.5", "FWF (1) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2525,7 +2525,7 @@
         "name": "FWF (1) PN 6",
         "tags": ["FWF (1) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2534,7 +2534,7 @@
         "name": "FWF (1) PN 10",
         "tags": ["FWF (1) PN 10"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2543,7 +2543,7 @@
         "name": "FWF (1) PN 10/16",
         "tags": ["FWF (1) PN 10", "FWF (1) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2552,7 +2552,7 @@
         "name": "FWF (1) PN 10/16/25/40",
         "tags": ["FWF (1) PN 10", "FWF (1) PN 16", "FWF (1) PN 25", "FWF (1) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2561,7 +2561,7 @@
         "name": "FWF (1) PN 16",
         "tags": ["FWF (1) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2570,7 +2570,7 @@
         "name": "FWF (1) PN 25",
         "tags": ["FWF (1) PN 25"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2579,7 +2579,7 @@
         "name": "FWF (1) PN 25/40",
         "tags": ["FWF (1) PN 25", "FWF (1) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2588,7 +2588,7 @@
         "name": "FWF (1) PN 40",
         "tags": ["FWF (1) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2597,7 +2597,7 @@
         "name": "FWF (1) PN 63",
         "tags": ["FWF (1) PN 63"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2606,7 +2606,7 @@
         "name": "FWF (1) PN 63/100",
         "tags": ["FWF (1) PN 63", "FWF (1) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2615,7 +2615,7 @@
         "name": "FWF (1) PN 100",
         "tags": ["FWF (1) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2624,7 +2624,7 @@
         "name": "LPF (2) PN 2.5",
         "tags": ["LPF (2) PN 2.5"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2633,7 +2633,7 @@
         "name": "LPF (2) PN 2.5/6",
         "tags": ["LPF (2) PN 2.5", "LPF (2) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2642,7 +2642,7 @@
         "name": "LPF (2) PN 6",
         "tags": ["LPF (2) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2651,7 +2651,7 @@
         "name": "LPF (2) PN 10",
         "tags": ["LPF (2) PN 10"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2660,7 +2660,7 @@
         "name": "LPF (2) PN 10/16",
         "tags": ["LPF (2) PN 10", "LPF (2) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2669,7 +2669,7 @@
         "name": "LPF (2) PN 10/16/25/40",
         "tags": ["LPF (2) PN 10", "LPF (2) PN 16", "LPF (2) PN 25", "LPF (2) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2678,7 +2678,7 @@
         "name": "LPF (2) PN 16",
         "tags": ["LPF (2) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2687,7 +2687,7 @@
         "name": "LPF (2) PN 25",
         "tags": ["LPF (2) PN 25"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2696,7 +2696,7 @@
         "name": "LPF (2) PN 25/40",
         "tags": ["LPF (2) PN 25", "LPF (2) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2705,7 +2705,7 @@
         "name": "LPF (2) PN 40",
         "tags": ["LPF (2) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2714,7 +2714,7 @@
         "name": "LPF (4) PN 6",
         "tags": ["LPF (4) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2723,7 +2723,7 @@
         "name": "LPF (4) PN 10", 
         "tags": ["LPF (4) PN 10"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2732,7 +2732,7 @@
         "name": "LPF (4) PN 10/16", 
         "tags": ["LPF (4) PN 10", "LPF (4) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2741,7 +2741,7 @@
         "name": "LPF (4) PN 10/16/25/40", 
         "tags": ["LPF (4) PN 10", "LPF (4) PN 16", "LPF (4) PN 25", "LPF (4) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2750,7 +2750,7 @@
         "name": "LPF (4) PN 16",
         "tags": ["LPF (4) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2759,7 +2759,7 @@
         "name": "LPF (4) PN 25",
         "tags": ["LPF (4) PN 25"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2768,7 +2768,7 @@
         "name": "LPF (4) PN 25/40",
         "tags": ["LPF (4) PN 25", "LPF (4) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2777,7 +2777,7 @@
         "name": "LPF (4) PN 40",
         "tags": ["LPF (4) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2786,7 +2786,7 @@
         "name": "LPF (4) PN 63",
         "tags": ["LPF (4) PN 63"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2795,7 +2795,7 @@
         "name": "LPF (4) PN 63/100",
         "tags": ["LPF (4) PN 63", "LPF (4) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2804,7 +2804,7 @@
         "name": "LPF (4) PN 100",
         "tags": ["LPF (4) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2813,7 +2813,7 @@
         "name": "BLF (5) PN 2.5",
         "tags": ["BLF (5) PN 2.5"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2822,7 +2822,7 @@
         "name": "BLF (5) PN 2.5/6",
         "tags": ["BLF (5) PN 2.5", "BLF (5) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2831,7 +2831,7 @@
         "name": "BLF (5) PN 6",
         "tags": ["BLF (5) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2840,7 +2840,7 @@
         "name": "BLF (5) PN 10",
         "tags": ["BLF (5) PN 10"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2849,7 +2849,7 @@
         "name": "BLF (5) PN 10/16",
         "tags": ["BLF (5) PN 10", "BLF (5) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2858,7 +2858,7 @@
         "name": "BLF (5) PN 10/16/25/40",
         "tags": ["BLF (5) PN 10", "BLF (5) PN 16", "BLF (5) PN 25", "BLF (5) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2867,7 +2867,7 @@
         "name": "BLF (5) PN 16",
         "tags": ["BLF (5) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2876,7 +2876,7 @@
         "name": "BLF (5) PN 25",
         "tags": ["BLF (5) PN 25"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2885,7 +2885,7 @@
         "name": "BLF (5) PN 25/40",
         "tags": ["BLF (5) PN 25", "BLF (5) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2894,7 +2894,7 @@
         "name": "BLF (5) PN 40",
         "tags": ["BLF (5) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2903,7 +2903,7 @@
         "name": "BLF (5) PN 63",
         "tags": ["BLF (5) PN 63"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2912,7 +2912,7 @@
         "name": "BLF (5) PN 63/100",
         "tags": ["BLF (5) PN 63", "BLF (5) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2921,7 +2921,7 @@
         "name": "BLF (5) PN 100",
         "tags": ["BLF (5) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2930,7 +2930,7 @@
         "name": "BLF (5) PN 160",
         "tags": ["BLF (5) PN 160"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2939,7 +2939,7 @@
         "name": "BLF (5) PN 250",
         "tags": ["BLF (5) PN 250"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2948,7 +2948,7 @@
         "name": "BLF (5) PN 250/320",
         "tags": ["BLF (5) PN 250", "BLF (5) PN 320"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2957,7 +2957,7 @@
         "name": "BLF (5) PN 320",
         "tags": ["BLF (5) PN 320"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2966,7 +2966,7 @@
         "name": "BLF (5) PN 400",
         "tags": ["BLF (5) PN 400"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2975,7 +2975,7 @@
         "name": "WNF (11) PN 2.5",
         "tags": ["WNF (11) PN 2.5"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -2984,7 +2984,7 @@
         "name": "WNF (11) PN 2.5/6",
         "tags": ["WNF (11) PN 2.5", "WNF (11) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -2993,7 +2993,7 @@
         "name": "WNF (11) PN 6",
         "tags": ["WNF (11) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3002,7 +3002,7 @@
         "name": "WNF (11) PN 10",
         "tags": ["WNF (11) PN 10"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3011,7 +3011,7 @@
         "name": "WNF (11) PN 10/16",
         "tags": ["WNF (11) PN 10", "WNF (11) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3020,7 +3020,7 @@
         "name": "WNF (11) PN 10/16/25/40",
         "tags": ["WNF (11) PN 10", "WNF (11) PN 16", "WNF (11) PN 25", "WNF (11) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3029,7 +3029,7 @@
         "name": "WNF (11) PN 16",
         "tags": ["WNF (11) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3038,7 +3038,7 @@
         "name": "WNF (11) PN 25",
         "tags": ["WNF (11) PN 25"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3047,7 +3047,7 @@
         "name": "WNF (11) PN 25/40",
         "tags": ["WNF (11) PN 25", "WNF (11) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3056,7 +3056,7 @@
         "name": "WNF (11) PN 40",
         "tags": ["WNF (11) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3065,7 +3065,7 @@
         "name": "WNF (11) PN 63",
         "tags": ["WNF (11) PN 63"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3074,7 +3074,7 @@
         "name": "WNF (11) PN 63/100",
         "tags": ["WNF (11) PN 63", "WNF (11) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3083,7 +3083,7 @@
         "name": "WNF (11) PN 100",
         "tags": ["WNF (11) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3092,7 +3092,7 @@
         "name": "WNF (11) PN 160",
         "tags": ["WNF (11) PN 160"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3101,7 +3101,7 @@
         "name": "WNF (11) PN 250",
         "tags": ["WNF (11) PN 250"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3110,7 +3110,7 @@
         "name": "WNF (11) PN 250/320",
         "tags": ["WNF (11) PN 250", "WNF (11) PN 320"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3119,7 +3119,7 @@
         "name": "WNF (11) PN 320",
         "tags": ["WNF (11) PN 320"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3128,7 +3128,7 @@
         "name": "WNF (11) PN 400",
         "tags": ["WNF (11) PN 400"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3137,7 +3137,7 @@
         "name": "SOF (12) PN 6",
         "tags": ["SOF (12) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3146,7 +3146,7 @@
         "name": "SOF (12) PN 10",
         "tags": ["SOF (12) PN 10"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3155,7 +3155,7 @@
         "name": "SOF (12) PN 10/16",
         "tags": ["SOF (12) PN 10", "SOF (12) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3164,7 +3164,7 @@
         "name": "SOF (12) PN 10/16/25/40",
         "tags": ["SOF (12) PN 10", "SOF (12) PN 16", "SOF (12) PN 25", "SOF (12) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3173,7 +3173,7 @@
         "name": "SOF (12) PN 16",
         "tags": ["SOF (12) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3182,7 +3182,7 @@
         "name": "SOF (12) PN 25",
         "tags": ["SOF (12) PN 25"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3191,7 +3191,7 @@
         "name": "SOF (12) PN 25/40",
         "tags": ["SOF (12) PN 25", "SOF (12) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3200,7 +3200,7 @@
         "name": "SOF (12) PN 40",
         "tags": ["SOF (12) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3209,7 +3209,7 @@
         "name": "SOF (12) PN 63",
         "tags": ["SOF (12) PN 63"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3218,7 +3218,7 @@
         "name": "SOF (12) PN 63/100",
         "tags": ["SOF (12) PN 63", "SOF (12) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3227,7 +3227,7 @@
         "name": "SOF (12) PN 100",
         "tags": ["SOF (12) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3236,7 +3236,7 @@
         "name": "THR FL (13) PN 6",
         "tags": ["THR FL (13) PN 6"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3245,7 +3245,7 @@
         "name": "THR FL (13) PN 10", 
         "tags": ["THR FL (13) PN 10"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3254,7 +3254,7 @@
         "name": "THR FL (13) PN 10/16",
         "tags": ["THR FL (13) PN 10", "THR FL (13) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3263,7 +3263,7 @@
         "name": "THR FL (13) PN 10/16/25/40",
         "tags": ["THR FL (13) PN 10", "THR FL (13) PN 16", "THR FL (13) PN 25", "THR FL (13) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3272,7 +3272,7 @@
         "name": "THR FL (13) PN 16",
         "tags": ["THR FL (13) PN 16"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3281,7 +3281,7 @@
         "name": "THR FL (13) PN 25",
         "tags": ["THR FL (13) PN 25"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3290,7 +3290,7 @@
         "name": "THR FL (13) PN 25/40",
         "tags": ["THR FL (13) PN 25", "THR FL (13) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3299,7 +3299,7 @@
         "name": "THR FL (13) PN 40",
         "tags": ["THR FL (13) PN 40"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3308,7 +3308,7 @@
         "name": "THR FL (13) PN 63",
         "tags": ["THR FL (13) PN 63"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
@@ -3317,7 +3317,7 @@
         "name": "THR FL (13) PN 63/100",
         "tags": ["THR FL (13) PN 63", "THR FL (13) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": true
     },
@@ -3326,7 +3326,7 @@
         "name": "THR FL (13) PN 100",
         "tags": ["THR FL (13) PN 100"],
         "pffType": "EN_FLANGES",
-        "specs": ["EN 1092-1"],
+        "specs": ["EN1092-1"],
         "isComplete": true,
         "isMultiple": false
     },
