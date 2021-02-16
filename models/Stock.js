@@ -1,6 +1,25 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const _ = require('lodash');
+const _ = require("lodash");
+
+const OpcoSchema = new Schema({
+    "_id": String,
+    "qty": Number,
+    "price": {
+        "gip": Number,
+        "rv": Number,
+    },
+    "purchase": {
+        "supplier": String,
+        "qty": Number,
+        "firstInStock": Number,
+        "deliveryDate": Date
+    },
+    "supplier": {
+        "names": [String],
+        "qtys": [String]
+    }
+});
 
 const StockSchema = new Schema({
     "_id": String,
@@ -8,20 +27,7 @@ const StockSchema = new Schema({
     "vlunar": String,
     "weight": Number,
     "uom": String,
-    "opcos": [{
-        "_id": String,
-        "stockQty": Number,
-        "gip": Number,
-        "rv": Number,
-        "purchase": {
-            "supplier": String,
-            "qty": Number,
-            "firstInStock": Number,
-            "deliveryDate": Date
-        },
-        "supplerNames": [String],
-        "supplierQtys": [String]
-    }],
+    "opcos": [OpcoSchema],
     "parameters": {
         "sizeOne": {
             "name": String,
@@ -62,4 +68,4 @@ const StockSchema = new Schema({
     }
 });
 
-module.exports= Stock = mongoose.model('stocks', StockSchema);
+module.exports= Stock = mongoose.model("stocks", StockSchema);

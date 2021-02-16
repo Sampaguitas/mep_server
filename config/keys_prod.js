@@ -10,4 +10,5 @@ module.exports = {
     myPosition: process.env.MY_POSITION,
     myPhone: process.env.MY_PHONE,
     apiUrl: process.env.API_URL,
+    curlPwd: process.env.CURL_PWD,
 };
