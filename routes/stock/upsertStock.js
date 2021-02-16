@@ -40,6 +40,7 @@ router.post("/", upload.single("file"), function(req, res) {
 });
 
 function updateChild(row, index) {
+    console.log(String(row[2]));
     return new Promise(function(resolve) {
         if (row.length != 21) {
             resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
@@ -48,31 +49,32 @@ function updateChild(row, index) {
         } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]))) {
             resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
         } else {
-            let filter = { "_id": String(row[2]), "opcos._id": String(row[0]) }
-            let options = { }
+            let filter = { "_id": String(row[2]), "opcos": { "name": String(row[0]) } }
             let update = {
                 $set: {
                     "description": String(row[3].trim()),
                     "weight": require("../../functions/generateWeight")(String(row[10]), Number(row[8])),
                     "uom": require("../../functions/generateUom")(String(row[10])),
-                    "opcos.$.qty": require("../../functions/generateQty")(String(row[10]), Number(row[4])),
-                    "opcos.$.price": {
-                        "gip": require("../../functions/generatePrice")(String(row[10]), Number(row[5]), 1),
-                        "rv": require("../../functions/generatePrice")(String(row[10]), Number(row[6]), 1)
-                    },
-                    "opcos.$.purchase": {
-                        "supplier": String(row[11]),
-                        "qty": require("../../functions/generateQty")(String(row[10]), Number(row[7])),
-                        "firstInStock": require("../../functions/generateQty")(String(row[10]), Number(row[9])),
-                        "deliveryDate": getJsDateFromExcel(row[12])
-                    },
-                    "opcos.$.supplier": {
-                        "names": [String(row[13]), String(row[14]), String(row[15]), String(row[16])],
-                        "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
+                    "opcos.$": {
+                        "qty": require("../../functions/generateQty")(String(row[10]), Number(row[4])),
+                        "price": {
+                            "gip": require("../../functions/generatePrice")(String(row[10]), Number(row[5]), 1),
+                            "rv": require("../../functions/generatePrice")(String(row[10]), Number(row[6]), 1)
+                        },
+                        "purchase": {
+                            "supplier": String(row[11]),
+                            "qty": require("../../functions/generateQty")(String(row[10]), Number(row[7])),
+                            "firstInStock": require("../../functions/generateQty")(String(row[10]), Number(row[9])),
+                            "deliveryDate": getJsDateFromExcel(row[12])
+                        },
+                        "supplier": {
+                            "names": [String(row[13]), String(row[14]), String(row[15]), String(row[16])],
+                            "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
+                        }
                     }
                 }
             }
-            require("../../models/Stock").updateOne(filter, update, options, function(err, res) {
+            require("../../models/Stock").updateOne(filter, update, function(err, res) {
                 if (!!err) {
                     resolve({ isRejected: true, row: index + 1, reason: err });
                 } else if (!!res.nModified) {
@@ -97,7 +99,7 @@ function upsertParent(row, index) {
             },
             $push: { 
                 "opcos": {
-                    "_id": String(row[0]),
+                    "name": String(row[0]),
                     "qty": require("../../functions/generateQty")(String(row[10]), Number(row[4])),
                     "price": {
                         "gip": require("../../functions/generatePrice")(String(row[10]), Number(row[5]), 1),
