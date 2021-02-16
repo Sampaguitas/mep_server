@@ -5,6 +5,7 @@ var storage = multer.memoryStorage();
 var upload = multer({ storage: storage });
 
 router.post("/", upload.single("file"), function(req, res) {
+    
     const file = req.file;
     const { pwd } = req.body;
     
@@ -18,29 +19,68 @@ router.post("/", upload.single("file"), function(req, res) {
     } else if (!file) {
         res.status(400).json({message: "Upload file is missing."});
     } else {
-        const rows = file.buffer.toString().split("\r\n");
-        for (var i = 1; i < rows.length; i++) myPromises.push(updateChild(rows[i].split("\t"), i));
-        Promise.all(myPromises).then( (results) => {
-            results.map(result => {
-                if (result.isRejected) {
-                    nRejected++;
-                    rejections.push({
-                        row: result.row,
-                        reason: result.reason
-                    });
-                    // console.log("reason:", result.reason);
+        require("../../functions/updateStalled")()
+        .then( () => {
+            require("../../models/Process").findOne({
+                "process_type": "update stocks",
+                "progress": { $ne: 1 },
+                "isStalled": false,
+            }, function (errProcessFound, resProcessFound) {
+                if (!!errProcessFound) {
+                    res.status(400).json({ "message": "an error has occured." });
+                } else if (!!resProcessFound){
+                    res.status(400).json({ "message": "Another process is currently running try again later." });
                 } else {
-                    nUpserted++;
+                    let newProcess = new Process({
+                        "user": "system",
+                        "process_type": "update stocks", 
+                        "progress": 0,
+                        "isStalled": false,
+                        "message": "process started",
+                    });
+                
+                    newProcess
+                    .save()
+                    .then(resProcess => {
+                        const rows = file.buffer.toString().split("\r\n");
+                        for (var i = 1; i < rows.length; i++) myPromises.push(updateChild(rows[i].split("\t"), i));
+                        Promise.all(myPromises).then( (results) => {
+                            results.map(result => {
+                                if (result.isRejected) {
+                                    nRejected++;
+                                    rejections.push({
+                                        row: result.row,
+                                        reason: result.reason
+                                    });
+                                } else {
+                                    nUpserted++;
+                                }
+                            });
+                            let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
+                            require("../../models/Process").findByIdAndUpdate(resProcess._id, {
+                                "progress": 1,
+                                "isStalled": false,
+                                "message": message,
+                                rejections: rejections
+                            }, () => res.status(200).json({message}));
+                        }).catch( () => {
+                            require("../../models/Process").findByIdAndUpdate(resProcess._id, {
+                                "progress": 1,
+                                "isStalled": false,
+                                "message": "promise has been rejected." 
+                            });
+                        });
+                    }).catch( () => {
+                        res.status(400).json({ "message": "could not generate Process log."});
+                    });
                 }
             });
-            let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
-            res.status(200).json({message});
         });
+        
     }
 });
 
 function updateChild(row, index) {
-    console.log(String(row[2]));
     return new Promise(function(resolve) {
         if (row.length != 21) {
             resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
@@ -52,9 +92,9 @@ function updateChild(row, index) {
             let filter = { "artNr": String(row[2]), "opcos.name": String(row[0]) }
             let update = {
                 $set: {
-                    // "description": String(row[3].trim()),
-                    // "weight": require("../../functions/generateWeight")(String(row[10]), Number(row[8])),
-                    // "uom": require("../../functions/generateUom")(String(row[10])),
+                    "description": String(row[3].trim()),
+                    "weight": require("../../functions/generateWeight")(String(row[10]), Number(row[8])),
+                    "uom": require("../../functions/generateUom")(String(row[10])),
                     "opcos.$": {
                         "name": String(row[0]),
                         "qty": require("../../functions/generateQty")(String(row[10]), Number(row[4])),

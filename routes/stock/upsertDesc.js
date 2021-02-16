@@ -25,21 +25,18 @@ router.post('/', function(req, res) {
     require("../../functions/updateStalled")()
     .then( () => {
         require("../../models/Process").findOne({
-            "process_type": "stock parameters update",
+            "process_type": "update params",
             "progress": { $ne: 1 },
             "isStalled": false,
         }, function (errProcessFound, resProcessFound) {
             if (!!errProcessFound) {
-                console.log("errProcessFound");
                 res.status(400).json({ "message": "an error has occured." });
             } else if (!!resProcessFound){
-                console.log("resProcessFound");
                 res.status(400).json({ "message": "Another process is currently running try again later." });
             } else {
-                console.log("no resProcessFound");
                 let newProcess = new Process({
                     "user": req.user.name,
-                    "process_type": "stock parameters update", 
+                    "process_type": "update params", 
                     "progress": 0,
                     "isStalled": false,
                     "message": "process started",
@@ -93,12 +90,6 @@ router.post('/', function(req, res) {
                             "isStalled": false,
                             "message": message,
                             rejections: rejections
-                        }, function(dumyErr, dumyRes) {
-                            if (!!dumyErr || !dumyRes) {
-                                console.log("Process could not be updated.")
-                            } else {
-                                console.log("Process successfully updated.")
-                            }
                         });
                     })
                     .catch( () => {
@@ -106,12 +97,6 @@ router.post('/', function(req, res) {
                             "progress": 1,
                             "isStalled": false,
                             "message": "promise has been rejected." 
-                        }, function(dumyErr, dumyRes) {
-                            if (!!dumyErr || !dumyRes) {
-                                console.log("Process could not be updated.")
-                            } else {
-                                console.log("Process successfully updated.")
-                            }
                         });
                     });
                 })
