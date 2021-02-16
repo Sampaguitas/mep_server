@@ -45,87 +45,86 @@ module.exports = function generateDesc(sizeOne, sizeTwo, sizeThree, wallOne, wal
         tempObject.wallOne = sizeSorted[0][1];
         tempObject.wallTwo = sizeSorted[1][1];
     }
+    
     delete tempObject.wallThree //remove the temp wall
 
     resObject = {
-        "description":{
-            "lunar": Object.keys(tempObject).reduce(function (acc, cur) {
-                switch(cur) {
-                    case "length": return `${acc}FF${tempObject[cur].lunar}`;
-                    case "surface": return `${acc}${tempObject[cur].lunar}FFFFFF1`;
-                    default: return `${acc}${tempObject[cur].lunar}`;
-                }
-            }, ""),
-            "name": Object.keys(tempObject).reduce(function (acc, cur) {
-                switch(cur) {
-                    case "sizeOne":
-                        if (!!tempObject[cur].name) {
-                            acc = tempObject[cur].name;
-                        }
-                        break;
-                    case "sizeTwo": 
-                        if (!!tempObject[cur].name) {
-                            acc = `${acc} X ${tempObject[cur].name}`;
-                        }
-                        break;
-                    case "sizeThree":
-                        if (!!tempObject[cur].name) {
-                            acc = tempObject.type.pffType === "FORGED_OLETS" ? `${acc} - ${tempObject[cur].name}` : `${acc} X ${tempObject[cur].name}`;
-                        }
-                        break;
-                    case "wallTwo":
-                        if (!!tempObject[cur].name) {
-                            acc = `${acc} X ${tempObject[cur].name}`;
-                        }
-                        break;
-                    default:
-                        if (!!tempObject[cur].name) {
-                            acc = `${acc} ${tempObject[cur].name}`;
-                        }
-                }
-                return acc;
-            },""),
-            "parameters": {
-                "sizeOne": {
-                    "name": tempObject.sizeOne.name,
-                    "tags": tempObject.sizeOne.tags
-                },
-                "sizeTwo": {
-                    "name": tempObject.sizeTwo.name,
-                    "tags": tempObject.sizeTwo.tags
-                },
-                "sizeThree": {
-                    "name": tempObject.sizeThree.name,
-                    "tags": tempObject.sizeThree.tags
-                },
-                "wallOne": {
-                    "name": tempObject.wallOne.name,
-                    "tags": tempObject.wallOne.tags
-                },
-                "wallTwo": {
-                    "name": tempObject.wallTwo.name,
-                    "tags": tempObject.wallTwo.tags
-                },
-                "type": {
-                    "name": tempObject.type.name,
-                    "tags": tempObject.type.tags
-                },
-                "grade": {
-                    "name": tempObject.grade.name,
-                    "tags": tempObject.grade.tags
-                },
-                "length": {
-                    "name": tempObject.length.name,
-                    "tags": tempObject.length.tags
-                },
-                "end": {
-                    "name": tempObject.end.name,
-                    "tags": tempObject.end.tags,
-                },
-                "surface": {
-                    "name": tempObject.surface.name,
-                    "tags": tempObject.surface.tags,
-                }
+        "description": Object.keys(tempObject).reduce(function (acc, cur) {
+            switch(cur) {
+                case "sizeOne":
+                    if (!!tempObject[cur].name) {
+                        acc = tempObject[cur].name;
+                    }
+                    break;
+                case "sizeTwo": 
+                    if (!!tempObject[cur].name) {
+                        acc = `${acc} X ${tempObject[cur].name}`;
+                    }
+                    break;
+                case "sizeThree":
+                    if (!!tempObject[cur].name) {
+                        acc = tempObject.type.pffType === "FORGED_OLETS" ? `${acc} - ${tempObject[cur].name}` : `${acc} X ${tempObject[cur].name}`;
+                    }
+                    break;
+                case "wallTwo":
+                    if (!!tempObject[cur].name) {
+                        acc = `${acc} X ${tempObject[cur].name}`;
+                    }
+                    break;
+                default:
+                    if (!!tempObject[cur].name) {
+                        acc = `${acc} ${tempObject[cur].name}`;
+                    }
+            }
+            return acc;
+        },""),
+        "vlunar": Object.keys(tempObject).reduce(function (acc, cur) {
+            switch(cur) {
+                case "length": return `${acc}FF${tempObject[cur].lunar}`;
+                case "surface": return `${acc}${tempObject[cur].lunar}FFFFFF1`;
+                default: return `${acc}${tempObject[cur].lunar}`;
+            }
+        }, ""),  
+        "parameters": {
+            "sizeOne": {
+                "name": tempObject.sizeOne.name,
+                "tags": tempObject.sizeOne.tags
+            },
+            "sizeTwo": {
+                "name": tempObject.sizeTwo.name,
+                "tags": tempObject.sizeTwo.tags
+            },
+            "sizeThree": {
+                "name": tempObject.sizeThree.name,
+                "tags": tempObject.sizeThree.tags
+            },
+            "wallOne": {
+                "name": tempObject.wallOne.name,
+                "tags": tempObject.wallOne.tags
+            },
+            "wallTwo": {
+                "name": tempObject.wallTwo.name,
+                "tags": tempObject.wallTwo.tags
+            },
+            "type": {
+                "name": tempObject.type.name,
+                "tags": tempObject.type.tags
+            },
+            "grade": {
+                "name": tempObject.grade.name,
+                "tags": tempObject.grade.tags
+            },
+            "length": {
+                "name": tempObject.length.name,
+                "tags": tempObject.length.tags
+            },
+            "end": {
+                "name": tempObject.end.name,
+                "tags": tempObject.end.tags,
+            },
+            "surface": {
+                "name": tempObject.surface.name,
+                "tags": tempObject.surface.tags,
             }
         }
     }

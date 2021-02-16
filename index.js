@@ -68,6 +68,7 @@ app.use('/process/findOne', passport.authenticate('jwt', { session: false }), re
 
 //quote
 app.use('/stock/upsertDesc', passport.authenticate('jwt', { session: false }), require('./routes/stock/upsertDesc'));
+app.use('/stock/upsertStock', require('./routes/stock/upsertStock'));
 
 //user
 app.use('/user/changePwd', passport.authenticate('jwt', { session: false }), require('./routes/user/changePwd'));

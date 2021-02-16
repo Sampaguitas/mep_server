@@ -1,4 +1,6 @@
 'use strict'
-require('./Quote');
-require('./User');
 require('./Currency');
+require('./Process');
+require('./Quote');
+require('./Stock');
+require('./User');

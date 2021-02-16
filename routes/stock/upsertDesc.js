@@ -2,8 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Process = require("../../models/Process");
 
-const erps = ["SBO", "US", "HANA"];
-
 router.post('/', function(req, res) {
 
     const artNrs = JSON.parse(req.body.artNrs);
@@ -18,132 +16,165 @@ router.post('/', function(req, res) {
     const lengths = JSON.parse(req.body.lengths);
     const ends = JSON.parse(req.body.ends);
     const surfaces = JSON.parse(req.body.surfaces);
-    const { erp } = req.body;
 
     let myPromises = [];
     let nRejected = 0;
     let nUpserted = 0;
     let rejections = [];
-
-    if (!erps.includes(erp)) {
-        res.status(400).json({message: "erp system not recognized."});
-    } else {
-
-        let newProcess = new Process({
-            "user": req.user.name, 
-            "process_type": `updating desc ${erp}`, 
-            "status": 0 
-        });
-
-        newProcess
-        .save()
-        .then(resProcess => {
-            res.status(200).json({ "data": resProcess._id });
-            
-            for (let i = 0; i < artNrs.length; i++) {
-                let artNr = !!artNrs[i] ? artNrs[i] : "";
-                let itemDesc = !!itemDescs[i] ? itemDescs[i] : "";
-                let sizeOne = !!sizeOnes[i] ? sizeOnes[i] : "";
-                let sizeTwo = !!sizeTwos[i] ? sizeTwos[i] : "";
-                let sizeThree = !!sizeThrees[i] ? sizeThrees[i] : "";
-                let wallOne = !!wallOnes[i] ? wallOnes[i] : "";
-                let wallTwo = !!wallTwos[i] ? wallTwos[i] : "";
-                let type = !!types[i] ? types[i] : "";
-                let grade = !!grades[i] ? grades[i] : "";
-                let length = !!lengths[i] ? lengths[i] : "";
-                let end = !!ends[i] ? ends[i] : "";
-                let surface = !!surfaces[i] ? surfaces[i] : "";
-
-                let myObject = require("../../functions/generateDesc")(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end, surface);
-                
-                myObject.artNr = artNr;
-                
-                if (!!itemDesc) {
-                    myObject.description.name = itemDesc;
-                }
-                myPromises.push(upsertDesc(myObject, erp, resProcess._id, i, artNrs.length));
-            }
-
-            Promise.all(myPromises).then(myResults => {
-                myResults.map(result => {
-                    if (result.isRejected) {
-                        nRejected++;
-                        rejections.push({
-                            "row": result.row,
-                            "reason": result.reason
-                        });
-                    } else {
-                        nUpserted++;
-                    }
+    
+    require("../../functions/updateStalled")()
+    .then( () => {
+        require("../../models/Process").findOne({
+            "process_type": "stock parameters update",
+            "progress": { $ne: 1 },
+            "isStalled": false,
+        }, function (errProcessFound, resProcessFound) {
+            if (!!errProcessFound) {
+                console.log("errProcessFound");
+                res.status(400).json({ "message": "an error has occured." });
+            } else if (!!resProcessFound){
+                console.log("resProcessFound");
+                res.status(400).json({ "message": "Another process is currently running try again later." });
+            } else {
+                console.log("no resProcessFound");
+                let newProcess = new Process({
+                    "user": req.user.name,
+                    "process_type": "stock parameters update", 
+                    "progress": 0,
+                    "isStalled": false,
+                    "message": "process started",
                 });
-                
-                let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
-                require("../../models/Process").findByIdAndUpdate(resProcess._id, { status: 1, message: message, rejections: rejections }, dumyCallBack);
-            })
-            .catch( () => {
-                require("../../models/Process").findByIdAndUpdate(resProcess._id, {  status: 1, message: "promise has been rejected."  }, dumyCallBack);
-            });
-        })
-        .catch( () => {
-            res.status(400).json({"message": "could not generate Process log."});
+            
+                newProcess
+                .save()
+                .then(resProcess => {
+                    res.status(200).json({ "processId": resProcess._id });
+                    
+                    for (let index = 0; index < artNrs.length; index++) {
+                        let artNr = !!artNrs[index] ? artNrs[index] : "";
+                        let itemDesc = !!itemDescs[index] ? itemDescs[index] : "";
+                        let sizeOne = !!sizeOnes[index] ? sizeOnes[index] : "";
+                        let sizeTwo = !!sizeTwos[index] ? sizeTwos[index] : "";
+                        let sizeThree = !!sizeThrees[index] ? sizeThrees[index] : "";
+                        let wallOne = !!wallOnes[index] ? wallOnes[index] : "";
+                        let wallTwo = !!wallTwos[index] ? wallTwos[index] : "";
+                        let type = !!types[index] ? types[index] : "";
+                        let grade = !!grades[index] ? grades[index] : "";
+                        let length = !!lengths[index] ? lengths[index] : "";
+                        let end = !!ends[index] ? ends[index] : "";
+                        let surface = !!surfaces[index] ? surfaces[index] : "";
+            
+                        let myObject = require("../../functions/generateDesc")(sizeOne, sizeTwo, sizeThree, wallOne, wallTwo, type, grade, length, end, surface);
+                        
+                        myObject.artNr = artNr;
+                        
+                        if (!!itemDesc) {
+                            myObject.description.name = itemDesc;
+                        }
+                        myPromises.push(upsertDesc(myObject, resProcess._id, index, artNrs.length));
+                    }
+            
+                    Promise.all(myPromises).then(myResults => {
+                        myResults.map(result => {
+                            if (result.isRejected) {
+                                nRejected++;
+                                rejections.push({
+                                    "row": result.row,
+                                    "reason": result.reason
+                                });
+                            } else {
+                                nUpserted++;
+                            }
+                        });
+                        
+                        let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
+                        require("../../models/Process").findByIdAndUpdate(resProcess._id, {
+                            "progress": 1,
+                            "isStalled": false,
+                            "message": message,
+                            rejections: rejections
+                        }, function(dumyErr, dumyRes) {
+                            if (!!dumyErr || !dumyRes) {
+                                console.log("Process could not be updated.")
+                            } else {
+                                console.log("Process successfully updated.")
+                            }
+                        });
+                    })
+                    .catch( () => {
+                        require("../../models/Process").findByIdAndUpdate(resProcess._id, {
+                            "progress": 1,
+                            "isStalled": false,
+                            "message": "promise has been rejected." 
+                        }, function(dumyErr, dumyRes) {
+                            if (!!dumyErr || !dumyRes) {
+                                console.log("Process could not be updated.")
+                            } else {
+                                console.log("Process successfully updated.")
+                            }
+                        });
+                    });
+                })
+                .catch( () => {
+                    res.status(400).json({ "message": "could not generate Process log."});
+                });
+            }
         });
-    }
+    })
+    .catch( () => {
+        res.status(400).json({ "message": "could not update stalled Processes."});
+    });
 });
 
 module.exports = router;
 
-function dumyCallBack(err, res) {
-    if (!!err || !res) {
-        console.log("Proccess could not be updated.");
-    } else {
-        console.log("Proccess successfully updated.");
-    }
-}
-
-function upsertDesc(myObject, erp, processId, index, length) {
+function upsertDesc(myObject, processId, index, length) {
     return new Promise(function(resolve) {
-        
+        let progress = index = 0 ? 0 : Math.min(Math.max(index / (length -1), 0), 1);
         let ProcessConditions = { "_id" : processId }
-        let ProcessUpdate = { "status": index = 0 ? 0 : Math.min(Math.max(index / (length -1), 0), 1) }
+        let ProcessUpdate = { 
+            "progress": progress,
+            "isStalled": false,
+            "message": `${Math.round(progress * 100)}% complete`
+        }
+        
         let ProcessOptions = { "new": true, "upsert": true }
 
         require("../../models/Process").findOneAndUpdate(ProcessConditions, ProcessUpdate, ProcessOptions, function (errProcess, resProcess) {
-            if (!erps.includes(erp)) {
-                resolve({
-                    "isRejected": true,
-                    "row": index + 1,
-                    "reason": "erp system not recognized."
-                });
-            } else if (!myObject.artNr) {
+            if (!myObject.artNr) {
                 resolve({
                     "isRejected": true,
                     "row": index + 1,
                     "reason": "article number is missing."
                 });
-            } else if (!myObject.description.parameters.sizeOne.name) {
+            } else if (!myObject.parameters.sizeOne.name) {
                 resolve({
                     "isRejected": true,
                     "row": index + 1,
                     "reason": "item description is missing."
                 });
-            } else if (!myObject.description.parameters.type.name) {
+            } else if (!myObject.parameters.type.name) {
                 resolve({
                     "isRejected": true,
                     "row": index + 1,
                     "reason": "item type is missing."
                 });
-            } else if (!myObject.description.parameters.grade.name) {
+            } else if (!myObject.parameters.grade.name) {
                 resolve({
                     "isRejected": true,
                     "row": index + 1,
                     "reason": "material grade is missing."
                 });
-            }else {
+            } else {
                 let stockConditions = { "_id": myObject.artNr }
-                let stockUpdate = { "description": myObject.description }
+                let stockUpdate = {
+                    "description": myObject.description,
+                    "vlunar": myObject.vlunar,
+                    "parameters": myObject.parameters
+                }
                 let stockOptions = { "new": true, "upsert": true }
                 
-                require(`../../models/Stock_${erp}.js`).findOneAndUpdate(stockConditions, stockUpdate, stockOptions, function(errStock, resStock) {
+                require(`../../models/Stock.js`).findOneAndUpdate(stockConditions, stockUpdate, stockOptions, function(errStock, resStock) {
                     if (!!errStock || !resStock) {
                         resolve({
                             "isRejected": true,

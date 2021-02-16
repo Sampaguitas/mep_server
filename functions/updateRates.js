@@ -54,7 +54,6 @@ module.exports = function updateRates() {
                     resolve({message: `${nUpdated} currency updated, ${nRejected} currencies rejected.`});
                 });
             }
-            
         });
     });  
 }

@@ -5,9 +5,13 @@ const _ = require('lodash');
 const ProcessSchema = new Schema({
     "user": String,
     "process_type": String,
-    "status": {
+    "progress": {
         type: Number,
         default: 0
+    },
+    "isStalled": {
+        type: Boolean,
+        default: false
     },
     "message": String,
     "rejections": [{
@@ -16,7 +20,7 @@ const ProcessSchema = new Schema({
     }]
 },
 {
-    timestamps: true 
+    timestamps: true
 });
 
 module.exports= Process = mongoose.model('Processes', ProcessSchema);
