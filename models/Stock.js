@@ -3,7 +3,10 @@ const Schema = mongoose.Schema;
 const _ = require("lodash");
 
 const OpcoSchema = new Schema({
-    "name": String,
+    "name": { 
+        type: String, 
+        required: true 
+    },
     "qty": Number,
     "price": {
         "gip": Number,
@@ -22,7 +25,10 @@ const OpcoSchema = new Schema({
 });
 
 const StockSchema = new Schema({
-    "_id": String,
+    "artNr": { 
+        type: String, 
+        required: true 
+    },
     "description": String,
     "vlunar": String,
     "weight": Number,

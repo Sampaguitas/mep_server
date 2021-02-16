@@ -49,13 +49,14 @@ function updateChild(row, index) {
         } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]))) {
             resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
         } else {
-            let filter = { "_id": String(row[2]), "opcos": { "name": String(row[0]) } }
+            let filter = { "artNr": String(row[2]), "opcos.name": String(row[0]) }
             let update = {
                 $set: {
-                    "description": String(row[3].trim()),
-                    "weight": require("../../functions/generateWeight")(String(row[10]), Number(row[8])),
-                    "uom": require("../../functions/generateUom")(String(row[10])),
+                    // "description": String(row[3].trim()),
+                    // "weight": require("../../functions/generateWeight")(String(row[10]), Number(row[8])),
+                    // "uom": require("../../functions/generateUom")(String(row[10])),
                     "opcos.$": {
+                        "name": String(row[0]),
                         "qty": require("../../functions/generateQty")(String(row[10]), Number(row[4])),
                         "price": {
                             "gip": require("../../functions/generatePrice")(String(row[10]), Number(row[5]), 1),
@@ -89,7 +90,7 @@ function updateChild(row, index) {
 
 function upsertParent(row, index) {
     return new Promise(function(resolve) {
-        let filter = { "_id": String(row[2])}
+        let filter = { "artNr": String(row[2])}
         let options = { "new": true, "upsert": true }
         let update = {
             $set: {
