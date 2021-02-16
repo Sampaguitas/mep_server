@@ -13,7 +13,7 @@ router.post('/', upload.single('file'), function(req, res) {
     let rejections = [];
     
     if (!file) {
-        res.status(400).message("Upload file is missing.");
+        res.status(400).json({message: "Upload file is missing."});
     } else {
         const rows = file.buffer.toString().split('\r\n');
         for (var i = 1; i < rows.length; i++) myPromises.push(upsertRow(rows[i].split("\t"), i));
@@ -25,6 +25,7 @@ router.post('/', upload.single('file'), function(req, res) {
                         row: result.row,
                         reason: result.reason
                     });
+                    console.log("reason:", result.reason);
                 } else {
                     nUpserted++;
                 }
@@ -44,7 +45,8 @@ function upsertRow(row, index) {
         } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]))) {
             resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
         } else {
-            let filter = { "_id": String(row[2]), "opcos._id": String(row[0])}
+            // let filter = { "_id": String(row[2])}
+            let filter = { "_id": String(row[2]), "opcos": { "_id": String(row[0]) } }
             let options = { "new": true, "upsert": true }
             let update = { 
                 $set: {
@@ -66,6 +68,8 @@ function upsertRow(row, index) {
             }
             require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
                 if (!!err || !res) {
+                    resolve({ isRejected: true, row: index + 1, reason: err });
+                } else if (!res) {
                     resolve({ isRejected: true, row: index + 1, reason: "document could not be updated." });
                 } else {
                     resolve({ isRejected: false });

@@ -6,6 +6,22 @@ const StockSchema = new Schema({
     "_id": String,
     "description": String,
     "vlunar": String,
+    "weight": Number,
+    "uom": String,
+    "opcos": [{
+        "_id": String,
+        "stockQty": Number,
+        "gip": Number,
+        "rv": Number,
+        "purchase": {
+            "supplier": String,
+            "qty": Number,
+            "firstInStock": Number,
+            "deliveryDate": Date
+        },
+        "supplerNames": [String],
+        "supplierQtys": [String]
+    }],
     "parameters": {
         "sizeOne": {
             "name": String,
