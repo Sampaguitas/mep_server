@@ -166,7 +166,7 @@ function upsertDesc(myObject, processId, index, length) {
                     "reason": "material grade is missing."
                 });
             } else {
-                let stockConditions = { "_id": myObject.artNr }
+                let stockConditions = { "artNr": myObject.artNr }
                 let stockUpdate = {
                     "description": myObject.description,
                     "vlunar": myObject.vlunar,
