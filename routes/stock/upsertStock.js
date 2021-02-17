@@ -69,12 +69,24 @@ router.post("/", upload.single("file"), function(req, res) {
                                 "isStalled": false,
                                 "message": message,
                                 "rejections": rejections
+                            }, function(errProcessUpdate, resProcessUpdate) {
+                                if (!!errProcessUpdate || !resProcessUpdate) {
+                                    console.log("errProcessUpdate")
+                                } else {
+                                    console.log("resProcessUpdate")
+                                }
                             });
                         }).catch( () => {
                             require("../../models/Process").findByIdAndUpdate(resProcess._id, {
                                 "progress": 1,
                                 "isStalled": false,
                                 "message": "promise has been rejected."
+                            }, function(errProcessUpdate, resProcessUpdate) {
+                                if (!!errProcessUpdate || !resProcessUpdate) {
+                                    console.log("errProcessUpdate")
+                                } else {
+                                    console.log("resProcessUpdate")
+                                }
                             });
                         });
                     }).catch( () => {
@@ -101,10 +113,13 @@ function updateChild(row, processId, index, length) {
 
         require("../../models/Process").findByIdAndUpdate(processId, update, options, () => {
             if (row.length != 21) {
+                console.log("line does not contain 21 fields.");
                 resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
             } else if (!String(row[0])) {
+                console.log("opco is not defined.");
                 resolve({ isRejected: true, row: index + 1, reason: "opco is not defined." });
             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]))) {
+                console.log("unknown unit of mesurement.");
                 resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
             } else {
                 let filter = { "artNr": String(row[2]), "opcos.name": String(row[0]) }
@@ -135,7 +150,7 @@ function updateChild(row, processId, index, length) {
                 }
                 require("../../models/Stock").updateOne(filter, update, function(err, res) {
                     if (!!err) {
-                        resolve({ isRejected: true, row: index + 1, reason: err });
+                        resolve({ isRejected: true, row: index + 1, reason: "an error has occured." });
                     } else if (!!res.nModified) {
                         resolve({ isRejected: false });
                     } else {
@@ -179,7 +194,7 @@ function upsertParent(row, index) {
             }
         }
         require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
-            if (!!err) {
+            if (!!err || !res) {
                 resolve({ isRejected: true, row: index + 1, reason: "could not upsert the document" });
             } else {
                 resolve({ isRejected: false });
