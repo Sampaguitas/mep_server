@@ -39,6 +39,7 @@ router.post("/", upload.single("file"), function(req, res) {
                         "progress": 0,
                         "isStalled": false,
                         "message": "process started",
+                        "rejections": rejections
                     });
                 
                     newProcess
@@ -73,7 +74,8 @@ router.post("/", upload.single("file"), function(req, res) {
                             require("../../models/Process").findByIdAndUpdate(processId, {
                                 "progress": 1,
                                 "isStalled": false,
-                                "message": "promise has been rejected." 
+                                "message": "promise has been rejected.",
+                                "rejections": rejections
                             });
                         });
                     }).catch( () => {
@@ -86,23 +88,19 @@ router.post("/", upload.single("file"), function(req, res) {
     }
 });
 
-function updateProcess(processId, index, length, isStalled, message, rejections) {
+function updateChild(row, processId, index, length) {
     return new Promise(function(resolve) {
+        
         let progress = Math.min(Math.max(index / (length -1), 0), 1);
         let options = { "new": true, "upsert": true  }
         let update = {
             "progress": progress,
-            "isStalled": isStalled,
-            "message": message ? message : `${Math.round(progress * 100)}% complete`,
-            "rejections": rejections
+            "isStalled": false,
+            "message": `${Math.round(progress * 100)}% complete`,
+            "rejections": []
         }
-        require("../../models/Process").findOneAndUpdate(processId, update, options, () => resolve());
-    });
-}
 
-function updateChild(row, processId, index, length) {
-    return new Promise(function(resolve) {
-        updateProcess(processId, index, length, false).then( () => {
+        require("../../models/Process").findOneAndUpdate(processId, update, options, () => {
             if (row.length != 21) {
                 resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
             } else if (!String(row[0])) {
