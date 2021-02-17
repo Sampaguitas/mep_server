@@ -22,7 +22,7 @@ const OpcoSchema = new Schema({
         "names": [String],
         "qtys": [String]
     },
-    "updatedAt": Date
+    "lastUpdate": Date
 });
 
 const StockSchema = new Schema({

@@ -142,7 +142,7 @@ function updateChild(row, processId, index, length) {
                                 "names": [String(row[13]).trim(), String(row[14]).trim(), String(row[15]).trim(), String(row[16]).trim()],
                                 "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
                             },
-                            "updatedAt": new Date()
+                            "lastUpdate": new Date()
                         }
                     }
                 }
@@ -188,7 +188,7 @@ function upsertParent(row, index) {
                         "names": [String(row[13]).trim(), String(row[14]).trim(), String(row[15]).trim(), String(row[16]).trim()],
                         "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
                     },
-                    "updatedAt": new Date()
+                    "lastUpdate": new Date()
                 }
             }
         }
