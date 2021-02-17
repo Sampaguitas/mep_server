@@ -45,12 +45,11 @@ router.post("/", upload.single("file"), function(req, res) {
                     newProcess
                     .save()
                     .then(resProcess => {
-                        let processId = resProcess._id
-                        res.status(200).json({ "processId": processId });
+                        res.status(200).json({ "processId": resProcess._id });
                         
                         const rows = file.buffer.toString().split("\r\n");
                         const rowsLength = rows.length;
-                        for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), processId, i, rowsLength));
+                        for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), resProcess._id, i, rowsLength));
                         Promise.all(myPromises).then(results => {
                             results.map(result => {
                                 if (result.isRejected) {
@@ -64,14 +63,14 @@ router.post("/", upload.single("file"), function(req, res) {
                                 }
                             });
                             let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
-                            require("../../models/Process").findByIdAndUpdate(processId, {
+                            require("../../models/Process").findByIdAndUpdate(resProcess._id, {
                                 "progress": 1,
                                 "isStalled": false,
                                 "message": message,
                                 "rejections": rejections
                             });
                         }).catch( () => {
-                            require("../../models/Process").findByIdAndUpdate(processId, {
+                            require("../../models/Process").findByIdAndUpdate(resProcess._id, {
                                 "progress": 1,
                                 "isStalled": false,
                                 "message": "promise has been rejected.",
