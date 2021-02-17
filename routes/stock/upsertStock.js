@@ -99,7 +99,7 @@ function updateChild(row, processId, index, length) {
             "rejections": []
         }
 
-        require("../../models/Process").findOneAndUpdate(processId, update, options, () => {
+        require("../../models/Process").findByIdAndUpdate(processId, update, options, () => {
             if (row.length != 21) {
                 resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
             } else if (!String(row[0])) {
