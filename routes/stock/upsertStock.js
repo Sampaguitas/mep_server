@@ -7,7 +7,7 @@ var upload = multer({ storage: storage });
 router.post("/", upload.single("file"), function(req, res) {
     
     const file = req.file;
-    const { pwd } = req.body;
+    const { pwd, loc } = req.body;
     
     let myPromises = [];
     let nRejected = 0;
@@ -16,13 +16,15 @@ router.post("/", upload.single("file"), function(req, res) {
     
     if (pwd !== require("../../config/keys").curlPwd) {
         res.status(401).send("Unauthorized");
+    } else if (!loc) {
+        res.status(400).json({ message: "Location not specified." });
     } else if (!file) {
-        res.status(400).json({message: "Upload file is missing."});
+        res.status(400).json({ message: "Upload file is missing." });
     } else {
         require("../../functions/updateStalled")()
         .then( () => {
             require("../../models/Process").findOne({
-                "process_type": "update stocks",
+                "process_type": `update ${loc}`,
                 "progress": { $ne: 1 },
                 "isStalled": false,
             }, function (errProcessFound, resProcessFound) {
@@ -43,7 +45,7 @@ router.post("/", upload.single("file"), function(req, res) {
                     .save()
                     .then(resProcess => {
                         const rows = file.buffer.toString().split("\r\n");
-                        for (var i = 1; i < rows.length; i++) myPromises.push(updateChild(rows[i].split("\t"), i));
+                        for (var i = 1; i < rows.length; i++) myPromises.push(updateChild(rows[i].split("\t"), i, rows.length));
                         Promise.all(myPromises).then( (results) => {
                             results.map(result => {
                                 if (result.isRejected) {
