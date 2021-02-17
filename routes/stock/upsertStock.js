@@ -44,7 +44,7 @@ router.post("/", upload.single("file"), function(req, res) {
                     newProcess
                     .save()
                     .then(resProcess => {
-                        let processId = processId
+                        let processId = resProcess._id
                         res.status(200).json({ "processId": processId });
                         
                         const rows = file.buffer.toString().split("\r\n");
