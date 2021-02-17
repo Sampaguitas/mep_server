@@ -44,12 +44,13 @@ router.post("/", upload.single("file"), function(req, res) {
                     newProcess
                     .save()
                     .then(resProcess => {
-                        res.status(200).json({ "processId": resProcess._id });
+                        let processId = processId
+                        res.status(200).json({ "processId": processId });
                         
                         const rows = file.buffer.toString().split("\r\n");
                         const rowsLength = rows.length;
-                        for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), resProcess._id, i, rowsLength));
-                        Promise.all(myPromises).then( (results) => {
+                        for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), processId, i, rowsLength));
+                        Promise.all(myPromises).then(results => {
                             results.map(result => {
                                 if (result.isRejected) {
                                     nRejected++;
@@ -62,14 +63,14 @@ router.post("/", upload.single("file"), function(req, res) {
                                 }
                             });
                             let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
-                            require("../../models/Process").findByIdAndUpdate(resProcess._id, {
+                            require("../../models/Process").findByIdAndUpdate(processId, {
                                 "progress": 1,
                                 "isStalled": false,
                                 "message": message,
-                                rejections: rejections
+                                "rejections": rejections
                             });
                         }).catch( () => {
-                            require("../../models/Process").findByIdAndUpdate(resProcess._id, {
+                            require("../../models/Process").findByIdAndUpdate(processId, {
                                 "progress": 1,
                                 "isStalled": false,
                                 "message": "promise has been rejected." 
@@ -85,19 +86,23 @@ router.post("/", upload.single("file"), function(req, res) {
     }
 });
 
-function updateChild(row, processId, index, length) {
+function updateProcess(processId, index, length, isStalled, message, rejections) {
     return new Promise(function(resolve) {
         let progress = Math.min(Math.max(index / (length -1), 0), 1);
-        let ProcessConditions = { "_id" : processId }
-        let ProcessUpdate = { 
+        let options = { "new": true, "upsert": true  }
+        let update = {
             "progress": progress,
-            "isStalled": false,
-            "message": `${Math.round(progress * 100)}% complete`
+            "isStalled": isStalled,
+            "message": message ? message : `${Math.round(progress * 100)}% complete`,
+            "rejections": rejections
         }
+        require("../../models/Process").findOneAndUpdate(processId, update, options, () => resolve());
+    });
+}
 
-        let ProcessOptions = { "new": true, "upsert": true }
-
-        require("../../models/Process").findOneAndUpdate(ProcessConditions, ProcessUpdate, ProcessOptions, () => {
+function updateChild(row, processId, index, length) {
+    return new Promise(function(resolve) {
+        updateProcess(processId, index, length, false).then( () => {
             if (row.length != 21) {
                 resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
             } else if (!String(row[0])) {
@@ -137,7 +142,7 @@ function updateChild(row, processId, index, length) {
                     } else if (!!res.nModified) {
                         resolve({ isRejected: false });
                     } else {
-                        upsertParent(row, index).then( (log) => resolve(log));
+                        upsertParent(row, index).then(log => resolve(log));
                     }
                 });
             }
