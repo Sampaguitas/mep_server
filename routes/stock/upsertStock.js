@@ -113,13 +113,10 @@ function updateChild(row, processId, index, length) {
 
         require("../../models/Process").findByIdAndUpdate(processId, update, options, () => {
             if (row.length != 21) {
-                console.log("line does not contain 21 fields.");
                 resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
             } else if (!String(row[0]).trim()) {
-                console.log("opco is not defined.");
                 resolve({ isRejected: true, row: index + 1, reason: "opco is not defined." });
             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
-                console.log("unknown unit of mesurement.");
                 resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
             } else {
                 let filter = { "artNr": String(row[2]).trim(), "opcos.name": String(row[0]).trim() }
