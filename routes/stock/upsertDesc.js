@@ -115,7 +115,7 @@ module.exports = router;
 
 function upsertDesc(myObject, processId, index, length) {
     return new Promise(function(resolve) {
-        let progress = index = 0 ? 0 : Math.min(Math.max(index / (length -1), 0), 1);
+        let progress = Math.min(Math.max(index / (length -1), 0), 1);
         let ProcessConditions = { "_id" : processId }
         let ProcessUpdate = { 
             "progress": progress,
@@ -125,7 +125,7 @@ function upsertDesc(myObject, processId, index, length) {
         
         let ProcessOptions = { "new": true, "upsert": true }
 
-        require("../../models/Process").findOneAndUpdate(ProcessConditions, ProcessUpdate, ProcessOptions, function (errProcess, resProcess) {
+        require("../../models/Process").findOneAndUpdate(ProcessConditions, ProcessUpdate, ProcessOptions, () => {
             if (!myObject.artNr) {
                 resolve({
                     "isRejected": true,

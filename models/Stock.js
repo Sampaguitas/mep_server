@@ -22,9 +22,6 @@ const OpcoSchema = new Schema({
         "names": [String],
         "qtys": [String]
     }
-},
-{
-    timestamps: true
 });
 
 const StockSchema = new Schema({

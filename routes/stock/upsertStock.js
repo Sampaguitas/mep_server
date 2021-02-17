@@ -35,7 +35,7 @@ router.post("/", upload.single("file"), function(req, res) {
                 } else {
                     let newProcess = new Process({
                         "user": "system",
-                        "process_type": "update stocks", 
+                        "process_type": `update ${loc}`, 
                         "progress": 0,
                         "isStalled": false,
                         "message": "process started",
@@ -45,9 +45,10 @@ router.post("/", upload.single("file"), function(req, res) {
                     .save()
                     .then(resProcess => {
                         res.status(200).json({ "processId": resProcess._id });
+                        
                         const rows = file.buffer.toString().split("\r\n");
                         const rowsLength = rows.length;
-                        for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), i, rowsLength));
+                        for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), resProcess._id, i, rowsLength));
                         Promise.all(myPromises).then( (results) => {
                             results.map(result => {
                                 if (result.isRejected) {
@@ -84,17 +85,18 @@ router.post("/", upload.single("file"), function(req, res) {
     }
 });
 
-function updateChild(row, index, length) {
+function updateChild(row, processId, index, length) {
     return new Promise(function(resolve) {
-        let progress = index = 0 ? 0 : Math.min(Math.max(index / (length -1), 0), 1);
+        let progress = Math.min(Math.max(index / (length -1), 0), 1);
         let ProcessConditions = { "_id" : processId }
         let ProcessUpdate = { 
             "progress": progress,
             "isStalled": false,
             "message": `${Math.round(progress * 100)}% complete`
         }
-        
+
         let ProcessOptions = { "new": true, "upsert": true }
+
         require("../../models/Process").findOneAndUpdate(ProcessConditions, ProcessUpdate, ProcessOptions, () => {
             if (row.length != 21) {
                 resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
