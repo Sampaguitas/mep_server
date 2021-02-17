@@ -44,8 +44,10 @@ router.post("/", upload.single("file"), function(req, res) {
                     newProcess
                     .save()
                     .then(resProcess => {
+                        res.status(200).json({ "processId": resProcess._id });
                         const rows = file.buffer.toString().split("\r\n");
-                        for (var i = 1; i < rows.length; i++) myPromises.push(updateChild(rows[i].split("\t"), i, rows.length));
+                        const rowsLength = rows.length;
+                        for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), i, rowsLength));
                         Promise.all(myPromises).then( (results) => {
                             results.map(result => {
                                 if (result.isRejected) {
@@ -64,7 +66,7 @@ router.post("/", upload.single("file"), function(req, res) {
                                 "isStalled": false,
                                 "message": message,
                                 rejections: rejections
-                            }, () => res.status(200).json({message}));
+                            });
                         }).catch( () => {
                             require("../../models/Process").findByIdAndUpdate(resProcess._id, {
                                 "progress": 1,
