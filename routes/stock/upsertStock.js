@@ -50,18 +50,19 @@ router.post("/", upload.single("file"), function(req, res) {
                         const rows = file.buffer.toString().split("\r\n");
                         const rowsLength = rows.length;
                         for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), resProcess._id, i, rowsLength));
-                        Promise.all(myPromises).then(results => {
-                            results.map(result => {
+                        Promise.all(myPromises).then(myResults => {
+                            myResults.map(result => {
                                 if (result.isRejected) {
                                     nRejected++;
                                     rejections.push({
-                                        row: result.row,
-                                        reason: result.reason
+                                        "row": result.row,
+                                        "reason": result.reason
                                     });
                                 } else {
                                     nUpserted++;
                                 }
                             });
+
                             let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
                             require("../../models/Process").findByIdAndUpdate(resProcess._id, {
                                 "progress": 1,
@@ -73,8 +74,7 @@ router.post("/", upload.single("file"), function(req, res) {
                             require("../../models/Process").findByIdAndUpdate(resProcess._id, {
                                 "progress": 1,
                                 "isStalled": false,
-                                "message": "promise has been rejected.",
-                                "rejections": rejections
+                                "message": "promise has been rejected."
                             });
                         });
                     }).catch( () => {
