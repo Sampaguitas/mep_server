@@ -152,7 +152,13 @@ function updateChild(row, processId, index, length) {
                     } else if (!!res.nModified) {
                         resolve({ isRejected: false });
                     } else {
-                        upsertParent(row, index).then(log => resolve(log));
+                        upsertParent(row, index).then(parentResponce => {
+                            resolve({
+                                isRejected: parentResponce.isRejected,
+                                row: parentResponce.row,
+                                reason: parentResponce.reason
+                            });
+                        });
                     }
                 });
             }
@@ -193,6 +199,7 @@ function upsertParent(row, index) {
         }
         require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
             if (!!err || !res) {
+                console.log(err);
                 resolve({ isRejected: true, row: index + 1, reason: "could not upsert the document" });
             } else {
                 resolve({ isRejected: false });
