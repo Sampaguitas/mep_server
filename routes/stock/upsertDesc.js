@@ -90,6 +90,12 @@ router.post('/', function(req, res) {
                             "isStalled": false,
                             "message": message,
                             rejections: rejections
+                        }, function(errProcessUpdate, resProcessUpdate) {
+                            if (!!errProcessUpdate || !resProcessUpdate) {
+                                console.log("errProcessUpdate")
+                            } else {
+                                console.log("resProcessUpdate")
+                            }
                         });
                     })
                     .catch( () => {
@@ -97,6 +103,12 @@ router.post('/', function(req, res) {
                             "progress": 1,
                             "isStalled": false,
                             "message": "promise has been rejected." 
+                        }, function(errProcessUpdate, resProcessUpdate) {
+                            if (!!errProcessUpdate || !resProcessUpdate) {
+                                console.log("errProcessUpdate")
+                            } else {
+                                console.log("resProcessUpdate")
+                            }
                         });
                     });
                 })
