@@ -23,8 +23,12 @@ router.post("/", upload.single("file"), function(req, res) {
     } else {
         // const rows = file.buffer.toString().replace("\r","").split("\n");
         // const rowsLength = rows.length;
-        // console.log(rowsLength);
+        
+        // for (var i = 1; i < rowsLength; i++) {
+        //     console.log(rows[i].split("\t"));
+        // }
         // res.status(200).json({message: "toto"})
+
         require("../../functions/updateStalled")()
         .then( () => {
             require("../../models/Process").findOne({
