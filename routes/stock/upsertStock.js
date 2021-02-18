@@ -49,7 +49,7 @@ router.post("/", upload.single("file"), function(req, res) {
                         
                         const rows = file.buffer.toString().split("\r\n");
                         const rowsLength = rows.length;
-
+                        console.log(rowsLength);
                         for (var i = 1; i < rowsLength; i++) {
                             myPromises.push(updateChild(rows[i].split("\t"), resProcess._id, i, rowsLength));
                         }
