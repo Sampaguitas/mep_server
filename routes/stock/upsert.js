@@ -95,13 +95,13 @@ router.post("/", upload.single("file"), function(req, res) {
                                 "isStalled": false,
                                 "message": message,
                                 // "rejections": rejections
-                            });
+                            }, (errCallback, resCallback) => console.log(!!errCallback || !resCallback ? "errCallback" : "resCallback"));
                         }).catch( () => {
                             require("../../models/Process").findByIdAndUpdate(resProcess._id, {
                                 "progress": 1,
                                 "isStalled": false,
                                 "message": "promise has been rejected."
-                            });
+                            }, (errCallback, resCallback) => console.log(!!errCallback || !resCallback ? "errCallback" : "resCallback"));
                         });
                     }).catch( () => {
                         res.status(400).json({ "message": "could not generate Process log."});
