@@ -21,14 +21,6 @@ router.post("/", upload.single("file"), function(req, res) {
     } else if (!file) {
         res.status(400).json({ message: "Upload file is missing." });
     } else {
-        // const rows = file.buffer.toString().replace("\r","").split("\n");
-        // const rowsLength = rows.length;
-        
-        // for (var i = 1; i < rowsLength; i++) {
-        //     console.log(rows[i].split("\t"));
-        // }
-        // res.status(200).json({message: "toto"})
-
         require("../../functions/updateStalled")()
         .then( () => {
             require("../../models/Process").findOne({
@@ -57,20 +49,30 @@ router.post("/", upload.single("file"), function(req, res) {
                         
                         const rows = file.buffer.toString().replace("\r","").split("\n");
                         const rowsLength = rows.length;
-                        console.log(rowsLength);
+
                         for (var i = 1; i < rowsLength; i++) {
-                            myPromises.push(upsertStock(rows[i].split("\t"), resProcess._id, i, rowsLength));
+                            let row = rows[i].split("\t");
+                            if (row.length != 21) {
+                                myPromises.push(Promise.resolve({ isRejected: true, row: i + 1, reason: "line does not contain 21 fields." }));
+                            } else if (!String(row[0]).trim()) {
+                                myPromises.push(Promise.resolve({ isRejected: true, row: i + 1, reason: "opco is not defined." }));
+                            } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
+                                myPromises.push(resolve({ isRejected: true, row: i + 1, reason: "unknown unit of mesurement." }));
+                            } else {
+                                myPromises.push(upsertStock(row, resProcess._id, i, rowsLength));
+                                myPromises.push(upsertParam(row));
+                            }
                         }
 
                         Promise.all(myPromises).then(myResults => {
                             myResults.map(result => {
-                                if (result.isRejected) {
+                                if (!!result.isRejected) {
                                     nRejected++;
                                     rejections.push({
                                         "row": result.row,
                                         "reason": result.reason
                                     });
-                                } else {
+                                } else if (!!result.isUpserted) {
                                     nUpserted++;
                                 }
                             });
@@ -81,24 +83,12 @@ router.post("/", upload.single("file"), function(req, res) {
                                 "isStalled": false,
                                 "message": message,
                                 "rejections": rejections
-                            }, function(errProcessUpdate, resProcessUpdate) {
-                                if (!!errProcessUpdate || !resProcessUpdate) {
-                                    console.log("errProcessUpdate")
-                                } else {
-                                    console.log("resProcessUpdate")
-                                }
                             });
                         }).catch( () => {
                             require("../../models/Process").findByIdAndUpdate(resProcess._id, {
                                 "progress": 1,
                                 "isStalled": false,
                                 "message": "promise has been rejected."
-                            }, function(errProcessUpdate, resProcessUpdate) {
-                                if (!!errProcessUpdate || !resProcessUpdate) {
-                                    console.log("errProcessUpdate")
-                                } else {
-                                    console.log("resProcessUpdate")
-                                }
                             });
                         });
                     }).catch( () => {
@@ -112,7 +102,6 @@ router.post("/", upload.single("file"), function(req, res) {
 
 function upsertStock(row, processId, index, length) {
     return new Promise(function(resolve) {
-        
         let progress = Math.min(Math.max(index / (length -1), 0), 1);
         let options = { "new": true, "upsert": true  }
         let update = {
@@ -121,75 +110,53 @@ function upsertStock(row, processId, index, length) {
             "message": `${Math.round(progress * 100)}% complete`,
             "rejections": []
         }
-
         require("../../models/Process").findByIdAndUpdate(processId, update, options, () => {
-            if (row.length != 21) {
-                resolve({ isRejected: true, row: index + 1, reason: "line does not contain 21 fields." });
-            } else if (!String(row[0]).trim()) {
-                resolve({ isRejected: true, row: index + 1, reason: "opco is not defined." });
-            } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
-                resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
-            } else {
-
-                let artNr = String(row[2]).trim();
-                let opco = String(row[0]).trim();
-                let uom = String(row[10]).trim();
-                let description = String(row[3]).trim();
-                let weight = Number(row[8]);
-
-                let filter = { artNr, opco }
-                let options = { new: true, upsert: true }
-                let update = {
-                    $set: {
+            let uom = String(row[10]).trim();
+            let filter = { artNr: String(row[2]).trim(), opco: String(row[0]).trim() }
+            let options = { new: true, upsert: true }
+            let update = {
+                $set: {
+                    "qty": require("../../functions/generateQty")(uom, Number(row[4])),
+                    "price": {
+                        "gip": require("../../functions/generatePrice")(uom, Number(row[5]), 1),
+                        "rv": require("../../functions/generatePrice")(uom, Number(row[6]), 1)
+                    },
+                    "purchase": {
+                        "supplier": String(row[11]).trim(),
                         "qty": require("../../functions/generateQty")(uom, Number(row[4])),
-                        "price": {
-                            "gip": require("../../functions/generatePrice")(uom, Number(row[5]), 1),
-                            "rv": require("../../functions/generatePrice")(uom, Number(row[6]), 1)
-                        },
-                        "purchase": {
-                            "supplier": String(row[11]).trim(),
-                            "qty": require("../../functions/generateQty")(uom, Number(row[4])),
-                            "firstInStock": require("../../functions/generateQty")(uom, Number(row[9])),
-                            "deliveryDate": toDate(row[12])
-                        },
-                        "supplier": {
-                            "names": [String(row[13]).trim(), String(row[14]).trim(), String(row[15]).trim(), String(row[16]).trim()],
-                            "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
-                        }
+                        "firstInStock": require("../../functions/generateQty")(uom, Number(row[9])),
+                        "deliveryDate": toDate(row[12])
+                    },
+                    "supplier": {
+                        "names": [String(row[13]).trim(), String(row[14]).trim(), String(row[15]).trim(), String(row[16]).trim()],
+                        "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
                     }
                 }
-                require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
-                    if (!!err || !res) {
-                        resolve({ isRejected: true, row: index + 1, reason: "an error has occured." });
-                    } else {
-                        upsertParam(artNr, uom, description, weight, index)
-                        .then(paramResponce => resolve(paramResponce))
-                        .catch( () => resolve({ isRejected: true, row: index + 1, reason: "an error has occured." }));
-                    }
-                });
             }
+            require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
+                if (!!err || !res) {
+                    resolve({ isRejected: true, row: index + 1, reason: "an error has occured." });
+                } else {
+                    resolve({ isUpserted: true });
+                }
+            });
         });
     });
 }
 
-function upsertParam(artNr, uom, description, weight, index) {
+function upsertParam(row) {
     return new Promise(function(resolve) {
-        let filter = { artNr }
+        let uom = String(row[10]).trim();
+        let filter = { artNr: String(row[2]).trim() }
         let options = { new: true, upsert: true }
         let update = {
             $set: {
-                "description": description,
-                "weight": require("../../functions/generateWeight")(uom, weight),
+                "description": String(row[3]).trim(),
+                "weight": require("../../functions/generateWeight")(uom, Number(row[8])),
                 "uom": require("../../functions/generateUom")(uom),
             }
         }
-        require("../../models/Param").findOneAndUpdate(filter, update, options, function(err, res) {
-            if (!!err || !res) {
-                resolve({ "isRejected": true, "row": index + 1, "reason": "could not upsert the document" });
-            } else {
-                resolve({ "isRejected": false });
-            }
-        });
+        require("../../models/Param").findOneAndUpdate(filter, update, options, () => resolve());
     });
 }
 
