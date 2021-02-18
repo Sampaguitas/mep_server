@@ -162,7 +162,7 @@ function updateChild(row, processId, index, length) {
                             "purchase": {
                                 "supplier": data.supplier,
                                 "qty": require("../../functions/generateQty")(data.uom, data.purchaseQty),
-                                "firstInStock": require("../../functions/generateQty")(data.uom, firstInStock),
+                                "firstInStock": require("../../functions/generateQty")(data.uom, data.firstInStock),
                                 "deliveryDate": data.date
                             },
                             "supplier": {
@@ -213,7 +213,7 @@ function upsertParent(data, index) {
                     "purchase": {
                         "supplier": data.supplier,
                         "qty": require("../../functions/generateQty")(data.uom, data.purchaseQty),
-                        "firstInStock": require("../../functions/generateQty")(data.uom, firstInStock),
+                        "firstInStock": require("../../functions/generateQty")(data.uom, data.firstInStock),
                         "deliveryDate": data.date
                     },
                     "supplier": {
