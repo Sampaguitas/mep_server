@@ -225,9 +225,9 @@ function upsertParent(data, index) {
         }
         require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
             if (!!err || !res) {
-                resolve({ isRejected: true, row: index + 1, reason: "could not upsert the document" });
+                resolve({ "isRejected": true, "row": index + 1, "reason": "could not upsert the document" });
             } else {
-                resolve({ isRejected: false });
+                resolve({ "isRejected": false });
             }
         });
     });
