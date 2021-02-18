@@ -49,7 +49,11 @@ router.post("/", upload.single("file"), function(req, res) {
                         
                         const rows = file.buffer.toString().split("\r\n");
                         const rowsLength = rows.length;
-                        for (var i = 1; i < rowsLength; i++) myPromises.push(updateChild(rows[i].split("\t"), resProcess._id, i, rowsLength));
+
+                        for (var i = 1; i < rowsLength; i++) {
+                            myPromises.push(updateChild(rows[i].split("\t"), resProcess._id, i, rowsLength));
+                        }
+
                         Promise.all(myPromises).then(myResults => {
                             myResults.map(result => {
                                 if (result.isRejected) {
@@ -119,28 +123,51 @@ function updateChild(row, processId, index, length) {
             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
                 resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
             } else {
-                let filter = { "artNr": String(row[2]).trim(), "opcos.name": String(row[0]).trim() }
+                let data = {
+                    "artNr": String(row[2]).trim(),
+                    "name": String(row[0]).trim(),
+                    "description": String(row[3]).trim(),
+                    "uom": String(row[10]).trim(),
+                    "weight": Number(row[8]),
+                    "qty": Number(row[4]),
+                    "gip": Number(row[5]),
+                    "rv": Number(row[6]),
+                    "supplier": String(row[11]).trim(),
+                    "purchaseQty": Number(row[7]),
+                    "firstInStock": Number(row[9]),
+                    "deliveryDate": toDate(row[12]),
+                    "supOneName": String(row[13]).trim(),
+                    "supTwoName": String(row[14]).trim(),
+                    "supThreeName": String(row[15]).trim(),
+                    "supFourName": String(row[16]).trim(),
+                    "supOneQty": Number(row[17]),
+                    "supTwoQty": Number(row[18]),
+                    "supThreeQty": Number(row[19]),
+                    "supFourQty": Number(row[20])
+                }
+
+                let filter = { "artNr": data.artNr, "opcos.name": data.name }
                 let update = {
                     $set: {
-                        "description": String(row[3]).trim(),
-                        "weight": require("../../functions/generateWeight")(String(row[10]).trim(), Number(row[8])),
-                        "uom": require("../../functions/generateUom")(String(row[10]).trim()),
+                        "description": data.description,
+                        "weight": require("../../functions/generateWeight")(data.uom, data.weight),
+                        "uom": require("../../functions/generateUom")(data.uom),
                         "opcos.$": {
-                            "name": String(row[0]).trim(),
-                            "qty": require("../../functions/generateQty")(String(row[10]).trim(), Number(row[4])),
+                            "name": data.name,
+                            "qty": require("../../functions/generateQty")(data.uom, data.qty),
                             "price": {
-                                "gip": require("../../functions/generatePrice")(String(row[10]).trim(), Number(row[5]), 1),
-                                "rv": require("../../functions/generatePrice")(String(row[10]).trim(), Number(row[6]), 1)
+                                "gip": require("../../functions/generatePrice")(data.uom, data.gip, 1),
+                                "rv": require("../../functions/generatePrice")(data.uom, data.rv, 1)
                             },
                             "purchase": {
-                                "supplier": String(row[11]).trim(),
-                                "qty": require("../../functions/generateQty")(String(row[10]).trim(), Number(row[7])),
-                                "firstInStock": require("../../functions/generateQty")(String(row[10]).trim(), Number(row[9])),
-                                "deliveryDate": toDate(row[12])
+                                "supplier": data.supplier,
+                                "qty": require("../../functions/generateQty")(data.uom, data.purchaseQty),
+                                "firstInStock": require("../../functions/generateQty")(data.uom, firstInStock),
+                                "deliveryDate": data.date
                             },
                             "supplier": {
-                                "names": [String(row[13]).trim(), String(row[14]).trim(), String(row[15]).trim(), String(row[16]).trim()],
-                                "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
+                                "names": [data.supOneName, data.supTwoName, data.supThreeName, data.supFourName],
+                                "qtys": [data.supOneQty, data.supTwoQty, data.supThreeQty, data.supFourQty]
                             }
                         }
                     }
@@ -152,11 +179,11 @@ function updateChild(row, processId, index, length) {
                     } else if (!!res.nModified) {
                         resolve({ isRejected: false });
                     } else {
-                        upsertParent(row, index).then(parentResponce => {
+                        upsertParent(data, index).then(parentResponce => {
                             resolve({
-                                isRejected: parentResponce.isRejected,
-                                row: parentResponce.row,
-                                reason: parentResponce.reason
+                                "isRejected": parentResponce.isRejected,
+                                "row": parentResponce.row,
+                                "reason": parentResponce.reason
                             });
                         });
                     }
@@ -166,40 +193,39 @@ function updateChild(row, processId, index, length) {
     });
 }
 
-function upsertParent(row, index) {
+function upsertParent(data, index) {
     return new Promise(function(resolve) {
-        let filter = { "artNr": String(row[2]).trim()}
+        let filter = { "artNr": data.artNr}
         let options = { "new": true, "upsert": true }
         let update = {
             $set: {
-                "description": String(row[3]).trim(),
-                "weight": require("../../functions/generateWeight")(String(row[10]).trim(), Number(row[8])),
-                "uom": require("../../functions/generateUom")(String(row[10]).trim()),
+                "description": data.description,
+                "weight": require("../../functions/generateWeight")(data.uom, data.weight),
+                "uom": require("../../functions/generateUom")(data.uom),
             },
             $push: { 
                 "opcos": {
-                    "name": String(row[0]).trim(),
-                    "qty": require("../../functions/generateQty")(String(row[10]).trim(), Number(row[4])),
+                    "name": data.name,
+                    "qty": require("../../functions/generateQty")(data.uom, data.qty),
                     "price": {
-                        "gip": require("../../functions/generatePrice")(String(row[10]).trim(), Number(row[5]), 1),
-                        "rv": require("../../functions/generatePrice")(String(row[10]).trim(), Number(row[6]), 1),
+                        "gip": require("../../functions/generatePrice")(data.uom, data.gip, 1),
+                        "rv": require("../../functions/generatePrice")(data.uom, data.rv, 1)
                     },
                     "purchase": {
-                        "supplier": String(row[11]).trim(),
-                        "qty": require("../../functions/generateQty")(String(row[10]).trim(), Number(row[7])),
-                        "firstInStock": require("../../functions/generateQty")(String(row[10]).trim(), Number(row[9])),
-                        "deliveryDate": toDate(row[12])
+                        "supplier": data.supplier,
+                        "qty": require("../../functions/generateQty")(data.uom, data.purchaseQty),
+                        "firstInStock": require("../../functions/generateQty")(data.uom, firstInStock),
+                        "deliveryDate": data.date
                     },
                     "supplier": {
-                        "names": [String(row[13]).trim(), String(row[14]).trim(), String(row[15]).trim(), String(row[16]).trim()],
-                        "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
+                        "names": [data.supOneName, data.supTwoName, data.supThreeName, data.supFourName],
+                        "qtys": [data.supOneQty, data.supTwoQty, data.supThreeQty, data.supFourQty]
                     }
                 }
             }
         }
         require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
             if (!!err || !res) {
-                console.log(err);
                 resolve({ isRejected: true, row: index + 1, reason: "could not upsert the document" });
             } else {
                 resolve({ isRejected: false });
@@ -211,7 +237,7 @@ function upsertParent(row, index) {
 function toDate(excelDate) {
     let parced = Number(String(excelDate).trim());
     let temp = new Date((Number(parced) - (25567 + 1))*86400*1000);
-    if ([ 2958463, 0 ].includes(excelDate) || temp == "Invalid Date") {
+    if ([ 2958463, 0 ].includes(parced) || temp == "Invalid Date") {
         return "";
     } else {
         return temp;
