@@ -174,7 +174,6 @@ function updateChild(row, processId, index, length) {
                 }
                 require("../../models/Stock").updateOne(filter, update, function(err, res) {
                     if (!!err) {
-                        console.log(err);
                         resolve({ isRejected: true, row: index + 1, reason: "an error has occured." });
                     } else if (!!res.nModified) {
                         resolve({ isRejected: false });
