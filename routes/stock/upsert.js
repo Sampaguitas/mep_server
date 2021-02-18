@@ -12,7 +12,7 @@ router.post("/", upload.single("file"), function(req, res) {
     let myPromises = [];
     let nRejected = 0;
     let nUpserted = 0;
-    let rejections = [];
+    // let rejections = [];
     
     if (pwd !== require("../../config/keys").curlPwd) {
         res.status(401).send("Unauthorized");
@@ -39,7 +39,7 @@ router.post("/", upload.single("file"), function(req, res) {
                         "progress": 0,
                         "isStalled": false,
                         "message": "process started",
-                        "rejections": rejections
+                        // "rejections": rejections
                     });
                 
                     newProcess
@@ -53,11 +53,23 @@ router.post("/", upload.single("file"), function(req, res) {
                         for (var i = 1; i < rowsLength; i++) {
                             let row = rows[i].split("\t");
                             if (row.length != 21) {
-                                myPromises.push(Promise.resolve({ isRejected: true, row: i + 1, reason: "line does not contain 21 fields." }));
+                                myPromises.push(Promise.resolve({
+                                    isRejected: true,
+                                    row: i + 1,
+                                    // reason: "line does not contain 21 fields."
+                                }));
                             } else if (!String(row[0]).trim()) {
-                                myPromises.push(Promise.resolve({ isRejected: true, row: i + 1, reason: "opco is not defined." }));
+                                myPromises.push(Promise.resolve({
+                                    isRejected: true,
+                                    row: i + 1,
+                                    // reason: "opco is not defined."
+                                }));
                             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
-                                myPromises.push(resolve({ isRejected: true, row: i + 1, reason: "unknown unit of mesurement." }));
+                                myPromises.push(resolve({
+                                    isRejected: true,
+                                    row: i + 1,
+                                    // reason: "unknown unit of mesurement."
+                                }));
                             } else {
                                 myPromises.push(upsertStock(row, resProcess._id, i, rowsLength));
                                 myPromises.push(upsertParam(row));
@@ -68,10 +80,10 @@ router.post("/", upload.single("file"), function(req, res) {
                             myResults.map(result => {
                                 if (!!result.isRejected) {
                                     nRejected++;
-                                    rejections.push({
-                                        "row": result.row,
-                                        "reason": result.reason
-                                    });
+                                    // rejections.push({
+                                    //     "row": result.row,
+                                    //     "reason": result.reason
+                                    // });
                                 } else if (!!result.isUpserted) {
                                     nUpserted++;
                                 }
@@ -82,7 +94,7 @@ router.post("/", upload.single("file"), function(req, res) {
                                 "progress": 1,
                                 "isStalled": false,
                                 "message": message,
-                                "rejections": rejections
+                                // "rejections": rejections
                             });
                         }).catch( () => {
                             require("../../models/Process").findByIdAndUpdate(resProcess._id, {
@@ -108,7 +120,7 @@ function upsertStock(row, processId, index, length) {
             "progress": progress,
             "isStalled": false,
             "message": `${Math.round(progress * 100)}% complete`,
-            "rejections": []
+            // "rejections": []
         }
         require("../../models/Process").findByIdAndUpdate(processId, update, options, () => {
             let uom = String(row[10]).trim();
@@ -135,7 +147,11 @@ function upsertStock(row, processId, index, length) {
             }
             require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
                 if (!!err || !res) {
-                    resolve({ isRejected: true, row: index + 1, reason: "an error has occured." });
+                    resolve({
+                        isRejected: true,
+                        row: index + 1,
+                        // reason: "an error has occured."
+                    });
                 } else {
                     resolve({ isUpserted: true });
                 }
