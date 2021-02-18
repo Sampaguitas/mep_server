@@ -21,6 +21,10 @@ router.post("/", upload.single("file"), function(req, res) {
     } else if (!file) {
         res.status(400).json({ message: "Upload file is missing." });
     } else {
+        // const rows = file.buffer.toString().replace("\r","").split("\n");
+        // const rowsLength = rows.length;
+        // console.log(rowsLength);
+        // res.status(200).json({message: "toto"})
         require("../../functions/updateStalled")()
         .then( () => {
             require("../../models/Process").findOne({
@@ -47,7 +51,7 @@ router.post("/", upload.single("file"), function(req, res) {
                     .then(resProcess => {
                         res.status(200).json({ "processId": resProcess._id });
                         
-                        const rows = file.buffer.toString().split("\r\n");
+                        const rows = file.buffer.toString().replace("\r","").split("\n");
                         const rowsLength = rows.length;
                         console.log(rowsLength);
                         for (var i = 1; i < rowsLength; i++) {
@@ -99,7 +103,6 @@ router.post("/", upload.single("file"), function(req, res) {
                 }
             });
         });
-        
     }
 });
 
@@ -123,7 +126,7 @@ function upsertStock(row, processId, index, length) {
             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
                 resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
             } else {
-                
+
                 let artNr = String(row[2]).trim();
                 let opco = String(row[0]).trim();
                 let uom = String(row[10]).trim();
