@@ -51,7 +51,7 @@ router.post("/", upload.single("file"), function(req, res) {
                         const rowsLength = rows.length;
                         console.log(rowsLength);
                         for (var i = 1; i < rowsLength; i++) {
-                            myPromises.push(updateChild(rows[i].split("\t"), resProcess._id, i, rowsLength));
+                            myPromises.push(upsertStock(rows[i].split("\t"), resProcess._id, i, rowsLength));
                         }
 
                         Promise.all(myPromises).then(myResults => {
@@ -103,7 +103,7 @@ router.post("/", upload.single("file"), function(req, res) {
     }
 });
 
-function updateChild(row, processId, index, length) {
+function upsertStock(row, processId, index, length) {
     return new Promise(function(resolve) {
         
         let progress = Math.min(Math.max(index / (length -1), 0), 1);
@@ -123,68 +123,41 @@ function updateChild(row, processId, index, length) {
             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
                 resolve({ isRejected: true, row: index + 1, reason: "unknown unit of mesurement." });
             } else {
-                let data = {
-                    "artNr": String(row[2]).trim(),
-                    "name": String(row[0]).trim(),
-                    "description": String(row[3]).trim(),
-                    "uom": String(row[10]).trim(),
-                    "weight": Number(row[8]),
-                    "qty": Number(row[4]),
-                    "gip": Number(row[5]),
-                    "rv": Number(row[6]),
-                    "supplier": String(row[11]).trim(),
-                    "purchaseQty": Number(row[7]),
-                    "firstInStock": Number(row[9]),
-                    "deliveryDate": toDate(row[12]),
-                    "supOneName": String(row[13]).trim(),
-                    "supTwoName": String(row[14]).trim(),
-                    "supThreeName": String(row[15]).trim(),
-                    "supFourName": String(row[16]).trim(),
-                    "supOneQty": Number(row[17]),
-                    "supTwoQty": Number(row[18]),
-                    "supThreeQty": Number(row[19]),
-                    "supFourQty": Number(row[20])
-                }
+                
+                let artNr = String(row[2]).trim();
+                let opco = String(row[0]).trim();
+                let uom = String(row[10]).trim();
+                let description = String(row[3]).trim();
+                let weight = Number(row[8]);
 
-                let filter = { "artNr": data.artNr, "opcos.name": data.name }
+                let filter = { artNr, opco }
+                let options = { new: true, upsert: true }
                 let update = {
                     $set: {
-                        "description": data.description,
-                        "weight": require("../../functions/generateWeight")(data.uom, data.weight),
-                        "uom": require("../../functions/generateUom")(data.uom),
-                        "opcos.$": {
-                            "name": data.name,
-                            "qty": require("../../functions/generateQty")(data.uom, data.qty),
-                            "price": {
-                                "gip": require("../../functions/generatePrice")(data.uom, data.gip, 1),
-                                "rv": require("../../functions/generatePrice")(data.uom, data.rv, 1)
-                            },
-                            "purchase": {
-                                "supplier": data.supplier,
-                                "qty": require("../../functions/generateQty")(data.uom, data.purchaseQty),
-                                "firstInStock": require("../../functions/generateQty")(data.uom, data.firstInStock),
-                                "deliveryDate": data.date
-                            },
-                            "supplier": {
-                                "names": [data.supOneName, data.supTwoName, data.supThreeName, data.supFourName],
-                                "qtys": [data.supOneQty, data.supTwoQty, data.supThreeQty, data.supFourQty]
-                            }
+                        "qty": require("../../functions/generateQty")(uom, Number(row[4])),
+                        "price": {
+                            "gip": require("../../functions/generatePrice")(uom, Number(row[5]), 1),
+                            "rv": require("../../functions/generatePrice")(uom, Number(row[6]), 1)
+                        },
+                        "purchase": {
+                            "supplier": String(row[11]).trim(),
+                            "qty": require("../../functions/generateQty")(uom, Number(row[4])),
+                            "firstInStock": require("../../functions/generateQty")(uom, Number(row[9])),
+                            "deliveryDate": toDate(row[12])
+                        },
+                        "supplier": {
+                            "names": [String(row[13]).trim(), String(row[14]).trim(), String(row[15]).trim(), String(row[16]).trim()],
+                            "qtys": [Number(row[17]), Number(row[18]), Number(row[19]), Number(row[20])]
                         }
                     }
                 }
-                require("../../models/Stock").updateOne(filter, update, function(err, res) {
-                    if (!!err) {
+                require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
+                    if (!!err || !res) {
                         resolve({ isRejected: true, row: index + 1, reason: "an error has occured." });
-                    } else if (!!res.nModified) {
-                        resolve({ isRejected: false });
                     } else {
-                        upsertParent(data, index).then(parentResponce => {
-                            resolve({
-                                "isRejected": parentResponce.isRejected,
-                                "row": parentResponce.row,
-                                "reason": parentResponce.reason
-                            });
-                        });
+                        upsertParam(artNr, uom, description, weight, index)
+                        .then(paramResponce => resolve(paramResponce))
+                        .catch( () => resolve({ isRejected: true, row: index + 1, reason: "an error has occured." }));
                     }
                 });
             }
@@ -192,38 +165,18 @@ function updateChild(row, processId, index, length) {
     });
 }
 
-function upsertParent(data, index) {
+function upsertParam(artNr, uom, description, weight, index) {
     return new Promise(function(resolve) {
-        let filter = { "artNr": data.artNr}
-        let options = { "new": true, "upsert": true }
+        let filter = { artNr }
+        let options = { new: true, upsert: true }
         let update = {
             $set: {
-                "description": data.description,
-                "weight": require("../../functions/generateWeight")(data.uom, data.weight),
-                "uom": require("../../functions/generateUom")(data.uom),
-            },
-            $push: { 
-                "opcos": {
-                    "name": data.name,
-                    "qty": require("../../functions/generateQty")(data.uom, data.qty),
-                    "price": {
-                        "gip": require("../../functions/generatePrice")(data.uom, data.gip, 1),
-                        "rv": require("../../functions/generatePrice")(data.uom, data.rv, 1)
-                    },
-                    "purchase": {
-                        "supplier": data.supplier,
-                        "qty": require("../../functions/generateQty")(data.uom, data.purchaseQty),
-                        "firstInStock": require("../../functions/generateQty")(data.uom, data.firstInStock),
-                        "deliveryDate": data.date
-                    },
-                    "supplier": {
-                        "names": [data.supOneName, data.supTwoName, data.supThreeName, data.supFourName],
-                        "qtys": [data.supOneQty, data.supTwoQty, data.supThreeQty, data.supFourQty]
-                    }
-                }
+                "description": description,
+                "weight": require("../../functions/generateWeight")(uom, weight),
+                "uom": require("../../functions/generateUom")(uom),
             }
         }
-        require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
+        require("../../models/Param").findOneAndUpdate(filter, update, options, function(err, res) {
             if (!!err || !res) {
                 resolve({ "isRejected": true, "row": index + 1, "reason": "could not upsert the document" });
             } else {
