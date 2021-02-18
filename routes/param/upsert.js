@@ -163,16 +163,16 @@ function upsertDesc(myObject, processId, index, length) {
                     "reason": "material grade is missing."
                 });
             } else {
-                let stockConditions = { "artNr": myObject.artNr }
-                let stockUpdate = {
+                let paramConditions = { "artNr": myObject.artNr }
+                let paramUpdate = {
                     "description": myObject.description,
                     "vlunar": myObject.vlunar,
                     "parameters": myObject.parameters
                 }
-                let stockOptions = { "new": true, "upsert": true }
+                let paramOptions = { "new": true, "upsert": true }
                 
-                require(`../../models/Stock.js`).findOneAndUpdate(stockConditions, stockUpdate, stockOptions, function(errStock, resStock) {
-                    if (!!errStock || !resStock) {
+                require(`../../models/Param.js`).findOneAndUpdate(paramConditions, paramUpdate, paramOptions, function(errParam, resParam) {
+                    if (!!errParam || !resParam) {
                         resolve({
                             "isRejected": true,
                             "row": index + 1,
