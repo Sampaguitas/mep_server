@@ -65,7 +65,7 @@ router.post("/", upload.single("file"), function(req, res) {
                                     // reason: "opco is not defined."
                                 }));
                             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
-                                myPromises.push(resolve({
+                                myPromises.push(Promise.resolve({
                                     isRejected: true,
                                     row: i + 1,
                                     // reason: "unknown unit of mesurement."
