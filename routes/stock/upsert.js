@@ -50,7 +50,7 @@ router.post("/", upload.single("file"), function(req, res) {
                         const rows = file.buffer.toString().replace("\r","").split("\n");
                         const rowsLength = rows.length;
 
-                        for (var i = 1; i < rowsLength; i++) {
+                        for (var i = 1; i < rowsLength - 1; i++) {
                             let row = rows[i].split("\t");
                             if (row.length != 21) {
                                 myPromises.push(Promise.resolve({
