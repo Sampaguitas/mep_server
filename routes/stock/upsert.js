@@ -50,23 +50,26 @@ router.post("/", upload.single("file"), function(req, res) {
                         const rows = file.buffer.toString().replace("\r","").split("\n");
                         const rowsLength = rows.length;
 
-                        for (var i = 1; i < rowsLength - 1; i++) {
+                        for (var i = 1; i < rowsLength; i++) {
                             let row = rows[i].split("\t");
                             if (row.length != 21) {
                                 myPromises.push(Promise.resolve({
                                     isRejected: true,
+                                    isUpserted: false,
                                     row: i + 1,
                                     // reason: "line does not contain 21 fields."
                                 }));
                             } else if (!String(row[0]).trim()) {
                                 myPromises.push(Promise.resolve({
                                     isRejected: true,
+                                    isUpserted: false,
                                     row: i + 1,
                                     // reason: "opco is not defined."
                                 }));
                             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
                                 myPromises.push(Promise.resolve({
                                     isRejected: true,
+                                    isUpserted: false,
                                     row: i + 1,
                                     // reason: "unknown unit of mesurement."
                                 }));
@@ -149,11 +152,15 @@ function upsertStock(row, processId, index, length) {
                 if (!!err || !res) {
                     resolve({
                         isRejected: true,
+                        isUpserted: false,
                         row: index + 1,
                         // reason: "an error has occured."
                     });
                 } else {
-                    resolve({ isUpserted: true });
+                    resolve({
+                        isRejected: false,
+                        isUpserted: true 
+                    });
                 }
             });
         });
@@ -172,7 +179,12 @@ function upsertParam(row) {
                 "uom": require("../../functions/generateUom")(uom),
             }
         }
-        require("../../models/Param").findOneAndUpdate(filter, update, options, () => resolve());
+        require("../../models/Param").findOneAndUpdate(filter, update, options, function(err, res) {
+            resolve({
+                isRejected: false,
+                isUpserted: false
+            })
+        });
     });
 }
 
