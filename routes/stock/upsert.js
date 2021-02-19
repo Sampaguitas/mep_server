@@ -53,26 +53,26 @@ router.post("/", upload.single("file"), function(req, res) {
                         for (var i = 1; i < rowsLength; i++) {
                             let row = rows[i].split("\t");
                             if (row.length != 21) {
-                                myPromises.push(Promise.resolve({
+                                myPromises.push({
                                     isRejected: true,
                                     isUpserted: false,
                                     row: i + 1,
                                     // reason: "line does not contain 21 fields."
-                                }));
+                                });
                             } else if (!String(row[0]).trim()) {
-                                myPromises.push(Promise.resolve({
+                                myPromises.push({
                                     isRejected: true,
                                     isUpserted: false,
                                     row: i + 1,
                                     // reason: "opco is not defined."
-                                }));
+                                });
                             } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
-                                myPromises.push(Promise.resolve({
+                                myPromises.push({
                                     isRejected: true,
                                     isUpserted: false,
                                     row: i + 1,
                                     // reason: "unknown unit of mesurement."
-                                }));
+                                });
                             } else {
                                 myPromises.push(upsertStock(row, resProcess._id, i, rowsLength));
                                 myPromises.push(upsertParam(row));
