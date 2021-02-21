@@ -78,15 +78,15 @@ router.post("/", upload.single("file"), function(req, res) {
                                         // reason: "unknown unit of mesurement."
                                     });
                                 } else {
-                                    myPromises.push(upsertParam(row));
                                     if (!Number(row[5]) && !Number(row[6])) {
                                         myPromises.push(deleteStock(row, resProcess._id, i, rowsLength));
                                     }  else {
                                         myPromises.push(upsertStock(row, resProcess._id, i, rowsLength));
+                                        myPromises.push(upsertParam(row));
                                     }
                                 }
                             }
-    
+                            
                             Promise.all(myPromises).then(myResults => {
                                 myResults.map(result => {
                                     if (!!result.isRejected) {

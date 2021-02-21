@@ -46,6 +46,9 @@ const ParamSchema = new Schema({
             "tags": [String]
         }
     }
+},
+{
+    timestamps: true
 });
 
 module.exports= Param = mongoose.model("params", ParamSchema);

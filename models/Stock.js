@@ -20,6 +20,9 @@ const StockSchema = new Schema({
         "names": [String],
         "qtys": [String]
     }
+},
+{
+    timestamps: true
 });
 
 module.exports= Stock = mongoose.model("stocks", StockSchema);
