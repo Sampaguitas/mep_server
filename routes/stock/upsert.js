@@ -33,82 +33,91 @@ router.post("/", upload.single("file"), function(req, res) {
                 } else if (!!resProcessFound){
                     res.status(400).json({ "message": "Another process is currently running try again later." });
                 } else {
-                    let newProcess = new Process({
-                        "user": "system",
-                        "process_type": `update ${loc}`, 
-                        "progress": 0,
-                        "isStalled": false,
-                        "message": "process started",
-                        // "rejections": rejections
-                    });
-                
-                    newProcess
-                    .save()
-                    .then(resProcess => {
-                        res.status(200).json({ "processId": resProcess._id });
-                        
-                        const rows = file.buffer.toString().replace("\r","").split("\n");
-                        const rowsLength = rows.length;
-
-                        for (var i = 1; i < rowsLength; i++) {
-                            let row = rows[i].split("\t");
-                            if (row.length != 21) {
-                                myPromises.push({
-                                    isRejected: true,
-                                    isUpserted: false,
-                                    row: i + 1,
-                                    // reason: "line does not contain 21 fields."
-                                });
-                            } else if (!String(row[0]).trim()) {
-                                myPromises.push({
-                                    isRejected: true,
-                                    isUpserted: false,
-                                    row: i + 1,
-                                    // reason: "opco is not defined."
-                                });
-                            } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
-                                myPromises.push({
-                                    isRejected: true,
-                                    isUpserted: false,
-                                    row: i + 1,
-                                    // reason: "unknown unit of mesurement."
-                                });
-                            } else {
-                                myPromises.push(upsertStock(row, resProcess._id, i, rowsLength));
-                                myPromises.push(upsertParam(row));
-                            }
-                        }
-
-                        Promise.all(myPromises).then(myResults => {
-                            myResults.map(result => {
-                                if (!!result.isRejected) {
-                                    nRejected++;
-                                    // rejections.push({
-                                    //     "row": result.row,
-                                    //     "reason": result.reason
-                                    // });
-                                } else if (!!result.isUpserted) {
-                                    nUpserted++;
-                                }
-                            });
-
-                            let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
-                            require("../../models/Process").findByIdAndUpdate(resProcess._id, {
-                                "progress": 1,
-                                "isStalled": false,
-                                "message": message,
-                                // "rejections": rejections
-                            }, (errCallback, resCallback) => console.log(!!errCallback || !resCallback ? "errCallback" : "resCallback"));
-                        }).catch( () => {
-                            require("../../models/Process").findByIdAndUpdate(resProcess._id, {
-                                "progress": 1,
-                                "isStalled": false,
-                                "message": "promise has been rejected."
-                            }, (errCallback, resCallback) => console.log(!!errCallback || !resCallback ? "errCallback" : "resCallback"));
+                    const rows = file.buffer.toString().replace("\r","").split("\n");
+                    let rowsLength = rows.length;
+                    if (rowsLenght < 3) {
+                        res.status(400).json({ "message": "the file seems to be empty." });
+                    } else {
+                        let newProcess = new Process({
+                            "user": "system",
+                            "process_type": `update ${loc}`, 
+                            "progress": 0,
+                            "isStalled": false,
+                            "message": "process started",
+                            // "rejections": rejections
                         });
-                    }).catch( () => {
-                        res.status(400).json({ "message": "could not generate Process log."});
-                    });
+                    
+                        newProcess
+                        .save()
+                        .then(resProcess => {
+                            res.status(200).json({ "processId": resProcess._id });
+                            
+                            // const rows = file.buffer.toString().replace("\r","").split("\n");
+                            // let rowsLength = rows.length;
+                            for (var i = 1; i < rowsLength - 1; i++) {
+                                let row = rows[i].split("\t");
+                                if (row.length != 21) {
+                                    myPromises.push({
+                                        isRejected: true,
+                                        isUpserted: false,
+                                        row: i + 1,
+                                        // reason: "line does not contain 21 fields."
+                                    });
+                                } else if (!String(row[0]).trim()) {
+                                    myPromises.push({
+                                        isRejected: true,
+                                        isUpserted: false,
+                                        row: i + 1,
+                                        // reason: "opco is not defined."
+                                    });
+                                } else if (!["LB", "FT", "ST", "KG", "M"].includes(String(row[10]).trim())) {
+                                    myPromises.push({
+                                        isRejected: true,
+                                        isUpserted: false,
+                                        row: i + 1,
+                                        // reason: "unknown unit of mesurement."
+                                    });
+                                } else {
+                                    myPromises.push(upsertParam(row));
+                                    if (!Number(row[5]) && !Number(row[6])) {
+                                        myPromises.push(deleteStock(row, resProcess._id, i, rowsLength));
+                                    }  else {
+                                        myPromises.push(upsertStock(row, resProcess._id, i, rowsLength));
+                                    }
+                                }
+                            }
+    
+                            Promise.all(myPromises).then(myResults => {
+                                myResults.map(result => {
+                                    if (!!result.isRejected) {
+                                        nRejected++;
+                                        // rejections.push({
+                                        //     "row": result.row,
+                                        //     "reason": result.reason
+                                        // });
+                                    } else if (!!result.isUpserted) {
+                                        nUpserted++;
+                                    }
+                                });
+    
+                                let message = `${nRejected + nUpserted} processed, ${nRejected} rejected, ${nUpserted} upserted.`;
+                                require("../../models/Process").findByIdAndUpdate(resProcess._id, {
+                                    "progress": 1,
+                                    "isStalled": false,
+                                    "message": message,
+                                    // "rejections": rejections
+                                }, (errCallback, resCallback) => console.log(!!errCallback || !resCallback ? "errCallback" : "resCallback"));
+                            }).catch( () => {
+                                require("../../models/Process").findByIdAndUpdate(resProcess._id, {
+                                    "progress": 1,
+                                    "isStalled": false,
+                                    "message": "promise has been rejected."
+                                }, (errCallback, resCallback) => console.log(!!errCallback || !resCallback ? "errCallback" : "resCallback"));
+                            });
+                        }).catch( () => {
+                            res.status(400).json({ "message": "could not generate Process log."});
+                        });
+                    }
                 }
             });
         });
@@ -117,7 +126,7 @@ router.post("/", upload.single("file"), function(req, res) {
 
 function upsertStock(row, processId, index, length) {
     return new Promise(function(resolve) {
-        let progress = Math.min(Math.max(index / (length -1), 0), 1);
+        let progress = Math.min(Math.max(index / (length - 2), 0), 1);
         let options = { "new": true, "upsert": true  }
         let update = {
             "progress": progress,
@@ -150,6 +159,37 @@ function upsertStock(row, processId, index, length) {
             }
             require("../../models/Stock").findOneAndUpdate(filter, update, options, function(err, res) {
                 if (!!err || !res) {
+                    resolve({
+                        isRejected: true,
+                        isUpserted: false,
+                        row: index + 1,
+                        // reason: "an error has occured."
+                    });
+                } else {
+                    resolve({
+                        isRejected: false,
+                        isUpserted: true 
+                    });
+                }
+            });
+        });
+    });
+}
+
+function deleteStock(row, processId, index, length) {
+    return new Promise(function(resolve) {
+        let progress = Math.min(Math.max(index / (length - 2), 0), 1);
+        let options = { "new": true, "upsert": true  }
+        let update = {
+            "progress": progress,
+            "isStalled": false,
+            "message": `${Math.round(progress * 100)}% complete`,
+            // "rejections": []
+        }
+        require("../../models/Process").findByIdAndUpdate(processId, update, options, () => {
+            let filter = { artNr: String(row[2]).trim(), opco: String(row[0]).trim() }
+            require("../../models/Stock").findOneAndDelete(filter, function(err, res) {
+                if (!!err) {
                     resolve({
                         isRejected: true,
                         isUpserted: false,
