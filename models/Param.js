@@ -3,11 +3,7 @@ const Schema = mongoose.Schema;
 const _ = require("lodash");
 
 const ParamSchema = new Schema({
-    "artNr": { 
-        "type": String, 
-        "required": true,
-        "unique": true
-    },
+    "artNr": String,
     "description": String,
     "vlunar": String,
     "weight": Number,

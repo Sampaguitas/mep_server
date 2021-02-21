@@ -35,7 +35,7 @@ router.post("/", upload.single("file"), function(req, res) {
                 } else {
                     const rows = file.buffer.toString().replace("\r","").split("\n");
                     let rowsLength = rows.length;
-                    if (rowsLenght < 3) {
+                    if (rowsLength < 3) {
                         res.status(400).json({ "message": "the file seems to be empty." });
                     } else {
                         let newProcess = new Process({

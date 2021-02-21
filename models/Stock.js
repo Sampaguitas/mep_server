@@ -3,14 +3,8 @@ const Schema = mongoose.Schema;
 const _ = require("lodash");
 
 const StockSchema = new Schema({
-    "artNr": {
-        type: String, 
-        required: true 
-    },
-    "opco": { 
-        type: String, 
-        required: true 
-    },
+    "artNr": String,
+    "opco": String,
     "qty": Number,
     "price": {
         "gip": Number,
