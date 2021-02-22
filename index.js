@@ -48,20 +48,20 @@ app.listen(port, () => console.log(`Server running on ${port}`));
 
 // currency
 app.use('/currency/get_rate', passport.authenticate('jwt', { session: false }), require('./routes/currency/get_rate'));
-//dropbox
-app.use('/dropbox/currency', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/currency'));
-app.use('/dropbox/end', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/end'));
-app.use('/dropbox/grade', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/grade'));
-app.use('/dropbox/length', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/length'));
-app.use('/dropbox/pff_type', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/pff_type'));
-app.use('/dropbox/size_one', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/size_one'));
-app.use('/dropbox/size_three', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/size_three'));
-app.use('/dropbox/size_two', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/size_two'));
-app.use('/dropbox/steel_type', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/steel_type'));
-app.use('/dropbox/surface', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/surface'));
-app.use('/dropbox/type', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/type'));
-app.use('/dropbox/wall_one', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/wall_one'));
-app.use('/dropbox/wall_two', passport.authenticate('jwt', { session: false }), require('./routes/dropbox/wall_two'));
+//dropdown
+app.use('/dropdown/currency', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/currency'));
+app.use('/dropdown/end', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/end'));
+app.use('/dropdown/grade', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/grade'));
+app.use('/dropdown/length', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/length'));
+app.use('/dropdown/pff_type', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/pff_type'));
+app.use('/dropdown/size_one', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/size_one'));
+app.use('/dropdown/size_three', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/size_three'));
+app.use('/dropdown/size_two', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/size_two'));
+app.use('/dropdown/steel_type', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/steel_type'));
+app.use('/dropdown/surface', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/surface'));
+app.use('/dropdown/type', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/type'));
+app.use('/dropdown/wall_one', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/wall_one'));
+app.use('/dropdown/wall_two', passport.authenticate('jwt', { session: false }), require('./routes/dropdown/wall_two'));
 
 //process
 app.use('/process/findOne', passport.authenticate('jwt', { session: false }), require('./routes/process/findOne'));
